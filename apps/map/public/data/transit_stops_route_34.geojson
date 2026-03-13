@@ -1,0 +1,453 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6648125,
+          27.7886516
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1201",
+        "stop_name": "Robstown Station",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6691478,
+          27.7892269
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1202",
+        "stop_name": "1202-Ave A  @ 1st",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6725173,
+          27.7897136
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1203",
+        "stop_name": "1203-Ave A @ Vernon",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.667555,
+          27.8000061
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1255",
+        "stop_name": "1255-Ave J @ 1st",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6644001,
+          27.7995321
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1251",
+        "stop_name": "1251-Ave J @ 3rd",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6610541,
+          27.7990579
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1258",
+        "stop_name": "Avenue @ 5th St",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6780508,
+          27.7923918
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1217",
+        "stop_name": "1217-Western @ W Ave B",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6786517,
+          27.793457
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1218",
+        "stop_name": "1218-Western @ W Ave C",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6852534,
+          27.7942411
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1220",
+        "stop_name": "Curtis Place Apts.",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.683912,
+          27.794238
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1214",
+        "stop_name": "Curtis Place Apts.",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6826845,
+          27.7950998
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1222",
+        "stop_name": "1222-Ave D @ School",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6802759,
+          27.7963965
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1223",
+        "stop_name": "1223-Western @ W Ave F",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6822612,
+          27.8005224
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1224",
+        "stop_name": "1224-Canales @ Nueces",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.682142,
+          27.8014
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1225",
+        "stop_name": "1225-Canales @ Garcia",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.681837,
+          27.8029813
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1226",
+        "stop_name": "1226-Canales @ Martinez",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6815539,
+          27.804654
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1227",
+        "stop_name": "1227-Canales @ Benevides",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6801891,
+          27.80819
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1229",
+        "stop_name": "GI Forum Village 1",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6799849,
+          27.8076739
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1230",
+        "stop_name": "1230-Housing Area",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6792893,
+          27.8060938
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1231",
+        "stop_name": "1231-Bosques",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6795531,
+          27.8047989
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1232",
+        "stop_name": "1232-Bosquez @ Benavides",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6799816,
+          27.8026017
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1233",
+        "stop_name": "1233-Bosques @ Mesquite",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6802192,
+          27.8010136
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1234",
+        "stop_name": "1234-Bosques @ Nueces",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6788877,
+          27.8000104
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1259",
+        "stop_name": "1259-Ave J @ DQ",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6755228,
+          27.8004654
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1260",
+        "stop_name": "1260-Ave J @ Flores",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6728102,
+          27.8005648
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1261",
+        "stop_name": "1261-Ave J @ MatianaOrtiz",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6605948,
+          27.7978638
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1262",
+        "stop_name": "1262-6th @ Ligustrum",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6610868,
+          27.7952008
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1263",
+        "stop_name": "1263-6th @ Ave G",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6626592,
+          27.7947046
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1243",
+        "stop_name": "1243-N 5th",
+        "route_id": "34",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Half Price Books",
+        "description": "Massive selection of used and new books, music, and movies at great prices",
+        "address": "5425 S Padre Island Dr #185, Corpus Christi, TX 78411",
+        "category": "bookstores",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3218,
+          27.7109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barnes & Noble",
+        "description": "National bookstore chain with cafe and wide selection",
+        "address": "5129 Blanche Moore Dr, Corpus Christi, TX 78411",
+        "category": "bookstores",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3776507,
+          27.7105637
+        ]
+      }
+    }
+  ]
+}

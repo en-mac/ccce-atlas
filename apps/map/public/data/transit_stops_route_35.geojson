@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6648125,
+          27.7886516
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1201",
+        "stop_name": "Robstown Station",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6686907,
+          27.7871349
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1204",
+        "stop_name": "1204-Iowa @ Lincoln",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6712528,
+          27.7871026
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1205",
+        "stop_name": "1205-Iowa @ Jackson",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6756021,
+          27.7871177
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1239",
+        "stop_name": "1239-Iowa @ Evelyn",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6785135,
+          27.7871293
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1240",
+        "stop_name": "1240-Iowa @ Flores",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6805843,
+          27.7861758
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1212",
+        "stop_name": "Pat Shutter@Nebraska",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.678675,
+          27.7833431
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1246",
+        "stop_name": "1246-Ruben Chavez",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6743633,
+          27.7833576
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1252",
+        "stop_name": "1252-Ruben Chavez",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6692634,
+          27.783319
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1267",
+        "stop_name": "1267-RubenChavez @Washington",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6680944,
+          27.7751478
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1127",
+        "stop_name": "Mobil Road Runner St",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6632027,
+          27.7772635
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1268",
+        "stop_name": "1268-US Hwy 77 @DeLuna",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6501099,
+          27.7880075
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1269",
+        "stop_name": "1269-ChristusSpohn Clinic",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6498471,
+          27.7929282
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2015",
+        "stop_name": "Outlet Malls",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6528052,
+          27.7923023
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2017",
+        "stop_name": "2017-Robstown Keach Lib",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6584412,
+          27.7887696
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2018",
+        "stop_name": "2018-801 Main @ 8th St.",
+        "route_id": "35",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

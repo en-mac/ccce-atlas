@@ -1,0 +1,1461 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3231983,
+          27.7150528
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0456",
+        "stop_name": "Texas A&M University",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3350859,
+          27.7182923
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0455",
+        "stop_name": "455-EnnisJoslin@Ebonwood",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3357782,
+          27.7178574
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0457",
+        "stop_name": "457-Alameda  @  Ebonwood",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4013233,
+          27.776861
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1080",
+        "stop_name": "1080-Staples@ Elizabeth",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4014868,
+          27.7789421
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0291",
+        "stop_name": "Morgan @ Staples",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.401685,
+          27.7814005
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0292",
+        "stop_name": "292-Staples  @  Buford",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4019607,
+          27.7846105
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0293",
+        "stop_name": "293-Staples  @  Coleman",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4023797,
+          27.789253
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0296",
+        "stop_name": "296-Staples @ Laredo",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.402817,
+          27.7915447
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0298",
+        "stop_name": "298-Staples @ Blucher",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4029847,
+          27.7914803
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0302",
+        "stop_name": "302-Staples @ Mussett",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4025106,
+          27.7890584
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0304",
+        "stop_name": "304-Staples @ Laredo",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4021851,
+          27.7849174
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0306",
+        "stop_name": "306-Staples  @  Coleman",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4018807,
+          27.7815998
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0307",
+        "stop_name": "307-Staples  @  Buford",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4016378,
+          27.7788762
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0308",
+        "stop_name": "Morgan @ Staples",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.401517,
+          27.7762886
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1081",
+        "stop_name": "1081-Staples @ Elizabeth",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4021507,
+          27.7956253
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5004",
+        "stop_name": "Staples Street Station Bay D",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4024005,
+          27.7954059
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9017",
+        "stop_name": "Staples St Station Lane M",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4000965,
+          27.77167
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0409",
+        "stop_name": "Alameda @ Clifford",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3979593,
+          27.7685331
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0411",
+        "stop_name": "411-Alameda @ Atlantic",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3968677,
+          27.7669416
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0412",
+        "stop_name": "412-Alameda @ Louisiana",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3952725,
+          27.7645564
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0413",
+        "stop_name": "413-Alameda @ Texas",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.393497,
+          27.7618404
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0415",
+        "stop_name": "415-Alameda @ Sorrell",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3926751,
+          27.760575
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0416",
+        "stop_name": "416-Alameda @Chamberlain",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3921639,
+          27.7598568
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0417",
+        "stop_name": "417-Alameda @ McClendon",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3910726,
+          27.7581734
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0418",
+        "stop_name": "418-Alameda @ McCall",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3895926,
+          27.7560057
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0419",
+        "stop_name": "419-Alameda@ Glazebrook",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3886287,
+          27.7546245
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0420",
+        "stop_name": "Alameda @ TexanTrail",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3875613,
+          27.7530627
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0421",
+        "stop_name": "421-Alameda @ Drs. Regional",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3863509,
+          27.7512238
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0422",
+        "stop_name": "422-Alameda Pediatrics",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3855069,
+          27.7499527
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0423",
+        "stop_name": "423-Alameda @Driscoll",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3836458,
+          27.7471873
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0425",
+        "stop_name": "425-Alameda@Cunningham",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3821817,
+          27.7450258
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0427",
+        "stop_name": "427-Alameda @Hopper St",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3809562,
+          27.7431768
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0428",
+        "stop_name": "428-Alameda @ Doddridge",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3793983,
+          27.7408676
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0430",
+        "stop_name": "430-Alameda  @  Peerman",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3784584,
+          27.7394643
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0431",
+        "stop_name": "431-Alameda @SantaMonica",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3774703,
+          27.7380436
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0432",
+        "stop_name": "432-Alameda @ Williamson",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.376565,
+          27.7366432
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0433",
+        "stop_name": "433-Alameda  @  Dolphin",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3756595,
+          27.7353036
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0434",
+        "stop_name": "434-Alameda  @  Coral",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.374744,
+          27.7339124
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0435",
+        "stop_name": "435-Alameda @ Carmel",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3737711,
+          27.7324924
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0436",
+        "stop_name": "436-Alameda  @  Everhart",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.372463,
+          27.7305175
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0437",
+        "stop_name": "437-Alameda  @  Robert",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3675529,
+          27.7272957
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0440",
+        "stop_name": "440-Alameda @ Sheridan",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3659001,
+          27.7264727
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0441",
+        "stop_name": "441-Alameda @ Pennington",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.364339,
+          27.72572
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0442",
+        "stop_name": "442-Alameda@Meadowbrook",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3626913,
+          27.7248479
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0443",
+        "stop_name": "Alameda  @  Airline",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3615815,
+          27.7243094
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0444",
+        "stop_name": "444-Alameda  @  Airline",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3577862,
+          27.7224474
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0445",
+        "stop_name": "445-Alameda  @  Ronson",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3560868,
+          27.7216079
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0446",
+        "stop_name": "446-Alameda @ Evergreen",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3543437,
+          27.7207163
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0447",
+        "stop_name": "447-Alameda  @  Greenway",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.353032,
+          27.720058
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0448",
+        "stop_name": "448-Alameda  @  Handover",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3496001,
+          27.7183687
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0450",
+        "stop_name": "450-Alameda  @  Palmetto",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3476549,
+          27.7174173
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0451",
+        "stop_name": "451-Alameda @ Claremore",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3460182,
+          27.7167373
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0452",
+        "stop_name": "452-Alameda  @  Glenmore",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.343877,
+          27.7160542
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0453",
+        "stop_name": "453-Alameda  @  Waverly",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3398198,
+          27.7155033
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0552",
+        "stop_name": "552-Alameda @CountryClub",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33955,
+          27.7157217
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0458",
+        "stop_name": "458-Alameda @CountryClub",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3436013,
+          27.716153
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0459",
+        "stop_name": "459-Alameda  @  Waverly",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3452198,
+          27.7165632
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0460",
+        "stop_name": "460-Alameda  @  Glenmore",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3473958,
+          27.7174618
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0461",
+        "stop_name": "461-Alameda @ Claremore",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3487503,
+          27.7181066
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0462",
+        "stop_name": "462-Alameda  @  Palmetto",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3510025,
+          27.7192187
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0463",
+        "stop_name": "463-Alameda  @  Troy",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3527217,
+          27.7200763
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0464",
+        "stop_name": "464-Alameda @ Parade",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3550756,
+          27.7212545
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0465",
+        "stop_name": "465-Alameda @ Fairfield",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3582268,
+          27.7228138
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0467",
+        "stop_name": "467-Alameda  @  Rawleigh",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3613399,
+          27.724358
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1654",
+        "stop_name": "Alameda  @  Airline",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3621893,
+          27.7248002
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0521",
+        "stop_name": "521-Alameda  @  Airline",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3665817,
+          27.7269569
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0523",
+        "stop_name": "523-Alameda @ Chase",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3695445,
+          27.7284199
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0525",
+        "stop_name": "525-Alameda  @  Eldon",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3713362,
+          27.7295103
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0526",
+        "stop_name": "526-Alameda  @  Robert",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3732526,
+          27.7319746
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0527",
+        "stop_name": "527-Alameda  @  Everhart",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.374385,
+          27.7336207
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0528",
+        "stop_name": "528-Alameda @ Carmel",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3753845,
+          27.7352112
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0529",
+        "stop_name": "529-Alameda  @  Coral",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3763817,
+          27.7366609
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0530",
+        "stop_name": "530-Alameda  @  Dolphin",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3773853,
+          27.7381463
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0531",
+        "stop_name": "531-Alameda  @  Bermuda",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.378546,
+          27.7398757
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0532",
+        "stop_name": "532-Alameda  @  Pasadena",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.380047,
+          27.7421029
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0534",
+        "stop_name": "534-Alameda  @  Grant",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3812425,
+          27.7438646
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0535",
+        "stop_name": "535-Alameda @ Doddridge",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3820781,
+          27.7450923
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0536",
+        "stop_name": "536-Alameda  @  Hopper",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3834289,
+          27.7470877
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0537",
+        "stop_name": "537-Alameda@Cunningham",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3846442,
+          27.7488854
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0539",
+        "stop_name": "539-Alameda@Driscoll Hospital",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3856225,
+          27.7504162
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0540",
+        "stop_name": "540-Alameda  @  Sinclair",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3868622,
+          27.7522394
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0541",
+        "stop_name": "541-Alameda  @  Rossiter",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.388249,
+          27.7543681
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0542",
+        "stop_name": "Alameda @ TexanTrail",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3897847,
+          27.7566355
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0543",
+        "stop_name": "543-Alameda @ Glazebrook",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3905385,
+          27.7577589
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0544",
+        "stop_name": "544-Alameda @ McCall",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3925023,
+          27.7606563
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0545",
+        "stop_name": "545-Alameda @Chamberlain",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3938044,
+          27.7626194
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0546",
+        "stop_name": "546-Alameda @Angel @IWA",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3952211,
+          27.7647305
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0547",
+        "stop_name": "547-Alameda @ Texas",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3967725,
+          27.7670415
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0548",
+        "stop_name": "548-Alameda @ Louisiana",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3988525,
+          27.7701362
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0550",
+        "stop_name": "550-Alameda @ Del Mar",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4010069,
+          27.7716407
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0551",
+        "stop_name": "Alameda @ Clifford",
+        "route_id": "5",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

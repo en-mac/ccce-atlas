@@ -1,0 +1,1445 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3705357,
+          27.7120973
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0853",
+        "stop_name": "853-MacArdle @ Staples",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3711617,
+          27.7057677
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1041",
+        "stop_name": "1041-Staples @ Moore Plaza",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3926864,
+          27.7468564
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1063",
+        "stop_name": "Staples @ Carroll Ln",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3950926,
+          27.7503864
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1065",
+        "stop_name": "1065-Staples @ TexanTrail",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4023797,
+          27.789253
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0296",
+        "stop_name": "296-Staples @ Laredo",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.402817,
+          27.7915447
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0298",
+        "stop_name": "298-Staples @ Blucher",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4029847,
+          27.7914803
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0302",
+        "stop_name": "302-Staples @ Mussett",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4025106,
+          27.7890584
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0304",
+        "stop_name": "304-Staples @ Laredo",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3951785,
+          27.7502416
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1095",
+        "stop_name": "1095-Staples @ TexanTrail",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3927448,
+          27.7466065
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1097",
+        "stop_name": "Staples @ Carroll Ln",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3709437,
+          27.7063115
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1118",
+        "stop_name": "1118-Moore Plaza",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4021507,
+          27.7956253
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5004",
+        "stop_name": "Staples Street Station Bay D",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4000965,
+          27.77167
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0409",
+        "stop_name": "Alameda @ Clifford",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3979593,
+          27.7685331
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0411",
+        "stop_name": "411-Alameda @ Atlantic",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3968677,
+          27.7669416
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0412",
+        "stop_name": "412-Alameda @ Louisiana",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3952725,
+          27.7645564
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0413",
+        "stop_name": "413-Alameda @ Texas",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.393497,
+          27.7618404
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0415",
+        "stop_name": "415-Alameda @ Sorrell",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3926751,
+          27.760575
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0416",
+        "stop_name": "416-Alameda @Chamberlain",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3921639,
+          27.7598568
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0417",
+        "stop_name": "417-Alameda @ McClendon",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3910726,
+          27.7581734
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0418",
+        "stop_name": "418-Alameda @ McCall",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3895926,
+          27.7560057
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0419",
+        "stop_name": "419-Alameda@ Glazebrook",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3886287,
+          27.7546245
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0420",
+        "stop_name": "Alameda @ TexanTrail",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4053654,
+          27.7885934
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0194",
+        "stop_name": "194-Laredo @ 10th",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.406521,
+          27.7884291
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1638",
+        "stop_name": "1638-Laredo @ 12th",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3897847,
+          27.7566355
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0543",
+        "stop_name": "543-Alameda @ Glazebrook",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3905385,
+          27.7577589
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0544",
+        "stop_name": "544-Alameda @ McCall",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3925023,
+          27.7606563
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0545",
+        "stop_name": "545-Alameda @Chamberlain",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3938044,
+          27.7626194
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0546",
+        "stop_name": "546-Alameda @Angel @IWA",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3952211,
+          27.7647305
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0547",
+        "stop_name": "547-Alameda @ Texas",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3967725,
+          27.7670415
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0548",
+        "stop_name": "548-Alameda @ Louisiana",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3988525,
+          27.7701362
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0550",
+        "stop_name": "550-Alameda @ Del Mar",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4010069,
+          27.7716407
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0551",
+        "stop_name": "Alameda @ Clifford",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4061515,
+          27.7873995
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0192",
+        "stop_name": "192-Agnes @ 12th",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4037277,
+          27.7877319
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0193",
+        "stop_name": "193-Agnes @ Sth Alameda",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3730574,
+          27.7143852
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5012",
+        "stop_name": "Southside Station Bay D",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.373012,
+          27.7050921
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0881",
+        "stop_name": "881-Williams @ Staples",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3758069,
+          27.7064899
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0882",
+        "stop_name": "882-Williams @ Burton",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.379318,
+          27.708215
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0883",
+        "stop_name": "883-Williams @ Blanche Moore",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3825271,
+          27.7099309
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0823",
+        "stop_name": "823-Williams @ Nelson",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3853367,
+          27.7118339
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0836",
+        "stop_name": "Williams @ Everhart",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3868753,
+          27.7126411
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0727",
+        "stop_name": "Everhart @ Corona",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3887906,
+          27.7136958
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0793",
+        "stop_name": "793-Corona @ YWCA",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.394359,
+          27.7156186
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0729",
+        "stop_name": "729-Flynn @ Tiger",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.398569,
+          27.7177733
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0730",
+        "stop_name": "730-Tiger @Weber",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4008655,
+          27.7187649
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0733",
+        "stop_name": "Tiger @ Weber",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.405064,
+          27.7207759
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0731",
+        "stop_name": "731-Tiger @ Wilkinson",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4072829,
+          27.7226059
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0732",
+        "stop_name": "732-Carroll @ Bentwood",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4023519,
+          27.7304871
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0735",
+        "stop_name": "735-Carroll @ Marion",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4015682,
+          27.7318368
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0736",
+        "stop_name": "736-Carroll @ Harold",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3996352,
+          27.7348889
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0946",
+        "stop_name": "946-Carroll @ Gollihar",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3989024,
+          27.7361393
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0947",
+        "stop_name": "947-Carroll @Samuel Apts",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.396759,
+          27.7397029
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0948",
+        "stop_name": "948-Carroll @BrawnerPkwy",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3956915,
+          27.7413995
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0949",
+        "stop_name": "949-Carroll @ Pecan",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3947129,
+          27.7430043
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0950",
+        "stop_name": "950-Carroll @ Cottonwood",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3935025,
+          27.7449539
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0951",
+        "stop_name": "951-Carroll @ Poplar",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3934947,
+          27.7517645
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0502",
+        "stop_name": "502-Texan Trail@ Ray HS",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3894784,
+          27.7538061
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0351",
+        "stop_name": "Texan Trail @ Hosp",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4017767,
+          27.7754476
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0751",
+        "stop_name": "751-Booty @ Alameda",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.403978,
+          27.7745129
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1639",
+        "stop_name": "1639-McKenzie @Brownlee",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4047988,
+          27.7754058
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0752",
+        "stop_name": "752-Brownlee @ Booty",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4067706,
+          27.7783316
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0754",
+        "stop_name": "754-Brownlee @ Morgan",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4070721,
+          27.7812608
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0284",
+        "stop_name": "284-Brownlee @ Buford",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4072533,
+          27.783708
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0285",
+        "stop_name": "285-Brownlee @ Coleman",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.407677,
+          27.7864919
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0333",
+        "stop_name": "333-Brownlee @Marguerite",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4077688,
+          27.7862446
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0287",
+        "stop_name": "287-Brownlee @Marguerite",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4073694,
+          27.7838502
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0288",
+        "stop_name": "288-Brownlee @ Coleman",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4071579,
+          27.7810857
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0289",
+        "stop_name": "289-Brownlee @ Buford",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4069945,
+          27.7785848
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0290",
+        "stop_name": "290-Brownlee @ Morgan",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4048118,
+          27.7751927
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0746",
+        "stop_name": "746-Brownlee @ Amistad",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4038359,
+          27.7736519
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0747",
+        "stop_name": "747-Brownlee @ Nueces Center",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3935335,
+          27.7518783
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1510",
+        "stop_name": "1510-Texan Trail @ Ray HS",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3936757,
+          27.7448891
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0952",
+        "stop_name": "952-Carroll @ Maple",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3947918,
+          27.7430427
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0953",
+        "stop_name": "953-Carroll @ Cottonwood",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3956643,
+          27.7416511
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0954",
+        "stop_name": "954-Carroll @ Pecan",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.396861,
+          27.7397236
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0955",
+        "stop_name": "955-Carroll @ Brawner",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3975207,
+          27.738632
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0956",
+        "stop_name": "956-Carroll @ Houston",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3990465,
+          27.7361014
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0957",
+        "stop_name": "957-Carroll @Samuel Apts",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3997772,
+          27.7349076
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0958",
+        "stop_name": "958-Carroll @ Gollihar",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4015962,
+          27.7320624
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0715",
+        "stop_name": "715-Carroll @ Harold",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4039065,
+          27.7282283
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0717",
+        "stop_name": "McArdle @CarrollLane",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4072941,
+          27.7226899
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0720",
+        "stop_name": "720-Carroll @ Bentwood",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4052534,
+          27.7208012
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0721",
+        "stop_name": "721-Tiger @ Wilkinson",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4016109,
+          27.7189919
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0722",
+        "stop_name": "Tiger @ Weber",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3985145,
+          27.7175644
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0723",
+        "stop_name": "723-Tiger @ Weber",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3888312,
+          27.7135791
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0792",
+        "stop_name": "792-Corona @ YWCA",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3869555,
+          27.7125498
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0726",
+        "stop_name": "Everhart @ Corona",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3849556,
+          27.7111848
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0885",
+        "stop_name": "885-Williams @ Everhart",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3826278,
+          27.7097951
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0884",
+        "stop_name": "884-Williams @ Nelson",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3789938,
+          27.7079617
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0887",
+        "stop_name": "887-Williams @ BettyJean",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3754009,
+          27.7061639
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0888",
+        "stop_name": "888-Williams @ Burton",
+        "route_id": "17",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Corpus Christi / Nueces County civic geospatial platform - Explore and analyze local data in 3D">
+    <title>CCCE Atlas - Corpus Christi Civic Explorer</title>
+
+    <!-- Cesium.js -->
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.115/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.115/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Unified Sidebar with Tabs -->
+        <div id="sidebar" class="sidebar">
+            <button class="sidebar-collapse-btn" id="sidebar-collapse">
+                <span class="collapse-icon">◀</span>
+            </button>
+
+            <!-- Tab Switcher -->
+            <div class="tab-switcher">
+                <button class="tab-btn" id="maps-tab-btn" data-tab="maps">Maps</button>
+                <button class="tab-btn active" id="explore-tab-btn" data-tab="explore">Explore</button>
+            </div>
+
+            <!-- Maps Tab Content -->
+            <div id="maps-tab-content" class="tab-content" style="display: none;">
+                <div class="sidebar-header">
+                    <h1>Maps</h1>
+                    <p class="subtitle">Base layers and overlays</p>
+                </div>
+
+            <!-- BASE LAYER (Pick One) -->
+            <div class="sidebar-section">
+                <h2>Base Layer</h2>
+                <div class="property-controls">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="radio" name="base-layer" value="bing-aerial" checked>
+                        <span>Bing Maps Aerial</span>
+                    </label>
+                </div>
+                <div class="property-controls" style="margin-top: 10px;">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="radio" name="base-layer" value="opentopomap">
+                        <span>OpenTopoMap</span>
+                    </label>
+                </div>
+                <div class="property-controls" style="margin-top: 10px;">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="radio" name="base-layer" value="gibs-imagery">
+                        <span>NASA GIBS Imagery</span>
+                    </label>
+                </div>
+                <!-- GIBS Base Layer Sub-Panel (conditional) -->
+                <div id="gibs-base-settings" class="property-settings" style="margin-top: 8px; margin-left: 24px; display: none;">
+                    <label for="gibs-base-product" style="font-size: 12px; color: #999;">Product</label>
+                    <select id="gibs-base-product" style="width: 100%; padding: 4px; margin-top: 4px; background: #1a1a1a; border: 1px solid #333; color: #fff; border-radius: 4px;">
+                        <option value="VIIRS_SNPP_CorrectedReflectance_TrueColor">VIIRS True Color</option>
+                        <option value="MODIS_Terra_CorrectedReflectance_TrueColor">MODIS Terra True Color</option>
+                        <option value="MODIS_Aqua_CorrectedReflectance_TrueColor">MODIS Aqua True Color</option>
+                        <option value="VIIRS_NOAA20_CorrectedReflectance_TrueColor">VIIRS NOAA-20 True Color</option>
+                        <option value="VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1">VIIRS False Color</option>
+                        <option value="BlueMarble_NextGeneration">Blue Marble</option>
+                        <option value="VIIRS_Black_Marble">Black Marble (Night)</option>
+                    </select>
+                    <label for="gibs-base-date" style="font-size: 12px; color: #999; margin-top: 8px; display: block;">Date</label>
+                    <input type="date" id="gibs-base-date" style="width: 100%; padding: 4px; margin-top: 4px; background: #1a1a1a; border: 1px solid #333; color: #fff; border-radius: 4px;">
+                </div>
+            </div>
+
+            <!-- OVERLAY LAYERS (Pick Any) -->
+            <details id="overlay-section" class="sidebar-section collapsible" open>
+                <summary>
+                    <h2>Overlay Layers</h2>
+                </summary>
+
+                <div id="overlay-layers-content">
+
+                <!-- Navigation -->
+                <div id="overlay-navigation">
+                    <h3 style="font-size: 14px; margin: 15px 0 8px 0; color: #999;">Navigation</h3>
+                <div class="property-controls">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="checkbox" id="sectional-toggle">
+                        <span>Aviation Sectional</span>
+                    </label>
+                </div>
+                <div id="sectional-opacity-controls" class="property-settings" style="margin-top: 5px; display: none;">
+                    <label for="sectional-opacity">Opacity</label>
+                    <input type="range" id="sectional-opacity" min="0" max="100" value="60">
+                    <span id="sectional-opacity-value">60%</span>
+                </div>
+
+                <div class="property-controls" style="margin-top: 10px;">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="checkbox" id="seamap-toggle">
+                        <span>Nautical Charts</span>
+                    </label>
+                </div>
+
+                <div class="property-controls" style="margin-top: 10px;">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="checkbox" id="railway-toggle">
+                        <span>Railway Infrastructure</span>
+                    </label>
+                </div>
+                </div>
+
+                <div id="overlay-recreation">
+                    <h3 style="font-size: 14px; margin: 15px 0 8px 0; color: #999;">Recreation</h3>
+                <div class="property-controls">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="checkbox" id="trails-toggle">
+                        <span>Hiking/Cycling Trails</span>
+                    </label>
+                </div>
+                </div>
+
+                <div id="overlay-weather">
+                    <h3 style="font-size: 14px; margin: 15px 0 8px 0; color: #999;">Weather</h3>
+                <div class="property-controls">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;" title="Weather precipitation + live radar data">
+                        <input type="checkbox" id="weather-toggle">
+                        <span>Weather & Radar</span>
+                    </label>
+                </div>
+                </div>
+
+                <div id="overlay-science">
+                    <h3 style="font-size: 14px; margin: 15px 0 8px 0; color: #999;">Science</h3>
+                <div class="property-controls">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;" title="Ocean temperature data from NASA satellites - ideal for coastal areas">
+                        <input type="checkbox" id="gibs-overlay-toggle">
+                        <span>NASA GIBS Sea Surface Temperature</span>
+                    </label>
+                </div>
+                <!-- GIBS Overlay Settings (conditional) -->
+                <div id="gibs-overlay-settings" class="property-settings" style="margin-top: 8px; margin-left: 24px; display: none;">
+                    <label for="gibs-overlay-date" style="font-size: 12px; color: #999;">Date</label>
+                    <input type="date" id="gibs-overlay-date" style="width: 100%; padding: 4px; margin-top: 4px; background: #1a1a1a; border: 1px solid #333; color: #fff; border-radius: 4px;">
+                    <label for="gibs-overlay-opacity" style="font-size: 12px; color: #999; margin-top: 8px; display: block;">Opacity</label>
+                    <input type="range" id="gibs-overlay-opacity" min="0" max="100" value="60" style="width: 100%; margin-top: 4px;">
+                    <span id="gibs-overlay-opacity-value" style="font-size: 12px; color: #999;">60%</span>
+                </div>
+
+                </div>
+
+                </div>
+            </details>
+
+            <div class="sidebar-footer">
+                <button id="reset-camera" class="btn-secondary">Reset View</button>
+            </div>
+            </div>
+            <!-- End Maps Tab Content -->
+
+            <!-- Explore Tab Content -->
+            <div id="explore-tab-content" class="tab-content">
+                <div class="sidebar-header">
+                    <h1>CCCE Atlas</h1>
+                    <p class="subtitle">Discover Corpus Christi & Nueces County</p>
+                </div>
+
+                <!-- POI Categories -->
+                <details id="poi-section" class="sidebar-section collapsible" open>
+                    <summary>
+                        <h2>POI Categories</h2>
+                    </summary>
+                    <div id="category-filters">
+                        <!-- Filters will be generated by JS -->
+                    </div>
+                </details>
+
+                <!-- Property Parcels -->
+                <details class="sidebar-section collapsible" style="margin-top: 15px;">
+                    <summary>
+                        <h2>Property Parcels</h2>
+                    </summary>
+                    <div class="collapsible-section-content">
+                        <div class="property-controls">
+                            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                                <input type="checkbox" id="parcels-toggle">
+                                <span>Show Property Parcels</span>
+                            </label>
+                            <p class="parcel-hint" style="font-size: 11px; margin: 4px 0 0 0; color: #888;">156K parcels - requires street-level zoom</p>
+                        </div>
+                        <div id="parcel-opacity-controls" class="property-settings" style="margin-top: 10px; display: none;">
+                            <label for="parcel-opacity">Opacity</label>
+                            <input type="range" id="parcel-opacity" min="0" max="100" value="70">
+                            <span id="opacity-value">70%</span>
+                        </div>
+                        <!-- Color Legend (shown when parcels enabled) -->
+                        <div id="color-legend" style="margin-top: 10px; display: none;">
+                            <!-- Legend will be populated by JS -->
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Public Transit -->
+                <details id="overlay-transit" class="sidebar-section collapsible" style="margin-top: 15px;">
+                    <summary>
+                        <h2>Public Transit</h2>
+                    </summary>
+                    <div class="collapsible-section-content">
+                        <!-- Transit Presets -->
+                        <div class="transit-presets">
+                            <button class="preset-btn" id="preset-all-routes">All Routes</button>
+                            <button class="preset-btn" id="preset-routes-stops">Routes + Stops</button>
+                            <button class="preset-btn active" id="preset-none">None</button>
+                        </div>
+                        <!-- Routes List -->
+                        <div id="transit-routes-list" style="max-height: 400px; overflow-y: auto;">
+                            <!-- Routes will be dynamically loaded here -->
+                        </div>
+                    </div>
+                </details>
+
+                <!-- School Districts -->
+                <details class="sidebar-section collapsible" style="margin-top: 15px;">
+                    <summary>
+                        <h2>School Districts</h2>
+                    </summary>
+                    <div class="collapsible-section-content">
+                        <div class="property-controls">
+                            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                                <input type="checkbox" id="school-districts-toggle">
+                                <span>Show District Boundaries</span>
+                            </label>
+                            <p class="parcel-hint" style="font-size: 11px; margin: 4px 0 0 0; color: #888;">7 districts in Corpus Christi area</p>
+                        </div>
+                        <div id="school-districts-opacity-controls" class="property-settings" style="margin-top: 10px; display: none;">
+                            <label for="school-districts-opacity">Opacity</label>
+                            <input type="range" id="school-districts-opacity" min="0" max="100" value="50">
+                            <span id="school-districts-opacity-value">50%</span>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Top Property Owners -->
+                <details class="sidebar-section collapsible" style="margin-top: 15px;">
+                    <summary>
+                        <h2>Top 40 Property Owners</h2>
+                    </summary>
+                    <div class="collapsible-section-content">
+                        <!-- View Toggle Buttons -->
+                        <div class="view-toggle">
+                            <button class="view-btn active" data-view-type="byAcreage">By Acreage</button>
+                            <button class="view-btn" data-view-type="byCount">By Count</button>
+                            <button class="view-btn" data-view-type="byValue">By Value</button>
+                        </div>
+                        <!-- Owner List Container -->
+                        <div id="top-owners-list" style="max-height: 400px; overflow-y: auto; margin-top: 10px;">
+                            <!-- Will be populated by js/top-owners.js -->
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Tour Section -->
+                <details class="tour-section sidebar-section collapsible" style="margin-top: 15px;">
+                    <summary style="cursor: pointer; font-weight: 600; margin-bottom: 10px;">
+                        🎬 Guided Tour
+                    </summary>
+                    <p class="subtitle" style="margin-bottom: 15px; font-size: 0.9em;">Take a flyover tour of Corpus Christi's best spots</p>
+                    <div class="tour-controls">
+                        <button id="tour-start" class="btn-primary">Start Tour</button>
+                        <div class="tour-control-buttons" style="display: flex; gap: 8px; margin-top: 10px;">
+                            <button id="tour-pause" class="btn-secondary" disabled>⏸️ Pause</button>
+                            <button id="tour-stop" class="btn-secondary" disabled>⏹️ Stop</button>
+                        </div>
+                        <div class="tour-nav-buttons" style="display: flex; gap: 8px; margin-top: 8px;">
+                            <button id="tour-prev" class="btn-secondary" disabled>⬅️ Previous</button>
+                            <button id="tour-next" class="btn-secondary" disabled>Next ➡️</button>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Info Panel (shown when POI clicked) -->
+                <div id="info-panel" class="info-panel-inline hidden">
+                    <button id="close-panel" class="close-btn">&times;</button>
+                    <div id="info-content">
+                        <!-- Content populated by JS -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Explore Tab Content -->
+        </div>
+
+        <!-- Cesium Viewer Container -->
+        <div id="cesiumContainer"></div>
+
+        <!-- Tour Info Panel (appears during tour) -->
+        <div id="tour-panel" class="hidden">
+            <div id="tour-content">
+                <!-- Content populated by JS during tour -->
+            </div>
+        </div>
+
+        <!-- Notification Toast (for layer errors/info) -->
+        <div id="notification-toast" class="notification-toast hidden">
+            <div class="notification-content">
+                <span class="notification-icon">ℹ️</span>
+                <span class="notification-message"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/parcel-colors.js"></script>
+    <script src="js/layers.js"></script>
+    <script src="js/transit.js"></script>
+    <script src="js/school-districts.js"></script>
+    <script src="js/top-owners.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/tile-loader.js"></script>
+    <script src="js/tour.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

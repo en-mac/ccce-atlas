@@ -1,0 +1,103 @@
+# ============================================================================
+# CCCE Atlas - Minimal Stack
+# ============================================================================
+# What this runs:
+#   - PostGIS (stores 156K parcels)
+#   - pg_tileserv (serves vector tiles)
+#   - Nginx (frontend)
+#
+# What this DOESN'T run:
+#   - Redis (not needed - API not used)
+#   - REST API (frontend uses static files)
+#   - Tiles service (not implemented)
+#
+# Total: 3 containers (down from 6)
+# ============================================================================
+
+services:
+  # ============================================================================
+  # DATABASE: PostgreSQL 16 + PostGIS
+  # ============================================================================
+  postgres:
+    image: postgis/postgis:16-3.4
+    # Note: PostGIS official images don't support ARM64 yet
+    # Running on ARM64 Macs via Rosetta emulation
+    platform: linux/amd64
+    container_name: ccce-atlas-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-ccce_atlas}
+      POSTGRES_USER: ${POSTGRES_USER:-ccce_atlas}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ccce_atlas_dev}
+      # Performance tuning for 156K parcels
+      POSTGRES_SHARED_BUFFERS: 256MB
+      POSTGRES_WORK_MEM: 16MB
+      POSTGRES_EFFECTIVE_CACHE_SIZE: 768MB
+      POSTGRES_MAX_CONNECTIONS: 50
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/seed.sql:/docker-entrypoint-initdb.d/01-seed.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ccce_atlas -d ccce_atlas"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - ccce-network
+    restart: unless-stopped
+
+  # ============================================================================
+  # TILE SERVER: pg_tileserv (PostGIS -> .pbf vector tiles)
+  # ============================================================================
+  pg_tileserv:
+    image: pramsey/pg_tileserv:latest
+    # Note: pg_tileserv may not have ARM64 support
+    # Running on ARM64 Macs via Rosetta emulation
+    platform: linux/amd64
+    container_name: ccce-atlas-pg-tileserv
+    environment:
+      DATABASE_URL: postgresql://ccce_atlas:ccce_atlas_dev@postgres:5432/ccce_atlas
+      TS_CORS_ORIGINS: "*"
+      TS_HTTP_CACHE: "public, max-age=3600"
+    ports:
+      - "7800:7800"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - ccce-network
+    restart: unless-stopped
+
+  # ============================================================================
+  # FRONTEND: Nginx serving static Cesium app
+  # ============================================================================
+  map:
+    image: nginx:alpine
+    container_name: ccce-atlas-map
+    volumes:
+      - ../apps/map/public:/usr/share/nginx/html:ro
+      - ../apps/map/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "8080:80"
+    networks:
+      - ccce-network
+    restart: unless-stopped
+    depends_on:
+      - pg_tileserv
+
+# ============================================================================
+# NETWORKS
+# ============================================================================
+networks:
+  ccce-network:
+    driver: bridge
+    name: ccce-atlas-network
+
+# ============================================================================
+# VOLUMES
+# ============================================================================
+volumes:
+  postgres_data:
+    name: ccce-atlas-postgres-data

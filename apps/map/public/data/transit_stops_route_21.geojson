@@ -1,0 +1,1013 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4194121,
+          27.7524549
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0043",
+        "stop_name": "43-Horne @ Port",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4198804,
+          27.750602
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0945",
+        "stop_name": "945-Port @ Post Office",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4195577,
+          27.7494187
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5022",
+        "stop_name": "Port Ayers Station Bay E",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.423052,
+          27.7544731
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0084",
+        "stop_name": "84-Horne @ Rambler",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4252315,
+          27.7555266
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0085",
+        "stop_name": "85-Horne @ Niagara",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4281114,
+          27.7569302
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0086",
+        "stop_name": "86-1802 Horne @ Sarita",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4304994,
+          27.7580451
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0088",
+        "stop_name": "88-Horne @ Chula Vista",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4314407,
+          27.7588879
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0122",
+        "stop_name": "122-Greenwood @ Horne",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4298367,
+          27.7614694
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0123",
+        "stop_name": "123-Greenwood@ ",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4281575,
+          27.7642652
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0125",
+        "stop_name": "125-Greenwood  @  Belton",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.427531,
+          27.766624
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0141",
+        "stop_name": "141-Soledad  @  Elgin",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4290961,
+          27.7685551
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0142",
+        "stop_name": "142-Carver@Nogales",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4286099,
+          27.7693251
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0143",
+        "stop_name": "143-Carver  @ Tarlton",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.42763,
+          27.7709291
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0144",
+        "stop_name": "144-Carver  @  Dunbar",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.426659,
+          27.772532
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0145",
+        "stop_name": "145-Carver  @  Easley",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4257174,
+          27.7740649
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0146",
+        "stop_name": "146-Carver  @  Sonora",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4248321,
+          27.7755085
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0147",
+        "stop_name": "Carver  @  Baldwin",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4239882,
+          27.775303
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0148",
+        "stop_name": "148-Baldwin  @  Sabinas",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4214774,
+          27.7740837
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0149",
+        "stop_name": "149-Baldwin  @  Lamar",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202293,
+          27.7741313
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0178",
+        "stop_name": "178-Port @ Baldwin",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202531,
+          27.7758875
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0179",
+        "stop_name": "179-Port @ Brannan",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202897,
+          27.7774838
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0180",
+        "stop_name": "Morgan @ Port",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4184692,
+          27.7779722
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0217",
+        "stop_name": "217-Morgan  @  Headley",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4157812,
+          27.7790088
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0247",
+        "stop_name": "Hospital @ Kokernot",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.414587,
+          27.7790284
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0250",
+        "stop_name": "250-Hospital  @  19th",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4132909,
+          27.7795717
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0251",
+        "stop_name": "251-19th  @  Craig",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4132634,
+          27.7819326
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0253",
+        "stop_name": "253-19th  @  Hancock",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4134004,
+          27.7848975
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0255",
+        "stop_name": "255-19th  @  Mary",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4134211,
+          27.7866672
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0256",
+        "stop_name": "256-19th  @  Agnes",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4134528,
+          27.7880822
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0257",
+        "stop_name": "257-19th @ Laredo",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4135043,
+          27.7891848
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0259",
+        "stop_name": "259-19th  @  Mussett",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4135612,
+          27.791509
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0260",
+        "stop_name": "260-19th  @  Caldwe",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4131079,
+          27.7927522
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2274",
+        "stop_name": "2274-Comanche @ 19th",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4110319,
+          27.7933481
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0263",
+        "stop_name": "263-Comanche @ Coke",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4084601,
+          27.793321
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0264",
+        "stop_name": "264-Comanche @ Crosstown",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4054768,
+          27.7932571
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0266",
+        "stop_name": "266-Comanche @ SamRankin",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4023663,
+          27.7956231
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5003",
+        "stop_name": "Staples Street Station Bay C",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.405131,
+          27.7933766
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0269",
+        "stop_name": "269-Comanche @ SamRankin",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4082162,
+          27.7934318
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0271",
+        "stop_name": "271-Comanche @ Brownlee",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4112817,
+          27.7933793
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0273",
+        "stop_name": "273-Comanche @ Coke",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4132303,
+          27.7928009
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2272",
+        "stop_name": "2272-Comanche @ 19th Street",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4136633,
+          27.7914636
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0275",
+        "stop_name": "275-19th  @  Howard",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4136189,
+          27.7888508
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0277",
+        "stop_name": "277-19th   @ RR",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.413568,
+          27.7866945
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0278",
+        "stop_name": "278-19th  @  Agnes",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4134938,
+          27.7841536
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0279",
+        "stop_name": "279-19th  @  Morris",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.413402,
+          27.7816541
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0281",
+        "stop_name": "281-19th  @  Hancock",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4134171,
+          27.7793132
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0283",
+        "stop_name": "283-19th  @  Hospital",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4164874,
+          27.7791561
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0248",
+        "stop_name": "Hospital Blvd.@ Baylor",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4173092,
+          27.7786695
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0246",
+        "stop_name": "246-2502 Baylor",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.419458,
+          27.7781255
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0232",
+        "stop_name": "232-Morgan  @  25th",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4204892,
+          27.7767117
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0203",
+        "stop_name": "203-Port  @  Greenwood",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4204583,
+          27.7740599
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0205",
+        "stop_name": "205-Port @ Baldwin",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4203716,
+          27.7708774
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0162",
+        "stop_name": "162-Port  @  San Jacinto",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4211105,
+          27.7692426
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0171",
+        "stop_name": "171-McArthur  @  Halsey",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4219445,
+          27.7677955
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0172",
+        "stop_name": "172-McArthur @Montgomery",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4226346,
+          27.7667371
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0173",
+        "stop_name": "173-McArthur  @  Tarlton",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4233706,
+          27.7654957
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0174",
+        "stop_name": "174-McArthur  @  Nogales",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4248686,
+          27.7631623
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0176",
+        "stop_name": "176-McArthur  @  Belton",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4266871,
+          27.7603222
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0177",
+        "stop_name": "177-McArthur  @  Burnett",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.428496,
+          27.7573439
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0026",
+        "stop_name": "26-MacArthur  @  Horne",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4271916,
+          27.7562652
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0027",
+        "stop_name": "27-1821 Horne",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.425,
+          27.7551955
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0028",
+        "stop_name": "28-Horne @ Prescott",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4230249,
+          27.7542546
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0042",
+        "stop_name": "42-Horne @ Vitemb",
+        "route_id": "21",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

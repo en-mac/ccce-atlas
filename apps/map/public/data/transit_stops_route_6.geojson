@@ -1,0 +1,1669 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3654774,
+          27.7095867
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0855",
+        "stop_name": "855-McArdle @ Sunrise Mall",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3705357,
+          27.7120973
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0853",
+        "stop_name": "853-MacArdle @ Staples",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.368183,
+          27.7109347
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0854",
+        "stop_name": "854-McArdle @ The Shops at La",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3654445,
+          27.7097206
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0837",
+        "stop_name": "837-McArdle @ Sunrise Mall",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3680882,
+          27.7110505
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0838",
+        "stop_name": "838-McArdle  @  Airline",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3953585,
+          27.7965597
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0402",
+        "stop_name": "402-Schatzell @ Mesquite",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3989597,
+          27.7963894
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1355",
+        "stop_name": "1355-Leopard @ Tancahua",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4024005,
+          27.7954059
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9017",
+        "stop_name": "Staples St Station Lane M",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3997768,
+          27.7962976
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1504",
+        "stop_name": "1504-Leopard @ Carrizo",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3983473,
+          27.7962321
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1505",
+        "stop_name": "1505-Leopard @ Tancahua",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3942899,
+          27.7951789
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1507",
+        "stop_name": "1507-Lawrence @ Chaparral",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3927107,
+          27.7961859
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1508",
+        "stop_name": "1508-Water @ Schatzel",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3938726,
+          27.7928429
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0343",
+        "stop_name": "343-Water @ Sartain",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3943178,
+          27.7915747
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1889",
+        "stop_name": "1889-Water@Cooper's Alley",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3950648,
+          27.7891979
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1890",
+        "stop_name": "1890-Water @ Born",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3948168,
+          27.786268
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2312",
+        "stop_name": "2312-Shoreline @ Park",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3945279,
+          27.7831054
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2313",
+        "stop_name": "2313-Shoreline @ Bufo",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3954388,
+          27.7791447
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2314",
+        "stop_name": "2314-Morgan @ 2nd Str",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.396625,
+          27.7759431
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0330",
+        "stop_name": "Santa Fe  @  Ayers",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3947008,
+          27.7723469
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0356",
+        "stop_name": "356-Santa Fe  @  Delmar",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3937941,
+          27.7709683
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0357",
+        "stop_name": "357-Santa Fe @ Atlantic",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3926489,
+          27.7693011
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0358",
+        "stop_name": "358-Santa Fe @Louisiana",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3915921,
+          27.767702
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0359",
+        "stop_name": "359-Santa Fe @ Indiana",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.390704,
+          27.7663905
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0360",
+        "stop_name": "360-Santa Fe @ Rosebud",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3897131,
+          27.7648816
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0361",
+        "stop_name": "361-Santa Fe @ Breezeway",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3886966,
+          27.7633872
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0362",
+        "stop_name": "362-Santa Fe  @  Sunset",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3877934,
+          27.7620356
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0363",
+        "stop_name": "363-Santa Fe @ Chenoweth",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3869351,
+          27.7607419
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0364",
+        "stop_name": "364-Santa Fe  @  Louise",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.385996,
+          27.7593709
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0365",
+        "stop_name": "365-Santa Fe@Morningside",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.385278,
+          27.7583394
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0366",
+        "stop_name": "366-Santa Fe  @  Laurel",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3841377,
+          27.7566117
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0367",
+        "stop_name": "367-Santa Fe  @  Texan",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3835222,
+          27.7556807
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0368",
+        "stop_name": "368-Santa Fe  @  Angelo",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3825726,
+          27.7542751
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0369",
+        "stop_name": "369-Santa Fe @ Rossiter",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3815432,
+          27.7527662
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0370",
+        "stop_name": "370-Santa Fe @ Sinclair",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3800926,
+          27.7505721
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0371",
+        "stop_name": "371-Santa Fe  @  Ropes",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3785946,
+          27.7483081
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0372",
+        "stop_name": "372-Santa Fe @ Brawner",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3772663,
+          27.746448
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0373",
+        "stop_name": "Santa Fe @ Doddridge",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3768731,
+          27.7458131
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2350",
+        "stop_name": "2350-Sante Fe @ Wilshire",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3761303,
+          27.7447134
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0374",
+        "stop_name": "374-Santa Fe  @  Jackson",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3750925,
+          27.7431782
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0375",
+        "stop_name": "375-Santa Fe @ Catalina",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3739883,
+          27.7416412
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0376",
+        "stop_name": "376-Santa Fe @ Pasadena",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3724117,
+          27.7397506
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0377",
+        "stop_name": "377-Santa Fe  @  Bermuda",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3711413,
+          27.7383962
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0379",
+        "stop_name": "379-Santa Fe @ Barracuda",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3679734,
+          27.7354469
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0819",
+        "stop_name": "819-Santa Fe  @  Robert",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3655092,
+          27.7371515
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0820",
+        "stop_name": "820-Robert @ Ocean Dr ",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3622767,
+          27.7347969
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0821",
+        "stop_name": "821-Ocean Dr@Ocean Dr Estates",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3606957,
+          27.7336489
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0822",
+        "stop_name": "822-Ocean Dr@Baytree Apts.",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3599525,
+          27.7312919
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0772",
+        "stop_name": "772-Airline  @  Camden I",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3615249,
+          27.7288132
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0773",
+        "stop_name": "773-Airline  @  Gaines",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3617465,
+          27.7267702
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0774",
+        "stop_name": "774-Airline  @  Monette",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3618473,
+          27.7254058
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0775",
+        "stop_name": "Alameda  @  Airline",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3619558,
+          27.7226761
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0776",
+        "stop_name": "776-Airline  @  Gregory",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3620753,
+          27.7205772
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0777",
+        "stop_name": "777-Airline  @  St Pius",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3621527,
+          27.7189748
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0778",
+        "stop_name": "778-Airline  @  Lum",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3622534,
+          27.7168938
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0779",
+        "stop_name": "779-Airline  @  Golihar",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3623479,
+          27.7149131
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0780",
+        "stop_name": "780-Airline @ Shamrock",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3624728,
+          27.7124522
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0781",
+        "stop_name": "781-Airline @ Kimbrough",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3626868,
+          27.7089879
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0782",
+        "stop_name": "782-Airline @ McArdle",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3727859,
+          27.7142054
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5014",
+        "stop_name": "Southside Station Bay F",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36253,
+          27.7092405
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0805",
+        "stop_name": "805-Airline  @  McArdle",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.362409,
+          27.7116082
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0806",
+        "stop_name": "806-Airline @ Kimbrough",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3623175,
+          27.7132682
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0807",
+        "stop_name": "807-Airline  @  Lucille",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3622466,
+          27.7148266
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0808",
+        "stop_name": "808-Airline  @  Shamrock",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3621626,
+          27.7164732
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0809",
+        "stop_name": "809-Airline  @  Golihar",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3620295,
+          27.7188055
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0810",
+        "stop_name": "810-Airline  @  Lum",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3618732,
+          27.7219981
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0811",
+        "stop_name": "811-Airline  @  Belm",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3617692,
+          27.7240954
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0812",
+        "stop_name": "Alameda  @  Airline",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3617176,
+          27.7251467
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0813",
+        "stop_name": "813-Airline  @ Alameda",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3616532,
+          27.7260654
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0814",
+        "stop_name": "814-Airline  @  Monette",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3609123,
+          27.7295921
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0815",
+        "stop_name": "815-Airline  @  Camden I",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3599158,
+          27.7311638
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0816",
+        "stop_name": "816-Airline @ Camden II",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3605503,
+          27.733804
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0817",
+        "stop_name": "817-Ocean Dr@The Alexa Luxury",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3639771,
+          27.7363114
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0818",
+        "stop_name": "818-Ocean Dr @ Catalina Condos",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3664715,
+          27.7363761
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0383",
+        "stop_name": "383-Robert  @  Ocean",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3680151,
+          27.7355982
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0384",
+        "stop_name": "384-Santa Fe @ Purl",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3709369,
+          27.7383319
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0386",
+        "stop_name": "386-Santa Fe @ Ocean",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3728798,
+          27.7404565
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0387",
+        "stop_name": "387-Santa Fe @ Lorraine",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3737681,
+          27.7415429
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0388",
+        "stop_name": "388-Santa Fe @ Mitchell",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3753611,
+          27.7437508
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0389",
+        "stop_name": "389-Santa Fe @ Bayridge",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3765084,
+          27.7454674
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0390",
+        "stop_name": "390-Santa Fe @ Wilshire",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3772516,
+          27.7465788
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0391",
+        "stop_name": "Santa Fe @ Doddridge",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3784142,
+          27.7482744
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0392",
+        "stop_name": "392-Santa Fe @ Brawner",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3798595,
+          27.7504632
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0393",
+        "stop_name": "393-Santa Fe  @  Ropes",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3811964,
+          27.7524656
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0394",
+        "stop_name": "394-Santa Fe @ Sinclair",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3826096,
+          27.7545281
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0395",
+        "stop_name": "395-Santa Fe @ Rossiter",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3835597,
+          27.7559235
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0396",
+        "stop_name": "396-Santa Fe @Alta Plaza",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3842063,
+          27.7569093
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0397",
+        "stop_name": "397-Santa Fe  @  Texan",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3853423,
+          27.758678
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0398",
+        "stop_name": "398-Santa Fe  @  Laurel",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3858896,
+          27.7594822
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0399",
+        "stop_name": "399-Santa Fe  @  Hewitt",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3867177,
+          27.7607031
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0400",
+        "stop_name": "400-Santa Fe  @  Louise",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3885067,
+          27.7633283
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0401",
+        "stop_name": "401-Santa Fe  @  Amistad",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3903959,
+          27.7661852
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0403",
+        "stop_name": "403-Santa Fe @ Rosebud",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.391439,
+          27.767703
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0404",
+        "stop_name": "404-Santa Fe @ Indiana",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3925306,
+          27.7693718
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0405",
+        "stop_name": "405-Santa Fe @ Lousiana",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3935107,
+          27.7708707
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0406",
+        "stop_name": "406-Santa Fe @ Atlantic",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3945792,
+          27.7724324
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0407",
+        "stop_name": "407-Santa Fe  @  Delmar",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3958308,
+          27.7742896
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0408",
+        "stop_name": "408-Santa Fe @ Clifford",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3966439,
+          27.7765488
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0507",
+        "stop_name": "Santa Fe  @  Ayers",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3951301,
+          27.7868593
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2315",
+        "stop_name": "2315-Park @ Water",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3949233,
+          27.7893314
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2316",
+        "stop_name": "2316-Water @ Born",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3937588,
+          27.7928383
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0349",
+        "stop_name": "349-Water @ John Sartain",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3930886,
+          27.7947818
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0350",
+        "stop_name": "350-Water @ Lawrence",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3931899,
+          27.7978475
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0338",
+        "stop_name": "Starr @ Chaparral",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.395034,
+          27.7969193
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0339",
+        "stop_name": "339-Mesquite @ Peoples",
+        "route_id": "6",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Whitecap Beach",
+        "description": "Popular beach with soft sand and calm waters, perfect for families",
+        "address": "14802 Whitecap Blvd, Corpus Christi, TX 78418",
+        "category": "beaches",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.211726, 27.599065]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JP Luby Surf Park",
+        "description": "Surf Park with waves, boardwalk, and great sunset views",
+        "address": "149 Zahn Rd, Corpus Christi, TX 78418",
+        "category": "beaches",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.2006731, 27.6192407]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Padre Balli Park",
+        "description": "Beach park with camping, fishing pier, and pavilions",
+        "address": "15820 Park Rd 22, Corpus Christi, TX 78418",
+        "category": "beaches",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.219859, 27.584999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bob Hall Pier",
+        "description": "Iconic 1,240' fishing pier with beach access and great seafood",
+        "address": "15820 Park Rd 22, Corpus Christi, TX 78418",
+        "category": "beaches",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.21777, 27.58198]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malaquite Beach",
+        "description": "Pristine National Seashore beach with visitor center and nature trails",
+        "address": "20420 Park Rd 22, Corpus Christi, TX 78418",
+        "category": "beaches",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.299184, 27.424156]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Packery Beach",
+        "description": "Less crowded beach with easy parking and jetty fishing",
+        "address": "149 Zahn Rd, Corpus Christi, TX 78418",
+        "category": "beaches",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.2028266, 27.6158639]
+      }
+    }
+  ]
+}

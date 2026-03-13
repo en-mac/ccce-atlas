@@ -1,0 +1,453 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.452062,
+          27.797165
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1485",
+        "stop_name": "Leopard @ Navigation",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4489699,
+          27.7971465
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1486",
+        "stop_name": "1486-Leopard @ Cantwell",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.432446,
+          27.7970301
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1337",
+        "stop_name": "1337-Leopard @ Lancas",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4270997,
+          27.7967966
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1492",
+        "stop_name": "Leopard @ NuecesBay",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4224583,
+          27.7966782
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1494",
+        "stop_name": "1494-Leopard @ Battlin Buc",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.420723,
+          27.7966622
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1495",
+        "stop_name": "1495-Leopard @ Palm",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4180225,
+          27.7966112
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1496",
+        "stop_name": "1496-Leopard @ Kennedy",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4144962,
+          27.7965422
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1498",
+        "stop_name": "1498-Leopard @ Port",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4122745,
+          27.796498
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1499",
+        "stop_name": "1499-Leopard @ Doss",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4125481,
+          27.7965977
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1329",
+        "stop_name": "1329-Leopard @ Doss",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.415154,
+          27.7966458
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1331",
+        "stop_name": "1331-Leopard @ Port",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4177016,
+          27.7966851
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1332",
+        "stop_name": "1332-Leopard @ Lexington",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.419902,
+          27.7967257
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1333",
+        "stop_name": "1333-Leopard @ Stillman",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4228658,
+          27.7967761
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1334",
+        "stop_name": "1334-Leopard @ Buddy Lawrence",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4286551,
+          27.7970569
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1336",
+        "stop_name": "Leopard @ NuecesBay",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4321576,
+          27.7972736
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1491",
+        "stop_name": "1491-Leopard @ Lancaster",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4024005,
+          27.7954059
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9017",
+        "stop_name": "Staples St Station Lane M",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4530848,
+          27.8005264
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1073",
+        "stop_name": "Navigation @ Savage",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4459106,
+          27.7973663
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1487",
+        "stop_name": "1487-Omaha @ Leopard",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4449153,
+          27.7992861
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1286",
+        "stop_name": "1286-Omaha @ Van Cura",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4439752,
+          27.8010898
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1287",
+        "stop_name": "1287-Omaha",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4430292,
+          27.802387
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1288",
+        "stop_name": "1288-I37 AccessRd@UpRiver",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4407431,
+          27.8013092
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1289",
+        "stop_name": "1289-Up River@Westchester",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4387851,
+          27.8000549
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1290",
+        "stop_name": "1290-Up River @ Werner",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4351598,
+          27.7977165
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1129",
+        "stop_name": "1129-Up River Rd @ Erwin",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4361216,
+          27.7984055
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1069",
+        "stop_name": "1069-Up River Rd@Oak Park",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4406541,
+          27.8014113
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1071",
+        "stop_name": "1071-Up River@Westchester",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4436798,
+          27.7846436
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1818",
+        "stop_name": "Lighthouse",
+        "route_id": "28",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

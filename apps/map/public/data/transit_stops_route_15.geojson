@@ -1,0 +1,997 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4194121,
+          27.7524549
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0043",
+        "stop_name": "43-Horne @ Port",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4198804,
+          27.750602
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0945",
+        "stop_name": "945-Port @ Post Office",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4052118,
+          27.711319
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0968",
+        "stop_name": "968-Weber @ HEB",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4071996,
+          27.708134
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0970",
+        "stop_name": "970-Weber @Cork",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4083924,
+          27.7061083
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0971",
+        "stop_name": "971-Weber @ O'Day",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4092441,
+          27.7048262
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0972",
+        "stop_name": "972-Weber @ Devonshire",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4100191,
+          27.7036434
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0973",
+        "stop_name": "973-Weber @ Wickersham",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4116006,
+          27.7011135
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0974",
+        "stop_name": "974-Weber @ Saratoga",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4192908,
+          27.7491647
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5024",
+        "stop_name": "Port Ayers Station Bay G",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4170391,
+          27.75117
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0044",
+        "stop_name": "44-Ayers @ Horne",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4155467,
+          27.7501296
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0045",
+        "stop_name": "45-Horne  @  Dinn",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4144689,
+          27.7493092
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0046",
+        "stop_name": "46-Horne  @  Naples",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4118373,
+          27.749807
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0047",
+        "stop_name": "47-Ramsey @  Brawner",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.410451,
+          27.7510433
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0048",
+        "stop_name": "48-3902 Ramsey",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4080414,
+          27.753138
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0049",
+        "stop_name": "49-Ramsey  @  Norton",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4070175,
+          27.7523531
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0050",
+        "stop_name": "50-Norton  @ Houston",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4049585,
+          27.7505382
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0051",
+        "stop_name": "51-Norton @ Greengrove",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4037335,
+          27.7494281
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0052",
+        "stop_name": "52-Norton  @  Melbourne",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4015702,
+          27.7474804
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0054",
+        "stop_name": "54-Norton  @  Kostoryz",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4030712,
+          27.7448075
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0070",
+        "stop_name": "70-Kostoryz  @  Corta",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.403812,
+          27.7436205
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0071",
+        "stop_name": "71-Kostoryz @ Brawner",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4050491,
+          27.7415883
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0072",
+        "stop_name": "72-Kostoryz  @  Horne",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4067228,
+          27.7388846
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0074",
+        "stop_name": "Kostoryz@Golihar",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4080834,
+          27.7366811
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0579",
+        "stop_name": "579-Kostoryz  @ SunnyBrook",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4099285,
+          27.7336484
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0581",
+        "stop_name": "581-Kostoryz @ Mansheim",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4111467,
+          27.7316632
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0582",
+        "stop_name": "582-Kostoryz  @  McArdle",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4121052,
+          27.7301001
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0583",
+        "stop_name": "583-Kostoryz @ SPID",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.414384,
+          27.7264695
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0757",
+        "stop_name": "757-Kostoryz @Lexington",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4154922,
+          27.7247507
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0758",
+        "stop_name": "758-Kostoryz  @  Sacky",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4145637,
+          27.7234512
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0794",
+        "stop_name": "794-Tiger Lane",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4107179,
+          27.7228792
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0795",
+        "stop_name": "795-Tiger Lane @ Surrey",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4087775,
+          27.7204663
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0796",
+        "stop_name": "796-Carroll Lane",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4108636,
+          27.7171351
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0797",
+        "stop_name": "797-Carroll Lane",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4115847,
+          27.715953
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2135",
+        "stop_name": "Carroll Lane @ Holly",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4074658,
+          27.7136622
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0798",
+        "stop_name": "798-Holly @ Inglewood",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.422792,
+          27.704652
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0969",
+        "stop_name": "969-Saratoga @ WellMed",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4256588,
+          27.7082519
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0799",
+        "stop_name": "Carroll High School",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4237664,
+          27.7113544
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0771",
+        "stop_name": "771-Kostoryz @ Masterson",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4200389,
+          27.717348
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0769",
+        "stop_name": "769-Kostoryz @Crestridge",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4196849,
+          27.719668
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0800",
+        "stop_name": "800-3126 Holly",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.422776,
+          27.7212315
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0801",
+        "stop_name": "801-Holly",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4256898,
+          27.7230528
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0943",
+        "stop_name": "943-Richter @ Holly",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4242418,
+          27.7253912
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0802",
+        "stop_name": "802-Richter",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4230882,
+          27.7272515
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2136",
+        "stop_name": "2136-Richter @ Sokol",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4219763,
+          27.7267478
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0803",
+        "stop_name": "803-Sokol",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4187544,
+          27.7251759
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0804",
+        "stop_name": "804-Sokol @ Bonham",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4156862,
+          27.7240773
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0506",
+        "stop_name": "506-Kostoryz @ TIger Ln",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4142308,
+          27.7263759
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0839",
+        "stop_name": "839-Kostoryz @ Oak Village",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4122835,
+          27.7295051
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0840",
+        "stop_name": "840-Kostoryz @ St. Cyril",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4108959,
+          27.7316669
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0841",
+        "stop_name": "841-Kostoryz @ McArdle",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4094632,
+          27.7340067
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0851",
+        "stop_name": "851-Kostoryz@LordofPeace",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4078698,
+          27.736598
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0852",
+        "stop_name": "852-Kostoryz @ Gollihar",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4064091,
+          27.7390238
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0886",
+        "stop_name": "Kostoryz@Golihar",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.404928,
+          27.7413902
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0902",
+        "stop_name": "902-Kostoryz @ Horne",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4032308,
+          27.7442278
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0906",
+        "stop_name": "906-4110 Kostoryz",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.401551,
+          27.7469311
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0937",
+        "stop_name": "937-Kostoryz @ Norton",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4036734,
+          27.7496079
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0938",
+        "stop_name": "938-Norton @ Miami",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4066318,
+          27.7522329
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0939",
+        "stop_name": "939-Norton @ Houston",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4095778,
+          27.7519788
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0940",
+        "stop_name": "940-Ramsey @ Roosevelt",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4120063,
+          27.7500513
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0941",
+        "stop_name": "941-Ramsey @ Brawner",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4146784,
+          27.7496805
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0942",
+        "stop_name": "942-Horne @ Naples",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4193315,
+          27.7493019
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5023",
+        "stop_name": "Port Ayers Station Bay F",
+        "route_id": "15",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2852241,
+          27.6660738
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2501",
+        "stop_name": "Compton @ Waldron",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.069095,
+          27.8183805
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1406",
+        "stop_name": "11th @ Sandcastle",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0632407,
+          27.8249474
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1405",
+        "stop_name": "1405-11th @ Holiday Inn",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0652187,
+          27.8270561
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1410",
+        "stop_name": "1410-Ave G @ 10th Street",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0662226,
+          27.8289637
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1064",
+        "stop_name": "1064-Allister @ Ave F",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0628847,
+          27.8327258
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1412",
+        "stop_name": "1412-Alister @ Ave A",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0601481,
+          27.8335654
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1408",
+        "stop_name": "1408-Beach Ave @ ChurchSt",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0613911,
+          27.8302716
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1414",
+        "stop_name": "Port Aransas Schools",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0698207,
+          27.8249967
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1103",
+        "stop_name": "1103-Hwy 361 @ Crosswalk",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0731076,
+          27.820055
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1104",
+        "stop_name": "1104-Hwy 361 @ Crosswalk",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0752857,
+          27.8164022
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1106",
+        "stop_name": "1106-Hwy 361 @ Snappy's",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.078222,
+          27.8112919
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1108",
+        "stop_name": "1108-Hwy 361 @ Palladium",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2230963,
+          27.6164564
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1900",
+        "stop_name": "Compass Street",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2211088,
+          27.6020139
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1086",
+        "stop_name": "1086-Whitecap",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2088329,
+          27.6070159
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2598",
+        "stop_name": "Windward Parking Lot",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.207656,
+          27.6095249
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2599",
+        "stop_name": "2599-14810 Windward",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2108601,
+          27.607058
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2600",
+        "stop_name": "2600-15002 Leeward",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.212736,
+          27.603218
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2601",
+        "stop_name": "2601-15209 Leeward",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2158301,
+          27.6006821
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2608",
+        "stop_name": "2608-WhiteCap@Windward",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2196202,
+          27.6020113
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2610",
+        "stop_name": "2610-Whitecap@Cane Harbor",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3205606,
+          27.6844405
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0675",
+        "stop_name": "675-SPID @ Southbay",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3226372,
+          27.6854918
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0676",
+        "stop_name": "676-SPID  @  Paul Jones",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3251782,
+          27.6865977
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0677",
+        "stop_name": "677- SPID@Apartments ",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3286386,
+          27.6882136
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0678",
+        "stop_name": "678-SPID @ Ennis Joslin",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3385851,
+          27.6924949
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0299",
+        "stop_name": "299-SPID @ Rodd Field",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3728042,
+          27.7143668
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5013",
+        "stop_name": "Southside Station Bay E",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3654774,
+          27.7095867
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0855",
+        "stop_name": "855-McArdle @ Sunrise Mall",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3404321,
+          27.6926511
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0297",
+        "stop_name": "297-SPID @ Rodd Field",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3301411,
+          27.6879522
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0694",
+        "stop_name": "694-SPID @ Ennis Joslin",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3253616,
+          27.6859017
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0695",
+        "stop_name": "695-SPID",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.323549,
+          27.6850179
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0696",
+        "stop_name": "696-SPID @ Paul Jones",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0805866,
+          27.8053901
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1830",
+        "stop_name": "1830-11th St. @ Acc Rd",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0768825,
+          27.8097108
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1407",
+        "stop_name": "1407-11th @ Oceanside Dr",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0746214,
+          27.8122523
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1403",
+        "stop_name": "1403-11th @ Royal Palm",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0729704,
+          27.8141067
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1404",
+        "stop_name": "1404-11th @Island Retreat",
+        "route_id": "65",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Texas State Aquarium",
+        "description": "World-class aquarium featuring Gulf of Mexico marine life and conservation programs",
+        "address": "2710 N Shoreline Blvd, Corpus Christi, TX 78402",
+        "category": "activities",
+        "tags": [
+          "family-friendly"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3926202,
+          27.8138802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "USS Lexington Museum",
+        "description": "Historic aircraft carrier museum on the bay, explore naval aviation history",
+        "address": "2914 N Shoreline Blvd, Corpus Christi, TX 78402",
+        "category": "activities",
+        "tags": [
+          "family-friendly",
+          "history"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3887113,
+          27.8148742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Texas Botanical Gardens",
+        "description": "Beautiful gardens with nature trails, orchid greenhouse, and seasonal events",
+        "address": "8545 S Staples St, Corpus Christi, TX 78413",
+        "category": "activities",
+        "tags": [
+          "family-friendly",
+          "nature"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.404421,
+          27.6554872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Art Museum of South Texas",
+        "description": "Contemporary art museum with rotating exhibitions and harbor views",
+        "address": "1902 N Shoreline Blvd, Corpus Christi, TX 78401",
+        "category": "activities",
+        "tags": [
+          "art",
+          "culture"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3929852,
+          27.8103878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Selena Museum",
+        "description": "Museum dedicated to Tejano music icon Selena Quintanilla at Q-Productions",
+        "address": "5410 Leopard St, Corpus Christi, TX 78408",
+        "category": "activities",
+        "tags": [
+          "culture",
+          "music"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4613,
+          27.7979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corpus Christi Museum of Science and History",
+        "description": "Regional history, natural science, and shipwreck exhibits",
+        "address": "1900 N Chaparral St, Corpus Christi, TX 78401",
+        "category": "activities",
+        "tags": [
+          "family-friendly",
+          "history"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3952083,
+          27.8103016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harbor Playhouse",
+        "description": "Community theater with quality productions throughout the year",
+        "address": "1802 N Chaparral St, Corpus Christi, TX 78401",
+        "category": "activities",
+        "tags": [
+          "culture",
+          "theater"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3952735,
+          27.8088191
+        ]
+      }
+    }
+  ]
+}

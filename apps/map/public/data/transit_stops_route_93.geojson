@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3391484,
+          27.7054423
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0438",
+        "stop_name": "Islander Way @ Izzy",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3398999,
+          27.7070527
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0439",
+        "stop_name": "439-Nile @ Wave",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3231983,
+          27.7150528
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0456",
+        "stop_name": "Texas A&M University",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3313101,
+          27.6861066
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0611",
+        "stop_name": "Ennis Joslin @ Cott",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3385851,
+          27.6924949
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0299",
+        "stop_name": "299-SPID @ Rodd Field",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33275,
+          27.6957824
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9056",
+        "stop_name": "9056-Ennis Joslin @LaJoya",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3356352,
+          27.7028222
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0410",
+        "stop_name": "410-Ennis Joslin  @  Pharaoh",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3350859,
+          27.7182923
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0455",
+        "stop_name": "455-EnnisJoslin@Ebonwood",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3400154,
+          27.7072172
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0426",
+        "stop_name": "426-Nile @ Momentom",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3382835,
+          27.7051406
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0429",
+        "stop_name": "Islander @ Village",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3358606,
+          27.7026538
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9049",
+        "stop_name": "9049-Ennis Joslin",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3330379,
+          27.6961589
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9052",
+        "stop_name": "9052-Ennis Joslin @Shores",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3305387,
+          27.6907212
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0679",
+        "stop_name": "679-Ennis Joslin@Bay Point",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.343084,
+          27.6910633
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0870",
+        "stop_name": "870-Rodd Field @Williams",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3313306,
+          27.6909802
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0693",
+        "stop_name": "693-Ennis Joslin",
+        "route_id": "93",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

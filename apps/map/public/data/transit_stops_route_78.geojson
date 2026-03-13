@@ -1,0 +1,277 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4024005,
+          27.7954059
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9017",
+        "stop_name": "Staples St Station Lane M",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3851735,
+          27.8314185
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1317",
+        "stop_name": "1317-Beach @ Causeway",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.384931,
+          27.8289816
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1335",
+        "stop_name": "1335-Timon @ Neal",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3865488,
+          27.826369
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1356",
+        "stop_name": "1356-Timon @ Surfboard",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3881321,
+          27.8239256
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1359",
+        "stop_name": "1359-Timon @ Churchdale",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3895388,
+          27.8213649
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1312",
+        "stop_name": "1312-Timon @ Paul",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3907835,
+          27.8194596
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1314",
+        "stop_name": "1314-Timon @ Elm",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3919727,
+          27.8166578
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1315",
+        "stop_name": "1315-Surfside @Breakwater",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.392172,
+          27.815483
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1711",
+        "stop_name": "Texas State Aquarium",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3904321,
+          27.8168555
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1318",
+        "stop_name": "1318-Shoreline@Bridgeport",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3901984,
+          27.8189567
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1319",
+        "stop_name": "1319-Surfside @ Elm",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3893904,
+          27.8210796
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1320",
+        "stop_name": "1320-Surfside @ Paul",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3877078,
+          27.8236747
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1321",
+        "stop_name": "1321-Surfside @ Bushick",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3862328,
+          27.8260371
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1322",
+        "stop_name": "1322-Surfside@VillaDelSol",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3851532,
+          27.8278316
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1323",
+        "stop_name": "1323-Surfside @ Gulfspray",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3838216,
+          27.8297414
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1325",
+        "stop_name": "1325-Surfside @ Hayes",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3851091,
+          27.8315022
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1313",
+        "stop_name": "1313-Beach @ Causeway",
+        "route_id": "78",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

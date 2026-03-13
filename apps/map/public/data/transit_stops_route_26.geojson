@@ -1,0 +1,1109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3654774,
+          27.7095867
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0855",
+        "stop_name": "855-McArdle @ Sunrise Mall",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3705357,
+          27.7120973
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0853",
+        "stop_name": "853-MacArdle @ Staples",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.368183,
+          27.7109347
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0854",
+        "stop_name": "854-McArdle @ The Shops at La",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3631408,
+          27.7084133
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0856",
+        "stop_name": "856-McArdle @ Airline",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3654445,
+          27.7097206
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0837",
+        "stop_name": "837-McArdle @ Sunrise Mall",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3680882,
+          27.7110505
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0838",
+        "stop_name": "838-McArdle  @  Airline",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3796906,
+          27.6850247
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1802",
+        "stop_name": "SpohnSouth @Saratoga",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3826859,
+          27.6871962
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1804",
+        "stop_name": "1804-Staples @ Spohn",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.380567,
+          27.6906559
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1805",
+        "stop_name": "1805-Staples @ Esplanade",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3779404,
+          27.6908458
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1821",
+        "stop_name": "1821-Wooldridge @Saratoga",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3760547,
+          27.6898977
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1822",
+        "stop_name": "Wooldridge @Saratoga",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3742171,
+          27.6889559
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2538",
+        "stop_name": "2538-Wooldridge @ Patton",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3754391,
+          27.6869529
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2539",
+        "stop_name": "2539-Parkway @ Esplanade",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3768233,
+          27.6857183
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1824",
+        "stop_name": "1824-Esplanade @ Spohn",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3728522,
+          27.7140483
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5015",
+        "stop_name": "Southside Station Bay G",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3732022,
+          27.7141721
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5010",
+        "stop_name": "Southside Station Bay B",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3907799,
+          27.6742437
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2534",
+        "stop_name": "2534-Staples @ Corsica",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.387855,
+          27.6790271
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2535",
+        "stop_name": "2535-Staples @ Timbergate",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3865311,
+          27.681175
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2536",
+        "stop_name": "2536-6646 Staples",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3852171,
+          27.6832579
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2537",
+        "stop_name": "2537-Staples@Auto Parts",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3855101,
+          27.683132
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2540",
+        "stop_name": "2540-6657 Staples",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3865301,
+          27.6814741
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2541",
+        "stop_name": "2541-Staples @ Camden",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3884399,
+          27.6784839
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2542",
+        "stop_name": "2542-Staples @ Timbergate",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3892889,
+          27.67717
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2543",
+        "stop_name": "2543-Staples @ Gateway",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3911043,
+          27.6742263
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2544",
+        "stop_name": "2544-Staples",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3913724,
+          27.6725021
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2545",
+        "stop_name": "Lipes @ Staples",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3882436,
+          27.6709122
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2546",
+        "stop_name": "2546-Lipes @Gingerberry",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3848759,
+          27.6693137
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2547",
+        "stop_name": "2547-Lipes @ Grape",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3814426,
+          27.6678104
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2548",
+        "stop_name": "2548-Lipes @ Kitty",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3785745,
+          27.6661815
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2549",
+        "stop_name": "2549-Lipes @ Cimarron",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3763732,
+          27.6674267
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2550",
+        "stop_name": "2550-Cimarron @ Veterans HS",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3747518,
+          27.6700456
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2552",
+        "stop_name": "2552-Cimarron @ Church",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3735658,
+          27.6719459
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2553",
+        "stop_name": "2553-Cimarron",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3713458,
+          27.6755638
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2513",
+        "stop_name": "2513-Cimmaron @ Dunbarton",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3703999,
+          27.6770041
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2554",
+        "stop_name": "2554-Cimarron @Saratoga",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3682901,
+          27.6804222
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2555",
+        "stop_name": "2555-Cimarron@Cimarron Estates",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.366842,
+          27.6827275
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2556",
+        "stop_name": "2556-Cimarron @ Kristin",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3651028,
+          27.685486
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2557",
+        "stop_name": "2557-Cimarron@Misty",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3634873,
+          27.6890633
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2558",
+        "stop_name": "2558-Airline @ Meadow",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3633714,
+          27.6909486
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2559",
+        "stop_name": "Airline @ Holly",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3632769,
+          27.6932069
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2560",
+        "stop_name": "2560-Airline @Christiwood",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.363147,
+          27.6951192
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2561",
+        "stop_name": "2561-Airline @ Candlewood",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3630939,
+          27.6968762
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2562",
+        "stop_name": "2562-Airline @ Vincent",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3629742,
+          27.6994495
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2563",
+        "stop_name": "2563-Airline @ Williams",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3628525,
+          27.7015151
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2564",
+        "stop_name": "2564-Airline @ Lowes",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3625949,
+          27.7070099
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2565",
+        "stop_name": "2565-Airline @ Gulfway",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3628101,
+          27.7068383
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0783",
+        "stop_name": "783-Airline @ McArdle",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3630361,
+          27.7020939
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0784",
+        "stop_name": "784-Airline @ SPID",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3631103,
+          27.6998356
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0785",
+        "stop_name": "785-Airline @ Williams",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3631985,
+          27.6984606
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0786",
+        "stop_name": "786-Airline @ Orangewood",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36331,
+          27.6959564
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0787",
+        "stop_name": "787-Airline@HiddenOaksI",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3634083,
+          27.6943622
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0788",
+        "stop_name": "788-Airline@HiddenOaksII",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3635222,
+          27.6917402
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0789",
+        "stop_name": "Airline @ Holly",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3636793,
+          27.688648
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0790",
+        "stop_name": "790-Airline @ Wilderock",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3652811,
+          27.6855333
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0791",
+        "stop_name": "791-Cimarron",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3661492,
+          27.6841375
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1812",
+        "stop_name": "1812-Cimarron @ Coppedge",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3676122,
+          27.681769
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1813",
+        "stop_name": "1813-Cimarron @ Bradley",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3684128,
+          27.6805678
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1814",
+        "stop_name": "1814-Cimarron",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3705391,
+          27.6771587
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1051",
+        "stop_name": "1051-Cimarron @ Saratoga",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3715862,
+          27.6755006
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1815",
+        "stop_name": "1815-Cimarron @ Dunbarton",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3737299,
+          27.6720287
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2524",
+        "stop_name": "2524-Cimarron",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3748434,
+          27.6702242
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2525",
+        "stop_name": "2525-Cimmaron",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3759604,
+          27.6684042
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2526",
+        "stop_name": "2526-Cimarron @ Megan",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3768239,
+          27.6670534
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2528",
+        "stop_name": "2528-3701 Cimarron",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3785318,
+          27.6663312
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2529",
+        "stop_name": "2529-Lipes @ Lipes Apts",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3816308,
+          27.66808
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2530",
+        "stop_name": "2530-Lipes @ Brockhampton",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3846044,
+          27.6694126
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2531",
+        "stop_name": "2531-Lipes @ Grape",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3877878,
+          27.6707055
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2532",
+        "stop_name": "2532-5642 Lipes @Ginger",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3909272,
+          27.6724939
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2533",
+        "stop_name": "Lipes @ Staples",
+        "route_id": "26",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

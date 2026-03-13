@@ -1,0 +1,1989 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2852241,
+          27.6660738
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2501",
+        "stop_name": "Compton @ Waldron",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2857112,
+          27.6694844
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0705",
+        "stop_name": "705-SPID @ Sunburst",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.283363,
+          27.6691624
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0668",
+        "stop_name": "668-SPID @ Fawn",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2887284,
+          27.6717651
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0670",
+        "stop_name": "670-SPID @ Stone",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2905029,
+          27.6726008
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0671",
+        "stop_name": "671-SPID @ Talmadge",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2919853,
+          27.6733299
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0672",
+        "stop_name": "672-SPID @ McIver",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2945163,
+          27.6746213
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0673",
+        "stop_name": "673-SPID @ Weaver",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.30013,
+          27.6760099
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0674",
+        "stop_name": "674-SPID @ Bullfinch",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3049589,
+          27.6762413
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0697",
+        "stop_name": "697-SPID",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3014845,
+          27.6754989
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0698",
+        "stop_name": "698-SPID  @  Padre Motel",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2984864,
+          27.6750753
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0699",
+        "stop_name": "Flour Bluff Walmart",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2954451,
+          27.6742229
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0700",
+        "stop_name": "700-SPID  @  Flour Bluff",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2923629,
+          27.6727717
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0702",
+        "stop_name": "702-SPID  @  Barton",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.28987,
+          27.6715154
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0703",
+        "stop_name": "703-SPID  @  Oberste",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2878011,
+          27.6704387
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0704",
+        "stop_name": "704-SPID  @  Stone",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3205606,
+          27.6844405
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0675",
+        "stop_name": "675-SPID @ Southbay",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3226372,
+          27.6854918
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0676",
+        "stop_name": "676-SPID  @  Paul Jones",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3251782,
+          27.6865977
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0677",
+        "stop_name": "677- SPID@Apartments ",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3286386,
+          27.6882136
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0678",
+        "stop_name": "678-SPID @ Ennis Joslin",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3301411,
+          27.6879522
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0694",
+        "stop_name": "694-SPID @ Ennis Joslin",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3253616,
+          27.6859017
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0695",
+        "stop_name": "695-SPID",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.323549,
+          27.6850179
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0696",
+        "stop_name": "696-SPID @ Paul Jones",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3787386,
+          27.7256372
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1109",
+        "stop_name": "1109-Staples @ Everhart",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3705357,
+          27.7120973
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0853",
+        "stop_name": "853-MacArdle @ Staples",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3388335,
+          27.6963763
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0689",
+        "stop_name": "689-McArdle @ RoddField",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33654,
+          27.6952525
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0690",
+        "stop_name": "690-McArdle@Apartments",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.333094,
+          27.6935431
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0692",
+        "stop_name": "692-McArdle@Ennis Joslin",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3333951,
+          27.6938471
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0681",
+        "stop_name": "681-McArdle  @ Ennis Joslin",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3357612,
+          27.6950681
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0682",
+        "stop_name": "682-Mcardle@Apartments",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3389561,
+          27.6966539
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9002",
+        "stop_name": "9002-McArdle @ Rodd Field",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3305387,
+          27.6907212
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0679",
+        "stop_name": "679-Ennis Joslin@Bay Point",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3395679,
+          27.6966183
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0684",
+        "stop_name": "684-Rodd Field @McArdle",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.341171,
+          27.694086
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0685",
+        "stop_name": "685-Rodd Field @ SPID",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.343084,
+          27.6910633
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0870",
+        "stop_name": "870-Rodd Field @Williams",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3455739,
+          27.6915806
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0871",
+        "stop_name": "Williams @ Bay Area",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3478445,
+          27.692691
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0872",
+        "stop_name": "872-Williams @ Nile",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3519639,
+          27.6947282
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0873",
+        "stop_name": "873-Williams @ Thames",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3541471,
+          27.6958158
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0874",
+        "stop_name": "874-Williams @ Micheline",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3618612,
+          27.6996165
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0877",
+        "stop_name": "877-Williams @ Airline",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3641557,
+          27.7008004
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0878",
+        "stop_name": "878-Williams @ Airline",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.366054,
+          27.7017612
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0879",
+        "stop_name": "879-Williams @ Our Lady",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3707585,
+          27.7040914
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0880",
+        "stop_name": "880-Williams @ W Manor",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3711617,
+          27.7057677
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1041",
+        "stop_name": "1041-Staples @ Moore Plaza",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3732692,
+          27.71407
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5009",
+        "stop_name": "Southside Station Bay A",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3717988,
+          27.7156081
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1045",
+        "stop_name": "1045-Staples @ King H S ",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3735982,
+          27.7181924
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1046",
+        "stop_name": "1046-Staples@Collingswood",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3764522,
+          27.7224371
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1048",
+        "stop_name": "1048-Staples @ Gollihar",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3789256,
+          27.7262666
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1049",
+        "stop_name": "1049-Staples @ Gollihar",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3798057,
+          27.727626
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1052",
+        "stop_name": "1052-Staples @ Barry",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3812694,
+          27.7297474
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1053",
+        "stop_name": "1053-Staples @ Carmel",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3847862,
+          27.7349628
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1056",
+        "stop_name": "1056-Staples @ Hamlin",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3872569,
+          27.7387163
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1958",
+        "stop_name": "1958-Staples @ Weber",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3880868,
+          27.7399526
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1059",
+        "stop_name": "Staples @ Weber",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3897847,
+          27.7425748
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1061",
+        "stop_name": "1061-Staples @ Brawner",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3926864,
+          27.7468564
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1063",
+        "stop_name": "Staples @ Carroll Ln",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3950926,
+          27.7503864
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1065",
+        "stop_name": "1065-Staples @ TexanTrail",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3982061,
+          27.7549504
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1068",
+        "stop_name": "1068-Staples @ McClendon",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4000607,
+          27.7577539
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1070",
+        "stop_name": "1070-Staples @ Sorrell",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.401969,
+          27.7605515
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1072",
+        "stop_name": "1072-Staples @ Texas",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4034566,
+          27.7642512
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1075",
+        "stop_name": "1075-Staples @ Baldwin",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4024691,
+          27.768089
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1076",
+        "stop_name": "1076-Staples @ 15th Street",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4017333,
+          27.7704367
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1078",
+        "stop_name": "Staples @ Brownlee",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4013233,
+          27.776861
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1080",
+        "stop_name": "1080-Staples@ Elizabeth",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4014868,
+          27.7789421
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0291",
+        "stop_name": "Morgan @ Staples",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.401685,
+          27.7814005
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0292",
+        "stop_name": "292-Staples  @  Buford",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4019607,
+          27.7846105
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0293",
+        "stop_name": "293-Staples  @  Coleman",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4023797,
+          27.789253
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0296",
+        "stop_name": "296-Staples @ Laredo",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.402817,
+          27.7915447
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0298",
+        "stop_name": "298-Staples @ Blucher",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4025447,
+          27.7954865
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5007",
+        "stop_name": "Staples Street Station Bay G",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3796906,
+          27.6850247
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1802",
+        "stop_name": "SpohnSouth @Saratoga",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3826859,
+          27.6871962
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1804",
+        "stop_name": "1804-Staples @ Spohn",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.380567,
+          27.6906559
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1805",
+        "stop_name": "1805-Staples @ Esplanade",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3785588,
+          27.6937944
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1806",
+        "stop_name": "1806-5926 Staples",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3767795,
+          27.6968296
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1808",
+        "stop_name": "1808-Staples @ Holly",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3748982,
+          27.6995154
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1809",
+        "stop_name": "1809-Staples @ Cain",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3730553,
+          27.7026948
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1811",
+        "stop_name": "1811-Staples @CurtisClark",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4026416,
+          27.7956293
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5002",
+        "stop_name": "Staples Street Station Bay B",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4029847,
+          27.7914803
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0302",
+        "stop_name": "302-Staples @ Mussett",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4025106,
+          27.7890584
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0304",
+        "stop_name": "304-Staples @ Laredo",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4021851,
+          27.7849174
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0306",
+        "stop_name": "306-Staples  @  Coleman",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4018807,
+          27.7815998
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0307",
+        "stop_name": "307-Staples  @  Buford",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4016378,
+          27.7788762
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0308",
+        "stop_name": "Morgan @ Staples",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.401517,
+          27.7762886
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1081",
+        "stop_name": "1081-Staples @ Elizabeth",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4016273,
+          27.7712572
+        ]
+      },
+      "properties": {
+        "stop_id": "0:8005",
+        "stop_name": "Staples @ Brownlee",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4023095,
+          27.7687424
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1084",
+        "stop_name": "1084-Staples @ 15th Street",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4035562,
+          27.7641217
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1087",
+        "stop_name": "1087-Staples @ Kosar",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4017033,
+          27.7600675
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1089",
+        "stop_name": "1089-Staples @ Ralston",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3998653,
+          27.7573525
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1091",
+        "stop_name": "1091-Staples @ Maryland",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3980877,
+          27.7546736
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1093",
+        "stop_name": "1093-Staples @ Blevins",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3951785,
+          27.7502416
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1095",
+        "stop_name": "1095-Staples @ TexanTrail",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3927448,
+          27.7466065
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1097",
+        "stop_name": "Staples @ Carroll Ln",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3900405,
+          27.7424392
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1649",
+        "stop_name": "1649-Staples @ Brawner",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3880019,
+          27.7394383
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1100",
+        "stop_name": "1100-Staples @ Weber",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3871724,
+          27.7382019
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1101",
+        "stop_name": "Staples @ Weber",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3843198,
+          27.733972
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1102",
+        "stop_name": "1102-Staples @ Hamlin",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3818515,
+          27.7302744
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1105",
+        "stop_name": "1105-Staples @ Carmel",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3803327,
+          27.728028
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1107",
+        "stop_name": "1107-Staples @ Barry",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3763803,
+          27.7222173
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1110",
+        "stop_name": "1110-Staples @ Auto town",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.37317,
+          27.717482
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1113",
+        "stop_name": "1113-Staples@MustangTrail",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3715726,
+          27.7149765
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1114",
+        "stop_name": "1114-Staples@ShoppingWay",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3730361,
+          27.7138416
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5017",
+        "stop_name": "Southside Station Bay J",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3709437,
+          27.7063115
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1118",
+        "stop_name": "1118-Moore Plaza",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.37077,
+          27.7038792
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0890",
+        "stop_name": "890-Williams @ W Manor",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3653009,
+          27.7011256
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0892",
+        "stop_name": "892-Williams @ Leslie",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.364079,
+          27.7005109
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0893",
+        "stop_name": "893-Williams @ Airline",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3617366,
+          27.6993655
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0894",
+        "stop_name": "894-Williams @ Airline",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.357648,
+          27.6973803
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0896",
+        "stop_name": "896-Williams @ Clare",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3539703,
+          27.6955485
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0897",
+        "stop_name": "897-Williams @Micheline",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3518357,
+          27.6944745
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0898",
+        "stop_name": "898-Williams @ Thames",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3485609,
+          27.6928344
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0899",
+        "stop_name": "899-Williams @ Nile",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3453146,
+          27.6912553
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0900",
+        "stop_name": "Williams @ Bay Area",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3417371,
+          27.6928441
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0686",
+        "stop_name": "686-Rodd Field @SPID",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3406028,
+          27.6947532
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0687",
+        "stop_name": "687-Rodd Field@SkyHarbor",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3398287,
+          27.6958886
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0688",
+        "stop_name": "688-Rodd Field @ McArdle",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3313306,
+          27.6909802
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0693",
+        "stop_name": "693-Ennis Joslin",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3730534,
+          27.7028222
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2901",
+        "stop_name": "2901-Staples @CurtisClark",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3747868,
+          27.6999861
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2902",
+        "stop_name": "2902-5525 Staples",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3768215,
+          27.6968915
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2903",
+        "stop_name": "2903-5757 Staples",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3790635,
+          27.6934787
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2904",
+        "stop_name": "2904-5959 Staples",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3779404,
+          27.6908458
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1821",
+        "stop_name": "1821-Wooldridge @Saratoga",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3760547,
+          27.6898977
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1822",
+        "stop_name": "Wooldridge @Saratoga",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3742171,
+          27.6889559
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2538",
+        "stop_name": "2538-Wooldridge @ Patton",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3754391,
+          27.6869529
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2539",
+        "stop_name": "2539-Parkway @ Esplanade",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3768233,
+          27.6857183
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1824",
+        "stop_name": "1824-Esplanade @ Spohn",
+        "route_id": "29",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}
