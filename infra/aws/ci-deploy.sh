@@ -52,6 +52,13 @@ NGINX_ROOT="/var/www/atlas.ccce.dev"
 if cp -r ~/ccce-atlas/apps/map/public/* $NGINX_ROOT/ 2>/dev/null; then
     echo "✅ Frontend files copied to $NGINX_ROOT"
 
+    # Note: config.js is gitignored and must be manually uploaded once to production
+    # It contains the Cesium token and should already exist at $NGINX_ROOT/js/config.js
+    if [ ! -f "$NGINX_ROOT/js/config.js" ]; then
+        echo "⚠️  WARNING: config.js not found! Upload it manually with:"
+        echo "   scp apps/map/public/js/config.js ec2-user@<host>:$NGINX_ROOT/js/"
+    fi
+
     # Reload nginx
     if sudo systemctl reload nginx 2>/dev/null; then
         echo "✅ Nginx reloaded"
