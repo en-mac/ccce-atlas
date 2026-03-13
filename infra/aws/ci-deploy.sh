@@ -45,6 +45,12 @@ docker-compose -f docker-compose.prod.yml build --no-cache
 echo "→ Starting services..."
 docker-compose -f docker-compose.prod.yml up -d
 
+# Deploy frontend to nginx
+echo "→ Deploying frontend..."
+sudo cp -r ~/ccce-atlas/apps/map/public/* /usr/share/nginx/html/
+sudo systemctl reload nginx
+echo "✅ Frontend deployed to /usr/share/nginx/html/"
+
 # Wait for services to be healthy
 echo "→ Waiting for services to start..."
 sleep 5
