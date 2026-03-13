@@ -1,29 +1,24 @@
 # CCCE Atlas
 
-**Corpus Christi Civic Explorer** - A full-stack geospatial platform for exploring civic data in Corpus Christi / Nueces County, Texas.
+**Corpus Christi Civic Explorer** - Geospatial platform for Corpus Christi / Nueces County civic data.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Built with Cesium.js, FastAPI, and PostgreSQL + PostGIS.
+## Live Deployment
 
----
+- **Frontend:** https://atlas.ccce.dev
+- **API:** https://api.atlas.ccce.dev/docs
 
-## 🗺️ Overview
+## What's Deployed
 
-CCCE Atlas provides spatial querying and visualization of:
-- **156,656 property parcels** with ownership, value, and zoning data
-- **31 points of interest** (coffee shops, beaches, parks, museums, etc.)
-- **84 public transit routes** (CCRTA bus system)
+Currently loaded on AWS free tier:
+- ✅ **31 POIs** (beaches, coffee shops, trails, libraries, etc.)
+- ✅ **84 transit routes** (CCRTA bus system)
+- ⚠️ **Parcels:** Not yet loaded (156K parcels available but not in production database)
 
-Perfect for civic engagement, urban planning, and geospatial analysis.
+## Known Limitations
 
-### Live Demo
-
-🚧 *Demo coming soon*
-
-### Screenshots
-
-🚧 *Screenshots coming soon*
+- Property parcel data not loaded to production database yet
 
 ---
 

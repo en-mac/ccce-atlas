@@ -83,6 +83,7 @@ async def get_pois_near_point(
     lon: float = Query(..., description="Longitude", ge=-180, le=180),
     radius_meters: float = Query(1000, description="Search radius in meters", ge=1, le=10000),
     limit: int = Query(50, description="Maximum results", ge=1, le=500),
+    category: str | None = Query(None, description="Filter by POI category (e.g., 'coffee', 'beaches')"),
 ):
     """
     Find POIs within radius of a point.
@@ -92,6 +93,7 @@ async def get_pois_near_point(
         lon: Longitude
         radius_meters: Search radius in meters (max 10km)
         limit: Maximum results (max 500)
+        category: Optional category filter (e.g., 'coffee', 'beaches')
 
     Returns:
         Nearby POIs with distance in meters
@@ -103,6 +105,7 @@ async def get_pois_near_point(
         lon=lon,
         radius=radius_meters,
         limit=limit,
+        category=category,
     )
     cached = await redis_cache.get(cache_key)
     if cached:
@@ -111,13 +114,23 @@ async def get_pois_near_point(
     # Query database
     pool = database_pool.get_pool()
     async with pool.acquire() as conn:
-        rows = await conn.fetch(
-            queries.POIS_NEAR_POINT,
-            lat,
-            lon,
-            radius_meters,
-            limit
-        )
+        if category:
+            rows = await conn.fetch(
+                queries.POIS_NEAR_POINT_BY_CATEGORY,
+                lat,
+                lon,
+                radius_meters,
+                limit,
+                category
+            )
+        else:
+            rows = await conn.fetch(
+                queries.POIS_NEAR_POINT,
+                lat,
+                lon,
+                radius_meters,
+                limit
+            )
 
     pois = [dict(row) for row in rows]
     result = {
