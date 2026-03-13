@@ -45,11 +45,22 @@ docker-compose -f docker-compose.prod.yml build --no-cache
 echo "→ Starting services..."
 docker-compose -f docker-compose.prod.yml up -d
 
-# Deploy frontend to nginx
+# Deploy frontend to nginx (requires user to have write permissions)
+# If this fails, run: sudo chown -R $USER:nginx /usr/share/nginx/html && sudo chmod -R 775 /usr/share/nginx/html
 echo "→ Deploying frontend..."
-sudo cp -r ~/ccce-atlas/apps/map/public/* /usr/share/nginx/html/
-sudo systemctl reload nginx
-echo "✅ Frontend deployed to /usr/share/nginx/html/"
+if cp -r ~/ccce-atlas/apps/map/public/* /usr/share/nginx/html/ 2>/dev/null; then
+    echo "✅ Frontend files copied"
+    # Reload nginx config (requires passwordless sudo or skip with warning)
+    if sudo systemctl reload nginx 2>/dev/null; then
+        echo "✅ Nginx reloaded"
+    else
+        echo "⚠️  Nginx reload skipped (no sudo access) - files updated but cache may persist"
+    fi
+else
+    echo "❌ Frontend deployment failed - permission denied"
+    echo "Run on EC2: sudo chown -R \$USER:nginx /usr/share/nginx/html && sudo chmod -R 775 /usr/share/nginx/html"
+    exit 1
+fi
 
 # Wait for services to be healthy
 echo "→ Waiting for services to start..."
