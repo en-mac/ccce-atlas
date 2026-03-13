@@ -310,6 +310,24 @@
 
     <!-- Scripts -->
     <script src="js/config.js"></script>
+
+    <!-- Hide certain sections in production -->
+    <script>
+        // Only show Guided Tour and Property Parcels in local development
+        if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+            // Running in production - hide these sections
+            document.addEventListener('DOMContentLoaded', function() {
+                const tourSection = document.querySelector('.tour-section');
+                const parcelsSection = document.querySelectorAll('.sidebar-section')[5]; // Property Parcels is 6th section (index 5)
+
+                if (tourSection) tourSection.style.display = 'none';
+                if (parcelsSection && parcelsSection.querySelector('h2')?.textContent === 'Property Parcels') {
+                    parcelsSection.style.display = 'none';
+                }
+            });
+        }
+    </script>
+
     <script src="js/parcel-colors.js"></script>
     <script src="js/layers.js"></script>
     <script src="js/transit.js"></script>
