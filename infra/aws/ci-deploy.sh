@@ -45,24 +45,22 @@ docker-compose -f docker-compose.prod.yml build --no-cache
 echo "→ Starting services..."
 docker-compose -f docker-compose.prod.yml up -d
 
-# Deploy frontend to nginx (requires user to have write permissions)
-# If this fails, run: sudo chown -R $USER:nginx /usr/share/nginx/html && sudo chmod -R 775 /usr/share/nginx/html
+# Deploy frontend to nginx (serves from /var/www/atlas.ccce.dev)
 echo "→ Deploying frontend..."
-if cp -r ~/ccce-atlas/apps/map/public/* /usr/share/nginx/html/ 2>/dev/null; then
-    echo "✅ Frontend files copied"
+NGINX_ROOT="/var/www/atlas.ccce.dev"
 
-    # Clear nginx cache and reload
-    echo "→ Clearing nginx cache..."
-    if sudo find /var/cache/nginx -type f -delete 2>/dev/null && sudo systemctl reload nginx 2>/dev/null; then
-        echo "✅ Nginx cache cleared and reloaded"
+if cp -r ~/ccce-atlas/apps/map/public/* $NGINX_ROOT/ 2>/dev/null; then
+    echo "✅ Frontend files copied to $NGINX_ROOT"
+
+    # Reload nginx
+    if sudo systemctl reload nginx 2>/dev/null; then
+        echo "✅ Nginx reloaded"
     else
-        echo "⚠️  Cache clear/reload may have failed - trying without sudo..."
-        # Try without cache clear if sudo fails
-        sudo systemctl reload nginx 2>/dev/null || echo "⚠️  Nginx reload skipped (no sudo)"
+        echo "⚠️  Nginx reload skipped (no sudo)"
     fi
 else
     echo "❌ Frontend deployment failed - permission denied"
-    echo "Run on EC2: sudo chown -R \$USER:nginx /usr/share/nginx/html && sudo chmod -R 775 /usr/share/nginx/html"
+    echo "Run on EC2: sudo chown -R \$USER:nginx $NGINX_ROOT && sudo chmod -R 775 $NGINX_ROOT"
     exit 1
 fi
 
