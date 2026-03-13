@@ -111,23 +111,21 @@ async function loadLayer(categoryId, categoryConfig) {
                     entity.billboard.image = createPinImage(categoryConfig.color, categoryConfig.icon);
                     entity.billboard.verticalOrigin = Cesium.VerticalOrigin.BOTTOM;
                     entity.billboard.scale = 0.7;
-                    // Raise bus stops higher for better visibility
-                    if (categoryId === 'transit_stops') {
-                        entity.billboard.heightReference = Cesium.HeightReference.RELATIVE_TO_GROUND;
-                        entity.billboard.disableDepthTestDistance = Number.POSITIVE_INFINITY;
-                    }
+                    // Position relative to ground and disable depth testing (same as transit stops)
+                    entity.billboard.heightReference = Cesium.HeightReference.RELATIVE_TO_GROUND;
+                    entity.billboard.disableDepthTestDistance = Number.POSITIVE_INFINITY;
+                    entity.billboard.eyeOffset = new Cesium.Cartesian3(0, 0, -1000); // Prevent distance culling
                 } else {
                     // If no billboard exists, create one
                     entity.billboard = {
                         image: createPinImage(categoryConfig.color, categoryConfig.icon),
                         verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
-                        scale: 0.7
+                        scale: 0.7,
+                        // Position relative to ground and disable depth testing (same as transit stops)
+                        heightReference: Cesium.HeightReference.RELATIVE_TO_GROUND,
+                        disableDepthTestDistance: Number.POSITIVE_INFINITY,
+                        eyeOffset: new Cesium.Cartesian3(0, 0, -1000) // Prevent distance culling
                     };
-                    // Raise bus stops higher for better visibility
-                    if (categoryId === 'transit_stops') {
-                        entity.billboard.heightReference = Cesium.HeightReference.RELATIVE_TO_GROUND;
-                        entity.billboard.disableDepthTestDistance = Number.POSITIVE_INFINITY;
-                    }
                 }
 
                 // Add label for bus stops
