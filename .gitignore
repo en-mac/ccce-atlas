@@ -109,5 +109,13 @@ aws-credentials.txt
 
 # Vercel
 .vercel
-#internal docs
+
+# Internal docs (contains sensitive deployment info, server IPs, etc.)
 internal-docs/
+
+# AWS deployment scripts (moved to internal-docs/deployment/)
+infra/aws/deploy.sh
+infra/aws/setup-ec2.sh
+infra/aws/setup-nginx.sh
+infra/aws/load-data.sh
+infra/aws/CICD_SETUP.md
