@@ -254,7 +254,7 @@
                 </details>
 
                 <!-- Property Parcels -->
-                <details class="sidebar-section collapsible" style="margin-top: 15px;">
+                <details id="parcels-section" class="sidebar-section collapsible" style="margin-top: 15px;">
                     <summary>
                         <h2>Property Parcels</h2>
                     </summary>
@@ -318,12 +318,10 @@
             // Running in production - hide these sections
             document.addEventListener('DOMContentLoaded', function() {
                 const tourSection = document.querySelector('.tour-section');
-                const parcelsSection = document.querySelectorAll('.sidebar-section')[5]; // Property Parcels is 6th section (index 5)
+                const parcelsSection = document.getElementById('parcels-section');
 
                 if (tourSection) tourSection.style.display = 'none';
-                if (parcelsSection && parcelsSection.querySelector('h2')?.textContent === 'Property Parcels') {
-                    parcelsSection.style.display = 'none';
-                }
+                if (parcelsSection) parcelsSection.style.display = 'none';
             });
         }
     </script>
