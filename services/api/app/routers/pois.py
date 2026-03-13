@@ -32,37 +32,74 @@ def build_poi_filters(
     Returns:
         (query_filters, count_filters, params)
     """
-    filters = []
+    query_filters = []  # For GET_POIS (has LIMIT/OFFSET, params start at $3)
+    count_filters = []  # For COUNT_POIS (no LIMIT/OFFSET, params start at $1)
     params = []
-    param_num = 3  # Start after limit ($1) and offset ($2)
+    query_param_num = 3  # Start after limit ($1) and offset ($2)
+    count_param_num = 1  # Start at $1 for count query
 
     if category:
-        filters.append(f"AND category = ${param_num}")
+        query_filters.append(f"AND category = ${query_param_num}")
+        count_filters.append(f"AND category = ${count_param_num}")
         params.append(category)
-        param_num += 1
+        query_param_num += 1
+        count_param_num += 1
 
     if bbox:
         # bbox format: west,south,east,north
         try:
             west, south, east, north = map(float, bbox.split(","))
-            filters.append(
-                f"AND ST_Intersects(geom, ST_MakeEnvelope(${param_num}, ${param_num+1}, ${param_num+2}, ${param_num+3}, 4326))"
+            query_filters.append(
+                f"AND ST_Intersects(geom, ST_MakeEnvelope(${query_param_num}, ${query_param_num+1}, ${query_param_num+2}, ${query_param_num+3}, 4326))"
+            )
+            count_filters.append(
+                f"AND ST_Intersects(geom, ST_MakeEnvelope(${count_param_num}, ${count_param_num+1}, ${count_param_num+2}, ${count_param_num+3}, 4326))"
             )
             params.extend([west, south, east, north])
-            param_num += 4
+            query_param_num += 4
+            count_param_num += 4
         except ValueError:
             raise HTTPException(
                 status_code=400,
                 detail="Invalid bbox format. Expected: west,south,east,north"
             )
 
-    filter_str = " ".join(filters)
-    return filter_str, filter_str, params
+    query_filter_str = " ".join(query_filters)
+    count_filter_str = " ".join(count_filters)
+    return query_filter_str, count_filter_str, params
 
 
 # ============================================================================
 # Endpoints
 # ============================================================================
+
+@router.get("/categories", response_model=Categories)
+async def get_categories():
+    """
+    Get distinct POI categories with counts.
+
+    Returns:
+        List of categories with POI counts
+    """
+    # Check cache
+    cache_key = redis_cache.generate_key("pois:categories")
+    cached = await redis_cache.get(cache_key)
+    if cached:
+        return cached
+
+    # Query database
+    pool = database_pool.get_pool()
+    async with pool.acquire() as conn:
+        rows = await conn.fetch(queries.GET_CATEGORIES)
+
+    categories = [dict(row) for row in rows]
+    result = {"categories": categories}
+
+    # Cache result
+    await redis_cache.set(cache_key, result, ttl=3600)  # 1 hour
+
+    return result
+
 
 @router.get("/{poi_id}", response_model=POI)
 async def get_poi(poi_id: str):
@@ -161,33 +198,5 @@ async def list_pois(
 
     # Cache result
     await redis_cache.set(cache_key, result, ttl=300)  # 5 minutes
-
-    return result
-
-
-@router.get("/categories", response_model=Categories)
-async def get_categories():
-    """
-    Get distinct POI categories with counts.
-
-    Returns:
-        List of categories with POI counts
-    """
-    # Check cache
-    cache_key = redis_cache.generate_key("pois:categories")
-    cached = await redis_cache.get(cache_key)
-    if cached:
-        return cached
-
-    # Query database
-    pool = database_pool.get_pool()
-    async with pool.acquire() as conn:
-        rows = await conn.fetch(queries.GET_CATEGORIES)
-
-    categories = [dict(row) for row in rows]
-    result = {"categories": categories}
-
-    # Cache result
-    await redis_cache.set(cache_key, result, ttl=3600)  # 1 hour
 
     return result
