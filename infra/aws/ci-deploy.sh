@@ -50,11 +50,15 @@ docker-compose -f docker-compose.prod.yml up -d
 echo "→ Deploying frontend..."
 if cp -r ~/ccce-atlas/apps/map/public/* /usr/share/nginx/html/ 2>/dev/null; then
     echo "✅ Frontend files copied"
-    # Reload nginx config (requires passwordless sudo or skip with warning)
-    if sudo systemctl reload nginx 2>/dev/null; then
-        echo "✅ Nginx reloaded"
+
+    # Clear nginx cache and reload
+    echo "→ Clearing nginx cache..."
+    if sudo find /var/cache/nginx -type f -delete 2>/dev/null && sudo systemctl reload nginx 2>/dev/null; then
+        echo "✅ Nginx cache cleared and reloaded"
     else
-        echo "⚠️  Nginx reload skipped (no sudo access) - files updated but cache may persist"
+        echo "⚠️  Cache clear/reload may have failed - trying without sudo..."
+        # Try without cache clear if sudo fails
+        sudo systemctl reload nginx 2>/dev/null || echo "⚠️  Nginx reload skipped (no sudo)"
     fi
 else
     echo "❌ Frontend deployment failed - permission denied"
