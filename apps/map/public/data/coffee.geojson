@@ -1,0 +1,83 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coffee Waves Flour Bluff",
+        "description": "Local coffee shop with excellent espresso, pastries, and work-friendly atmosphere",
+        "address": "10309 S Padre Island Dr, Corpus Christi, TX 78418",
+        "category": "coffee",
+        "tags": [
+          "study-spot",
+          "wifi"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2290205,
+          27.6302692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coffee Waves Alameda",
+        "description": "Sister location with same great coffee, gelato, drive-through, and friendly service",
+        "address": "5738 S Alameda St, Corpus Christi, TX 78412",
+        "category": "coffee",
+        "tags": [
+          "wifi"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.344,
+          27.7165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roasted Coffee Shop",
+        "description": "Artisan coffee roaster with unique drinks and cozy study space",
+        "address": "5535 Bonner Dr, Corpus Christi, TX 78411",
+        "category": "coffee",
+        "tags": [
+          "study-spot",
+          "wifi"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3751618,
+          27.7019007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe Calypso",
+        "description": "Coffee bar with creative drinks and local art at Moore Plaza",
+        "address": "5425 S Padre Island Dr #185, Corpus Christi, TX 78411",
+        "category": "coffee",
+        "tags": [
+          "wifi"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3757,
+          27.7081
+        ]
+      }
+    }
+  ]
+}

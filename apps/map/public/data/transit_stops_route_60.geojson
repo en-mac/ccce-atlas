@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3391484,
+          27.7054423
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0438",
+        "stop_name": "Islander Way @ Izzy",
+        "route_id": "60",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3398999,
+          27.7070527
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0439",
+        "stop_name": "439-Nile @ Wave",
+        "route_id": "60",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3231983,
+          27.7150528
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0456",
+        "stop_name": "Texas A&M University",
+        "route_id": "60",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3313101,
+          27.6861066
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0611",
+        "stop_name": "Ennis Joslin @ Cott",
+        "route_id": "60",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

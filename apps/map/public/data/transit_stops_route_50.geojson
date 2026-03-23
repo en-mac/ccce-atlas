@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6648125,
+          27.7886516
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1201",
+        "stop_name": "Robstown Station",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2737171,
+          27.6822583
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0588",
+        "stop_name": "588-Lexington @Southgate",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2722714,
+          27.6846066
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0589",
+        "stop_name": "589-Lexington@ArmedForce",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2690149,
+          27.689952
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0590",
+        "stop_name": "590-Lexington @  Church",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2683469,
+          27.6910201
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0591",
+        "stop_name": "591-Lexington @ Chapel",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2682311,
+          27.693051
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0595",
+        "stop_name": "595-Lexington  @  Ave E",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2686517,
+          27.6945041
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0485",
+        "stop_name": "Ave D @ Lexington",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.270166,
+          27.6944229
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0486",
+        "stop_name": "486-Ave D @ 5th",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2735471,
+          27.69442
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0488",
+        "stop_name": "488-Ave D @ Bldg 250",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.275445,
+          27.694423
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0489",
+        "stop_name": "489-Ave D @ 4th Street",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2774029,
+          27.6944179
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0490",
+        "stop_name": "490-Ave D  @  3rd ",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2782301,
+          27.694999
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0475",
+        "stop_name": "475-3rd  @Def Logistics",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.276879,
+          27.698713
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0477",
+        "stop_name": "3rd @ Bldg 8",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.27653,
+          27.6996759
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2581",
+        "stop_name": "2581-Crecy @ Ocean",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2738877,
+          27.6991734
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2582",
+        "stop_name": "2582-Ocean @ 4th Stre",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2714579,
+          27.698462
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2583",
+        "stop_name": "2583-Ocean @ Midway",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.269689,
+          27.6979043
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2584",
+        "stop_name": "2584-Ocean @ 5th street",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.268074,
+          27.69711
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2585",
+        "stop_name": "2585-Ocean @ Lexingto",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2682511,
+          27.693078
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0584",
+        "stop_name": "584-Lexington @ Ave E",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2697277,
+          27.6889241
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0585",
+        "stop_name": "585-Lexington @  Church",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2728281,
+          27.684067
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0586",
+        "stop_name": "586-Lexington @ 1st",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2744129,
+          27.681579
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0587",
+        "stop_name": "587-NAS @ Southgate",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6053598,
+          27.8572843
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9050",
+        "stop_name": "Leopard @ Rehfeld",
+        "route_id": "50",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

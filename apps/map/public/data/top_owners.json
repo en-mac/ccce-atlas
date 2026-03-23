@@ -1,0 +1,729 @@
+{
+  "byAcreage": [
+    {
+      "owner": "STATE OF TEXAS",
+      "totalAcres": 489627.5613,
+      "parcelCount": 1620,
+      "totalValue": 24936147255.0
+    },
+    {
+      "owner": "WYATT RANCHES OF TEXAS LLC",
+      "totalAcres": 62279.8164,
+      "parcelCount": 57,
+      "totalValue": 19320668.0
+    },
+    {
+      "owner": "CALLICOATE ESTATES RESIDENTIAL COMMUNITY INC",
+      "totalAcres": 22600.0,
+      "parcelCount": 1,
+      "totalValue": 1000.0
+    },
+    {
+      "owner": "KING RANCH",
+      "totalAcres": 19813.7163,
+      "parcelCount": 51,
+      "totalValue": 2775566.0
+    },
+    {
+      "owner": "TESLA INC",
+      "totalAcres": 17984.1502,
+      "parcelCount": 15,
+      "totalValue": 34595129.0
+    },
+    {
+      "owner": "BRAMAN RANCHES LLC",
+      "totalAcres": 13460.8462,
+      "parcelCount": 28,
+      "totalValue": 6783370.0
+    },
+    {
+      "owner": "ERF REAL ESTATE INC",
+      "totalAcres": 12516.142,
+      "parcelCount": 245,
+      "totalValue": 74850638.0
+    },
+    {
+      "owner": "FLINT HILLS RESOURCES",
+      "totalAcres": 12275.3002,
+      "parcelCount": 393,
+      "totalValue": 789951849.0
+    },
+    {
+      "owner": "CITY OF CORPUS CHRISTI",
+      "totalAcres": 11645.4961,
+      "parcelCount": 1267,
+      "totalValue": 7843356782.0
+    },
+    {
+      "owner": "DRISCOLL CHILDREN'S HOSPITAL",
+      "totalAcres": 11042.4622,
+      "parcelCount": 86,
+      "totalValue": 7431049.0
+    },
+    {
+      "owner": "MIDNIGHT SUN INC VI",
+      "totalAcres": 10167.81,
+      "parcelCount": 7,
+      "totalValue": 4836118.0
+    },
+    {
+      "owner": "CIRCLE C CATTLE COMPANY",
+      "totalAcres": 8569.26,
+      "parcelCount": 7,
+      "totalValue": 2713331.0
+    },
+    {
+      "owner": "UNITED STATES OF AMERICA",
+      "totalAcres": 8515.3188,
+      "parcelCount": 308,
+      "totalValue": 426513478.0
+    },
+    {
+      "owner": "PORT OF CORPUS CHRISTI AUTH",
+      "totalAcres": 6246.1597,
+      "parcelCount": 85,
+      "totalValue": 230650166.0
+    },
+    {
+      "owner": "HIGHT LETA MAE TR",
+      "totalAcres": 5588.27,
+      "parcelCount": 15,
+      "totalValue": 2346800.0
+    },
+    {
+      "owner": "COWLES R E/A G MEMORIAL TR",
+      "totalAcres": 5379.721,
+      "parcelCount": 21,
+      "totalValue": 2544252.0
+    },
+    {
+      "owner": "SEA OATS INVESTMENTS II LLC",
+      "totalAcres": 4838.385,
+      "parcelCount": 18,
+      "totalValue": 850004.0
+    },
+    {
+      "owner": "BERNSEN FARMS LTD",
+      "totalAcres": 4406.4558,
+      "parcelCount": 34,
+      "totalValue": 2918495.0
+    },
+    {
+      "owner": "SCHIMMEL VERNON GEORGE III",
+      "totalAcres": 4299.64,
+      "parcelCount": 8,
+      "totalValue": 694142.0
+    },
+    {
+      "owner": "PORT OF CORPUS CHRISTI AUTHORITY",
+      "totalAcres": 4077.6544,
+      "parcelCount": 519,
+      "totalValue": 74465309.0
+    },
+    {
+      "owner": "PEREZ JUAN JOSE",
+      "totalAcres": 3855.904,
+      "parcelCount": 42,
+      "totalValue": 20230253.0
+    },
+    {
+      "owner": "EQUISTAR CHEMICALS LP",
+      "totalAcres": 3778.7291999999998,
+      "parcelCount": 92,
+      "totalValue": 20681051.0
+    },
+    {
+      "owner": "BEVLY-BEAL ANISSA M",
+      "totalAcres": 3541.529,
+      "parcelCount": 42,
+      "totalValue": 2507818.0
+    },
+    {
+      "owner": "STEVENS C J TRUST",
+      "totalAcres": 3489.23,
+      "parcelCount": 18,
+      "totalValue": 512310.0
+    },
+    {
+      "owner": "3JKC INVESTMENTS LTD",
+      "totalAcres": 3353.291,
+      "parcelCount": 6,
+      "totalValue": 1743711.0
+    },
+    {
+      "owner": "VOLLMERING CECILIA",
+      "totalAcres": 3310.2000000000003,
+      "parcelCount": 7,
+      "totalValue": 1361444.0
+    },
+    {
+      "owner": "HARLESS ROBERT W",
+      "totalAcres": 3200.0,
+      "parcelCount": 4,
+      "totalValue": 1317120.0
+    },
+    {
+      "owner": "MPB PROPERTIES LLC",
+      "totalAcres": 3193.4979999999996,
+      "parcelCount": 11,
+      "totalValue": 1585309.0
+    },
+    {
+      "owner": "TML SOUTH LLC",
+      "totalAcres": 3090.5804,
+      "parcelCount": 15,
+      "totalValue": 2296933.0
+    },
+    {
+      "owner": "ROBERTSON TRACY",
+      "totalAcres": 3044.79,
+      "parcelCount": 5,
+      "totalValue": 1934328.0
+    },
+    {
+      "owner": "JEZ ELLA",
+      "totalAcres": 3040.032,
+      "parcelCount": 6,
+      "totalValue": 1580814.0
+    },
+    {
+      "owner": "KOENNING FARMS LTD",
+      "totalAcres": 2839.6973,
+      "parcelCount": 19,
+      "totalValue": 1262317.0
+    },
+    {
+      "owner": "BISHOP GRAIN INC",
+      "totalAcres": 2804.332,
+      "parcelCount": 7,
+      "totalValue": 1588496.0
+    },
+    {
+      "owner": "LAGRONE DANA COOKE",
+      "totalAcres": 2802.54,
+      "parcelCount": 13,
+      "totalValue": 1466319.0
+    },
+    {
+      "owner": "BLUNTZER PROPERTIES",
+      "totalAcres": 2562.11,
+      "parcelCount": 4,
+      "totalValue": 720030.0
+    },
+    {
+      "owner": "JOHN CHAPMAN FARMS LTD C/O AMERICAN BANK N A",
+      "totalAcres": 2552.402,
+      "parcelCount": 9,
+      "totalValue": 2082946.0
+    },
+    {
+      "owner": "COWLES R E & A G MEMORIAL",
+      "totalAcres": 2401.626,
+      "parcelCount": 9,
+      "totalValue": 1229137.0
+    },
+    {
+      "owner": "SCHULZE PROPERTIES LLC",
+      "totalAcres": 2377.4750000000004,
+      "parcelCount": 7,
+      "totalValue": 4621127.0
+    },
+    {
+      "owner": "GULLEY FAMILY INV LTD",
+      "totalAcres": 2353.6376999999998,
+      "parcelCount": 18,
+      "totalValue": 8757059.0
+    },
+    {
+      "owner": "VWR RANCH LP",
+      "totalAcres": 2210.186,
+      "parcelCount": 7,
+      "totalValue": 636025.0
+    }
+  ],
+  "byCount": [
+    {
+      "owner": "AXYS CAPITAL CREDIT FUND LLC",
+      "totalAcres": 351.1468,
+      "parcelCount": 1925,
+      "totalValue": 8414217.0
+    },
+    {
+      "owner": "STATE OF TEXAS",
+      "totalAcres": 489627.5613,
+      "parcelCount": 1620,
+      "totalValue": 24936147255.0
+    },
+    {
+      "owner": "CITY OF PORT ARANSAS",
+      "totalAcres": 1930.211,
+      "parcelCount": 1433,
+      "totalValue": 177425826.0
+    },
+    {
+      "owner": "CITY OF CORPUS CHRISTI",
+      "totalAcres": 11645.4961,
+      "parcelCount": 1267,
+      "totalValue": 7843356782.0
+    },
+    {
+      "owner": "",
+      "totalAcres": 0.0,
+      "parcelCount": 853,
+      "totalValue": 0.0
+    },
+    {
+      "owner": "UPPER PADRE PARTNERS LP",
+      "totalAcres": 126.22319999999999,
+      "parcelCount": 580,
+      "totalValue": 1150767.0
+    },
+    {
+      "owner": "OWNER UNKNOWN",
+      "totalAcres": 240.4519,
+      "parcelCount": 575,
+      "totalValue": 187724287.0
+    },
+    {
+      "owner": "PORT OF CORPUS CHRISTI AUTHORITY",
+      "totalAcres": 4077.6544,
+      "parcelCount": 519,
+      "totalValue": 74465309.0
+    },
+    {
+      "owner": "FLINT HILLS RESOURCES",
+      "totalAcres": 12275.3002,
+      "parcelCount": 393,
+      "totalValue": 789951849.0
+    },
+    {
+      "owner": "UNITED STATES OF AMERICA",
+      "totalAcres": 8515.3188,
+      "parcelCount": 308,
+      "totalValue": 426513478.0
+    },
+    {
+      "owner": "DIAMOND BEACH HOLDINGS LLC",
+      "totalAcres": 207.5218,
+      "parcelCount": 267,
+      "totalValue": 25540871.0
+    },
+    {
+      "owner": "KM BEACH, LLC",
+      "totalAcres": 403.6865,
+      "parcelCount": 266,
+      "totalValue": 45576716.0
+    },
+    {
+      "owner": "ERF REAL ESTATE INC",
+      "totalAcres": 12516.142,
+      "parcelCount": 245,
+      "totalValue": 74850638.0
+    },
+    {
+      "owner": "MPM DEVELOPMENT LP",
+      "totalAcres": 1128.2213,
+      "parcelCount": 226,
+      "totalValue": 15155077.0
+    },
+    {
+      "owner": "ASSET DEVELOPMENT CORP",
+      "totalAcres": 35.527699999999996,
+      "parcelCount": 220,
+      "totalValue": 347920.0
+    },
+    {
+      "owner": "SFR OWNER 2 LLC",
+      "totalAcres": 30.0226,
+      "parcelCount": 199,
+      "totalValue": 49198284.0
+    },
+    {
+      "owner": "BS PROPERTIES LLC",
+      "totalAcres": 141.9588,
+      "parcelCount": 172,
+      "totalValue": 286724.0
+    },
+    {
+      "owner": "LENNAR HOMES OF TEXAS LAND AND CONSTRUCTION LTD",
+      "totalAcres": 22.6276,
+      "parcelCount": 156,
+      "totalValue": 14749745.0
+    },
+    {
+      "owner": "D R HORTON - CORPUS CHRISTI LLC",
+      "totalAcres": 24.7024,
+      "parcelCount": 154,
+      "totalValue": 9412856.0
+    },
+    {
+      "owner": "MUSTANG ISLAND DEVELOPMENT II INC",
+      "totalAcres": 53.9346,
+      "parcelCount": 152,
+      "totalValue": 49343312.0
+    },
+    {
+      "owner": "MILLROSE PROPERTIES TEXAS LLC",
+      "totalAcres": 18.1569,
+      "parcelCount": 147,
+      "totalValue": 8704718.0
+    },
+    {
+      "owner": "HOGAN BUILDING CO NO 1 LLC",
+      "totalAcres": 23.1586,
+      "parcelCount": 146,
+      "totalValue": 9834225.0
+    },
+    {
+      "owner": "BRASELTON DEVELOPMENT COMPANY LTD",
+      "totalAcres": 167.4557,
+      "parcelCount": 145,
+      "totalValue": 6076522.0
+    },
+    {
+      "owner": "TPG AG EHC III (LEN) MULTI STATE 1 LLC",
+      "totalAcres": 18.3326,
+      "parcelCount": 137,
+      "totalValue": 6142676.0
+    },
+    {
+      "owner": "NUECES COUNTY TRUSTEE",
+      "totalAcres": 157.28099999999998,
+      "parcelCount": 118,
+      "totalValue": 18212166.0
+    },
+    {
+      "owner": "ZEBA LLC",
+      "totalAcres": 225.8333,
+      "parcelCount": 116,
+      "totalValue": 25935370.0
+    },
+    {
+      "owner": "HOOTEN JOHN P TREE",
+      "totalAcres": 135.641,
+      "parcelCount": 110,
+      "totalValue": 245054.0
+    },
+    {
+      "owner": "CHARLOTTE SUBDIVISION LLC",
+      "totalAcres": 54.058099999999996,
+      "parcelCount": 101,
+      "totalValue": 12362372.0
+    },
+    {
+      "owner": "PORT ARANSAS SCHOOL DIST",
+      "totalAcres": 217.6311,
+      "parcelCount": 98,
+      "totalValue": 323305423.0
+    },
+    {
+      "owner": "EQUISTAR CHEMICALS LP",
+      "totalAcres": 3778.7291999999998,
+      "parcelCount": 92,
+      "totalValue": 20681051.0
+    },
+    {
+      "owner": "SUPERIOR H & M HOMES LLC",
+      "totalAcres": 28.1555,
+      "parcelCount": 92,
+      "totalValue": 9163674.0
+    },
+    {
+      "owner": "C C IND SCHOOL DIST",
+      "totalAcres": 800.4791,
+      "parcelCount": 92,
+      "totalValue": 772067405.0
+    },
+    {
+      "owner": "MOSTAGHASI INVESTMENT TRUST",
+      "totalAcres": 742.727,
+      "parcelCount": 88,
+      "totalValue": 15307700.0
+    },
+    {
+      "owner": "DRISCOLL CHILDREN'S HOSPITAL",
+      "totalAcres": 11042.4622,
+      "parcelCount": 86,
+      "totalValue": 7431049.0
+    },
+    {
+      "owner": "PORT OF CORPUS CHRISTI AUTH",
+      "totalAcres": 6246.1597,
+      "parcelCount": 85,
+      "totalValue": 230650166.0
+    },
+    {
+      "owner": "LIVE OAK CONSTRUCTION INC",
+      "totalAcres": 31.3472,
+      "parcelCount": 85,
+      "totalValue": 10035753.0
+    },
+    {
+      "owner": "DRP BOOKBINDER MULTISTATE LLC",
+      "totalAcres": 134.7181,
+      "parcelCount": 84,
+      "totalValue": 6130576.0
+    },
+    {
+      "owner": "THANKSGIVING HOMES INC",
+      "totalAcres": 9.0399,
+      "parcelCount": 82,
+      "totalValue": 4925743.0
+    },
+    {
+      "owner": "MUSTANG ISLAND DEVELOPMENT INC",
+      "totalAcres": 54.5355,
+      "parcelCount": 80,
+      "totalValue": 4652754.0
+    },
+    {
+      "owner": "AEP TEXAS CENTRAL CO",
+      "totalAcres": 276.95,
+      "parcelCount": 79,
+      "totalValue": 57571066.0
+    }
+  ],
+  "byValue": [
+    {
+      "owner": "STATE OF TEXAS",
+      "totalAcres": 489627.5613,
+      "parcelCount": 1620,
+      "totalValue": 24936147255.0
+    },
+    {
+      "owner": "CITY OF CORPUS CHRISTI",
+      "totalAcres": 11645.4961,
+      "parcelCount": 1267,
+      "totalValue": 7843356782.0
+    },
+    {
+      "owner": "FLINT HILLS RESOURCES",
+      "totalAcres": 12275.3002,
+      "parcelCount": 393,
+      "totalValue": 789951849.0
+    },
+    {
+      "owner": "C C IND SCHOOL DIST",
+      "totalAcres": 800.4791,
+      "parcelCount": 92,
+      "totalValue": 772067405.0
+    },
+    {
+      "owner": "NUECES CO",
+      "totalAcres": 688.199,
+      "parcelCount": 53,
+      "totalValue": 573703207.0
+    },
+    {
+      "owner": "UNITED STATES OF AMERICA",
+      "totalAcres": 8515.3188,
+      "parcelCount": 308,
+      "totalValue": 426513478.0
+    },
+    {
+      "owner": "NUECES CO NAVIGATION DIST",
+      "totalAcres": 1246.7018,
+      "parcelCount": 47,
+      "totalValue": 383310717.0
+    },
+    {
+      "owner": "BOARD OF REGENTS OF THE TX A&M UNIVERSITY SYSTEM",
+      "totalAcres": 639.1151,
+      "parcelCount": 8,
+      "totalValue": 373523057.0
+    },
+    {
+      "owner": "PORT ARANSAS SCHOOL DIST",
+      "totalAcres": 217.6311,
+      "parcelCount": 98,
+      "totalValue": 323305423.0
+    },
+    {
+      "owner": "CORPUS CHRISTI JR COLLEGE",
+      "totalAcres": 158.79059999999998,
+      "parcelCount": 7,
+      "totalValue": 322028335.0
+    },
+    {
+      "owner": "PORT OF CORPUS CHRISTI AUTH",
+      "totalAcres": 6246.1597,
+      "parcelCount": 85,
+      "totalValue": 230650166.0
+    },
+    {
+      "owner": "BKD SHORELINE LLC",
+      "totalAcres": 51.6906,
+      "parcelCount": 22,
+      "totalValue": 228879906.0
+    },
+    {
+      "owner": "CORPUS CHRISTI HOUSING AUTHORITY",
+      "totalAcres": 100.0701,
+      "parcelCount": 16,
+      "totalValue": 228816701.0
+    },
+    {
+      "owner": "OWNER UNKNOWN",
+      "totalAcres": 240.4519,
+      "parcelCount": 575,
+      "totalValue": 187724287.0
+    },
+    {
+      "owner": "THE CAMERON COUNTY HOUSING FINANCE CORPORATION",
+      "totalAcres": 42.0889,
+      "parcelCount": 5,
+      "totalValue": 179259316.0
+    },
+    {
+      "owner": "CITY OF PORT ARANSAS",
+      "totalAcres": 1930.211,
+      "parcelCount": 1433,
+      "totalValue": 177425826.0
+    },
+    {
+      "owner": "CALALLEN IND SCHOOL DIST",
+      "totalAcres": 198.2551,
+      "parcelCount": 11,
+      "totalValue": 164935957.0
+    },
+    {
+      "owner": "DRISCOLL CHILDRENS HOSPITAL",
+      "totalAcres": 23.302200000000003,
+      "parcelCount": 6,
+      "totalValue": 153488510.0
+    },
+    {
+      "owner": "FLOUR BLUFF IND SCHOOL DIST",
+      "totalAcres": 232.86939999999998,
+      "parcelCount": 6,
+      "totalValue": 153197587.0
+    },
+    {
+      "owner": "NUECES COUNTY",
+      "totalAcres": 1025.0072,
+      "parcelCount": 72,
+      "totalValue": 149078799.0
+    },
+    {
+      "owner": "ROBSTOWN IND SCHOOL DIST",
+      "totalAcres": 185.2811,
+      "parcelCount": 32,
+      "totalValue": 147660835.0
+    },
+    {
+      "owner": "CHRISTUS SPOHN HEALTH SYSTEM",
+      "totalAcres": 16.787399999999998,
+      "parcelCount": 3,
+      "totalValue": 146278619.0
+    },
+    {
+      "owner": "UNIVERSITY OF TEXAS",
+      "totalAcres": 112.1373,
+      "parcelCount": 6,
+      "totalValue": 143735246.0
+    },
+    {
+      "owner": "BLUEBONNET GARDENS INC",
+      "totalAcres": 345.363,
+      "parcelCount": 24,
+      "totalValue": 141425430.0
+    },
+    {
+      "owner": "315 CUT-OFF RD LLC",
+      "totalAcres": 100.5444,
+      "parcelCount": 12,
+      "totalValue": 135023544.0
+    },
+    {
+      "owner": "BISHOP CONSOLIDATED IND SCHOOL DIST",
+      "totalAcres": 71.2622,
+      "parcelCount": 16,
+      "totalValue": 131288664.0
+    },
+    {
+      "owner": "CORPUS CHRISTI ISD",
+      "totalAcres": 102.0566,
+      "parcelCount": 2,
+      "totalValue": 117385460.0
+    },
+    {
+      "owner": "TULOSO MIDWAY IND SCH DIST",
+      "totalAcres": 127.011,
+      "parcelCount": 7,
+      "totalValue": 117313134.0
+    },
+    {
+      "owner": "DEL MAR COLLEGE DISTRICT",
+      "totalAcres": 90.0621,
+      "parcelCount": 4,
+      "totalValue": 114275372.0
+    },
+    {
+      "owner": "CORPUS CHRISTI INDEPENDENT SCHOOL DISTRICT",
+      "totalAcres": 34.3405,
+      "parcelCount": 6,
+      "totalValue": 111241211.0
+    },
+    {
+      "owner": "CORPUS CHRISTI RETAIL VENTURE LP",
+      "totalAcres": 40.4162,
+      "parcelCount": 2,
+      "totalValue": 99174830.0
+    },
+    {
+      "owner": "MULVEY, WM MICHAEL MOST REV DIOCESE OF CORPUS CHRISTI",
+      "totalAcres": 199.8084,
+      "parcelCount": 49,
+      "totalValue": 91296026.0
+    },
+    {
+      "owner": "TMINE LTD",
+      "totalAcres": 61.0997,
+      "parcelCount": 48,
+      "totalValue": 88912568.0
+    },
+    {
+      "owner": "CORPUS CHRISTI INDEP SCHOOL DIST",
+      "totalAcres": 60.1285,
+      "parcelCount": 2,
+      "totalValue": 88053276.0
+    },
+    {
+      "owner": "700 6TH STREET LLC",
+      "totalAcres": 82.899,
+      "parcelCount": 10,
+      "totalValue": 88047790.0
+    },
+    {
+      "owner": "NUECES CO RD DIST #4",
+      "totalAcres": 359.88,
+      "parcelCount": 3,
+      "totalValue": 76886100.0
+    },
+    {
+      "owner": "ERF REAL ESTATE INC",
+      "totalAcres": 12516.142,
+      "parcelCount": 245,
+      "totalValue": 74850638.0
+    },
+    {
+      "owner": "PORT OF CORPUS CHRISTI AUTHORITY",
+      "totalAcres": 4077.6544,
+      "parcelCount": 519,
+      "totalValue": 74465309.0
+    },
+    {
+      "owner": "SPOHN HOSPITAL",
+      "totalAcres": 38.4677,
+      "parcelCount": 8,
+      "totalValue": 72019927.0
+    },
+    {
+      "owner": "WEST OSO IND SCHOOL DIST",
+      "totalAcres": 137.1855,
+      "parcelCount": 8,
+      "totalValue": 67270075.0
+    }
+  ],
+  "generatedAt": "2026-02-09T01:07:00.636461"
+}

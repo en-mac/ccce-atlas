@@ -1,0 +1,226 @@
+[
+  {
+    "route_id": "3",
+    "short_name": "3",
+    "long_name": "NAS Shuttle",
+    "color": "#61BC46",
+    "stop_count": 34
+  },
+  {
+    "route_id": "4",
+    "short_name": "4",
+    "long_name": "Flour Bluff",
+    "color": "#F15931",
+    "stop_count": 64
+  },
+  {
+    "route_id": "5",
+    "short_name": "5",
+    "long_name": "Alameda",
+    "color": "#CC33FF",
+    "stop_count": 91
+  },
+  {
+    "route_id": "6",
+    "short_name": "6",
+    "long_name": "Santa Fe/Malls",
+    "color": "#6666FF",
+    "stop_count": 104
+  },
+  {
+    "route_id": "12",
+    "short_name": "12",
+    "long_name": "Hillcrest/Baldwin",
+    "color": "#F47B78",
+    "stop_count": 53
+  },
+  {
+    "route_id": "15",
+    "short_name": "15",
+    "long_name": "Kostoryz/Carroll High School",
+    "color": "#8B0030",
+    "stop_count": 62
+  },
+  {
+    "route_id": "16",
+    "short_name": "16",
+    "long_name": "Morgan/Port",
+    "color": "#B03392",
+    "stop_count": 50
+  },
+  {
+    "route_id": "17",
+    "short_name": "17",
+    "long_name": "Carroll/Southside",
+    "color": "#CD1041",
+    "stop_count": 90
+  },
+  {
+    "route_id": "19",
+    "short_name": "19",
+    "long_name": "Ayers",
+    "color": "#B03391",
+    "stop_count": 129
+  },
+  {
+    "route_id": "21",
+    "short_name": "21",
+    "long_name": "Arboleda",
+    "color": "#00A88E",
+    "stop_count": 63
+  },
+  {
+    "route_id": "23",
+    "short_name": "23",
+    "long_name": "Molina",
+    "color": "#007AC5",
+    "stop_count": 91
+  },
+  {
+    "route_id": "24",
+    "short_name": "24",
+    "long_name": "Airline/Yorktown Connector",
+    "color": "#008080",
+    "stop_count": 34
+  },
+  {
+    "route_id": "25",
+    "short_name": "25",
+    "long_name": "Gollihar/Greenwood",
+    "color": "#96C93D",
+    "stop_count": 26
+  },
+  {
+    "route_id": "26",
+    "short_name": "26",
+    "long_name": "Airline/Lipes",
+    "color": "#007732",
+    "stop_count": 69
+  },
+  {
+    "route_id": "27",
+    "short_name": "27",
+    "long_name": "Leopard",
+    "color": "#47C1AE",
+    "stop_count": 133
+  },
+  {
+    "route_id": "28",
+    "short_name": "28",
+    "long_name": "Leopard/Navigation",
+    "color": "#00FF00",
+    "stop_count": 28
+  },
+  {
+    "route_id": "29",
+    "short_name": "29",
+    "long_name": "Staples",
+    "color": "#30409A",
+    "stop_count": 124
+  },
+  {
+    "route_id": "32",
+    "short_name": "32",
+    "long_name": "Southside",
+    "color": "#F57F1B",
+    "stop_count": 117
+  },
+  {
+    "route_id": "34",
+    "short_name": "34",
+    "long_name": "Robstown North",
+    "color": "#04A68B",
+    "stop_count": 28
+  },
+  {
+    "route_id": "35",
+    "short_name": "35",
+    "long_name": "Robstown South",
+    "color": "#0080FF",
+    "stop_count": 15
+  },
+  {
+    "route_id": "37",
+    "short_name": "37",
+    "long_name": "Crosstown",
+    "color": "#FDBE50",
+    "stop_count": 133
+  },
+  {
+    "route_id": "50",
+    "short_name": "50",
+    "long_name": "Calallen/Robstown NAS Express",
+    "color": "#84D7FF",
+    "stop_count": 23
+  },
+  {
+    "route_id": "51",
+    "short_name": "51",
+    "long_name": "Gregory/NAS Express",
+    "color": "#8AD9FF",
+    "stop_count": 22
+  },
+  {
+    "route_id": "54",
+    "short_name": "54",
+    "long_name": "Gregory/Downtown Express",
+    "color": "#008000",
+    "stop_count": 2
+  },
+  {
+    "route_id": "60",
+    "short_name": "60",
+    "long_name": "Momentum Shuttle",
+    "color": "#77D2FF",
+    "stop_count": 4
+  },
+  {
+    "route_id": "65",
+    "short_name": "65",
+    "long_name": "Padre Island Flex",
+    "color": "#009FC3",
+    "stop_count": 35
+  },
+  {
+    "route_id": "76",
+    "short_name": "76",
+    "long_name": "Downtown Shuttle",
+    "color": "#F58220",
+    "stop_count": 20
+  },
+  {
+    "route_id": "78",
+    "short_name": "78",
+    "long_name": "North Beach",
+    "color": "#0066FF",
+    "stop_count": 17
+  },
+  {
+    "route_id": "83",
+    "short_name": "83",
+    "long_name": "Advance Industries",
+    "color": "#8CDAFF",
+    "stop_count": 2
+  },
+  {
+    "route_id": "90",
+    "short_name": "90",
+    "long_name": "Port Aransas Flexi-B",
+    "color": "#00FF00",
+    "stop_count": 3
+  },
+  {
+    "route_id": "93",
+    "short_name": "93",
+    "long_name": "FLEX",
+    "color": "#00FFFF",
+    "stop_count": 15
+  },
+  {
+    "route_id": "94",
+    "short_name": "94",
+    "long_name": "Port Aransas Shuttle",
+    "color": "#D9B3FF",
+    "stop_count": 33
+  }
+]

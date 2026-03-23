@@ -1,0 +1,1461 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4022888,
+          27.7954868
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5006",
+        "stop_name": "Staples Street Station Bay F",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.402784,
+          27.7954714
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5008",
+        "stop_name": "Staples Street Station Bay H",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202916,
+          27.7646154
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0165",
+        "stop_name": "165-Port  @  Guadalupe",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202505,
+          27.7615965
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0166",
+        "stop_name": "166-3301 Port @Crosstown",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202118,
+          27.7601815
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0167",
+        "stop_name": "167-Port across Sth gate",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202278,
+          27.7585622
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0168",
+        "stop_name": "168-Port @Corban",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.420206,
+          27.7570962
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0169",
+        "stop_name": "169-Port  @  Painter",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4201199,
+          27.7548105
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0170",
+        "stop_name": "170-Port  @  Pearse",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4194121,
+          27.7524549
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0043",
+        "stop_name": "43-Horne @ Port",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4198804,
+          27.750602
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0945",
+        "stop_name": "945-Port @ Post Office",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4199117,
+          27.7537242
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0150",
+        "stop_name": "150-Port  @  Pearse",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4199371,
+          27.7552032
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9027",
+        "stop_name": "9027-Port @ Home Depot",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4199639,
+          27.7570255
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0151",
+        "stop_name": "151-Port  @  Painter",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4199889,
+          27.758746
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0152",
+        "stop_name": "152-3740 Port @ Corbin",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.420048,
+          27.7598746
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0153",
+        "stop_name": "153-Port  @  Southgate",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4200556,
+          27.7616865
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0154",
+        "stop_name": "154-3302 Port @Arlington",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3989597,
+          27.7963894
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1355",
+        "stop_name": "1355-Leopard @ Tancahua",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202293,
+          27.7741313
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0178",
+        "stop_name": "178-Port @ Baldwin",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202531,
+          27.7758875
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0179",
+        "stop_name": "179-Port @ Brannan",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202897,
+          27.7774838
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0180",
+        "stop_name": "Morgan @ Port",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4184692,
+          27.7779722
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0217",
+        "stop_name": "217-Morgan  @  Headley",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.419458,
+          27.7781255
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0232",
+        "stop_name": "232-Morgan  @  25th",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4204892,
+          27.7767117
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0203",
+        "stop_name": "203-Port  @  Greenwood",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4204583,
+          27.7740599
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0205",
+        "stop_name": "205-Port @ Baldwin",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4203716,
+          27.7708774
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0162",
+        "stop_name": "162-Port  @  San Jacinto",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3997768,
+          27.7962976
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1504",
+        "stop_name": "1504-Leopard @ Carrizo",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4203577,
+          27.7692266
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0163",
+        "stop_name": "163-Port  @  Nimitz",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4203148,
+          27.7659428
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0164",
+        "stop_name": "Port @ Tarlton",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3975655,
+          27.7816623
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0314",
+        "stop_name": "314-3rd  @  Buford",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3973989,
+          27.7867208
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0317",
+        "stop_name": "317-Carancahua  @  Park",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3974864,
+          27.7885735
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0318",
+        "stop_name": "318-Carancahua @ Agnes",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3975425,
+          27.79114
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0319",
+        "stop_name": "319-Carancahua  @ Kinney",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3986842,
+          27.7955334
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0321",
+        "stop_name": "321-Tancahua  @  Leopard",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.39872,
+          27.7930541
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0322",
+        "stop_name": "322-Tancahua  @ Comanche",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3986066,
+          27.7908046
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0323",
+        "stop_name": "323-Tancahua  @  Kinney",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3986123,
+          27.7865982
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0325",
+        "stop_name": "325-Tancahua  @  Park",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3986884,
+          27.7826885
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0327",
+        "stop_name": "327-Santa Fe  @  Hancock",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3978723,
+          27.7791999
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0329",
+        "stop_name": "329-Santa Fe  @  Morgan",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.449404,
+          27.7500366
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9006",
+        "stop_name": "West Point @ Molina",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4494477,
+          27.7535207
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0091",
+        "stop_name": "91-Molina @ Villarreal",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.449471,
+          27.7569144
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0093",
+        "stop_name": "93-Molina @ Bloomington",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4483227,
+          27.757008
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0094",
+        "stop_name": "94-Bloomington@Barrerra",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.443468,
+          27.7570665
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0100",
+        "stop_name": "100-Bloomington @Valdez",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4420353,
+          27.7577786
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1642",
+        "stop_name": "1642-Theresa @ Mendoza",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4413107,
+          27.7605393
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0018",
+        "stop_name": "18-Horne  @  Teresa",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4387208,
+          27.7606
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0019",
+        "stop_name": "19-1215 Horne @Columbia",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4368972,
+          27.7606122
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0020",
+        "stop_name": "20- Horne Past Columbia",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4354104,
+          27.7601725
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0021",
+        "stop_name": "21-Horne  @  Lulac #1",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4336626,
+          27.7593503
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0022",
+        "stop_name": "22-Horne  @  Lulac #2",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4321822,
+          27.7580355
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0136",
+        "stop_name": "136-Greenwood  @  Horne",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4331874,
+          27.7564002
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0138",
+        "stop_name": "138-Greenwood  @  Hudson",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4346252,
+          27.7540398
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0140",
+        "stop_name": "140-Greenwood  @  Karen",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.434807,
+          27.7515987
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0032",
+        "stop_name": "32-Gollihar @ Falkinson",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4323866,
+          27.750459
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0033",
+        "stop_name": "33-Gollihar @ Shaw",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4299182,
+          27.7492654
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0034",
+        "stop_name": "34-Gollihar @ Bernadino",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4280595,
+          27.7483585
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0060",
+        "stop_name": "60-Gollihar  @ Prescott",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4269737,
+          27.74783
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0061",
+        "stop_name": "61-Gollihar  @ Larkspur",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4221702,
+          27.745544
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0062",
+        "stop_name": "62-Gollihar  @  Ayers",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4194626,
+          27.7488929
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5026",
+        "stop_name": "Port Ayers Station Bay J",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4201472,
+          27.7667794
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0156",
+        "stop_name": "Port @ Tarlton",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4201687,
+          27.7701909
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0158",
+        "stop_name": "158-Port  @ Cleo",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4202428,
+          27.7730027
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0160",
+        "stop_name": "160-Port @ Baldwin",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4165321,
+          27.7780111
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0218",
+        "stop_name": "218-Morgan  @  Heinley",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4125043,
+          27.7780818
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0219",
+        "stop_name": "219-Morgan @ 18th",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4100502,
+          27.7782184
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0220",
+        "stop_name": "220-Morgan  @  16th",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4073685,
+          27.7783713
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0221",
+        "stop_name": "221-Morgan  @  Brownlee",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4038689,
+          27.7785722
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0222",
+        "stop_name": "222-Morgan  @  10th",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4022921,
+          27.7786766
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0223",
+        "stop_name": "Morgan @ Staples",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3995926,
+          27.7787956
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0309",
+        "stop_name": "309-Morgan  @  6th",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3973461,
+          27.7789286
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0310",
+        "stop_name": "310-Morgan  @  Santa Fe",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3974492,
+          27.7940415
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0320",
+        "stop_name": "320-Carancahua  @ Lipan",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3993272,
+          27.779009
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0311",
+        "stop_name": "311-Morgan  @  6th",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4024442,
+          27.7787659
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0224",
+        "stop_name": "Morgan @ Staples",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4040671,
+          27.7786801
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0225",
+        "stop_name": "225-Morgan  @  10th",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.407302,
+          27.778521
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0227",
+        "stop_name": "227-Morgan  @  Brownlee",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4103492,
+          27.7783099
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0229",
+        "stop_name": "229-Morgan  @  Crosstown",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4122685,
+          27.7782172
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0230",
+        "stop_name": "230-Morgan  @  18th",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4154974,
+          27.7781907
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0231",
+        "stop_name": "231-Morgan  @  Kokernot",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4197257,
+          27.7490228
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5019",
+        "stop_name": "Port Ayers Station Bay B",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4227459,
+          27.7460154
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0081",
+        "stop_name": "81-Gollihar  @  Dillon",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4263868,
+          27.7477832
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0082",
+        "stop_name": "82-Gollihar  @ Larkspur",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4281898,
+          27.748673
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0083",
+        "stop_name": "83-Gollihar  @ Prescott",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4304547,
+          27.749691
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0029",
+        "stop_name": "29-Gollihar  @Bernadino",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4326258,
+          27.7507448
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0030",
+        "stop_name": "30-Gollihar  @  Shaw",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4344993,
+          27.7516618
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0031",
+        "stop_name": "31-Gollihar  @Falkinson",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4369338,
+          27.7503446
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0116",
+        "stop_name": "Greenwood @WestPoint",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4397345,
+          27.7498244
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0117",
+        "stop_name": "117-1458 West Point",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4422404,
+          27.7497836
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0118",
+        "stop_name": "118-West Point @Yolanda",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4438507,
+          27.7497712
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0119",
+        "stop_name": "119-West Point @Ramona",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4454739,
+          27.7497399
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0120",
+        "stop_name": "120-West Point @Elvira",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4478635,
+          27.7497054
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0121",
+        "stop_name": "121-West Point @Barrera",
+        "route_id": "23",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

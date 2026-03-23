@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Janet F. Harte Public Library",
+        "description": "Modern library with great study spaces, maker lab, and community programs on Flour Bluff High School campus",
+        "address": "2629 Waldron Rd, Corpus Christi, TX 78418",
+        "category": "libraries",
+        "tags": [
+          "study-spot",
+          "wifi"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2976886,
+          27.6437813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Retama Central Library",
+        "description": "Main downtown library with extensive resources and beautiful architecture",
+        "address": "805 Comanche St, Corpus Christi, TX 78401",
+        "category": "libraries",
+        "tags": [
+          "study-spot",
+          "wifi"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3991051,
+          27.7927074
+        ]
+      }
+    }
+  ]
+}

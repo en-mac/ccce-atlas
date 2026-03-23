@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Downtown Run Club",
+        "description": "Weekly group runs every Wednesday at 6:30 PM, all paces welcome, followed by happy hour",
+        "address": "BUS (Bar Under the Sun), 702 N Chaparral St, Corpus Christi, TX 78401",
+        "category": "community",
+        "tags": [
+          "fitness",
+          "social"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3935861,
+          27.7979758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bill Witt City Park",
+        "description": "Popular 131-acre park with running and walking trails, community fitness groups meet here",
+        "address": "6869 Yorktown Blvd, Corpus Christi, TX 78414",
+        "category": "community",
+        "tags": [
+          "fitness",
+          "trails"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3773538,
+          27.6571977
+        ]
+      }
+    }
+  ]
+}

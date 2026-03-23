@@ -1,0 +1,1029 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2852241,
+          27.6660738
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2501",
+        "stop_name": "Compton @ Waldron",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2857112,
+          27.6694844
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0705",
+        "stop_name": "705-SPID @ Sunburst",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.284488,
+          27.6651877
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0613",
+        "stop_name": "Compton @ Waldron",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2857813,
+          27.6631529
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0614",
+        "stop_name": "614-Waldron @ Graham",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2881522,
+          27.6593933
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0616",
+        "stop_name": "616-Waldron @ St Peters",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2895532,
+          27.6571397
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0617",
+        "stop_name": "617-Waldron @ FireSt.13",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2904842,
+          27.6556385
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0618",
+        "stop_name": "618-Waldron @ D.Patricio",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.291971,
+          27.6532244
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0619",
+        "stop_name": "619-Waldron @ Waldron Rd ",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.292989,
+          27.6516711
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0620",
+        "stop_name": "620-Waldron @ CastlePark",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2945637,
+          27.649139
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0621",
+        "stop_name": "621-Waldron @ Purdue",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2958434,
+          27.6471941
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0622",
+        "stop_name": "622-Waldron @ FBHS Std",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2967984,
+          27.6456716
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0623",
+        "stop_name": "623-Waldron@Flour Bluff ISD",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2981227,
+          27.6435391
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0624",
+        "stop_name": "624-Waldron @ Glen Oak",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.299106,
+          27.6419031
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0625",
+        "stop_name": "625-Waldron @ Airdome",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3002864,
+          27.6400364
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0626",
+        "stop_name": "626-Waldron @ Bel Air",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.301401,
+          27.6381536
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0627",
+        "stop_name": "627-Waldron @ SandyOaks",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3019414,
+          27.6364598
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0628",
+        "stop_name": "Waldron @ Caribbean",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3002425,
+          27.635661
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0629",
+        "stop_name": "629-Carribean @CoralReef",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2983905,
+          27.6347599
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0630",
+        "stop_name": "630-Carribean @Meadowridge",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2952893,
+          27.6328847
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0631",
+        "stop_name": "631-Jamaica @ Caribbean",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2968442,
+          27.6303531
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0632",
+        "stop_name": "632-Jamaica @ Cartagena",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2982453,
+          27.6281291
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0633",
+        "stop_name": "633-Jamaica  @  Antares",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2989032,
+          27.6270717
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0634",
+        "stop_name": "634-Jamaica @ Mediterranean.",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2962557,
+          27.6254291
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0635",
+        "stop_name": "635-Mediterranean@Tahiti",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2947734,
+          27.6246819
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0636",
+        "stop_name": "636-Mediterranean@Laguna",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2954407,
+          27.6224158
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0637",
+        "stop_name": "637-Laguna @ Courtland",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2963576,
+          27.6205867
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0638",
+        "stop_name": "638-Laguna @ Las Palmas",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2970597,
+          27.6191588
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0639",
+        "stop_name": "639-Laguna @ Seaside",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2979655,
+          27.6180266
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0640",
+        "stop_name": "Laguna Shores @ York",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2997463,
+          27.6189056
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0641",
+        "stop_name": "641-Yorktown @ WagnerLee",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3010313,
+          27.6195725
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0642",
+        "stop_name": "642-Yorktown @ Alisa Ann",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3025767,
+          27.6202952
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0643",
+        "stop_name": "643-Yorktown @ Sweet Bay",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3043101,
+          27.6211631
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0644",
+        "stop_name": "644-Yorktown @ Lynda lee",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3064796,
+          27.6222586
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0645",
+        "stop_name": "645-Yorktown @ Matteson",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3098816,
+          27.6243535
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0646",
+        "stop_name": "646-Waldron @ Yorktown",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3068243,
+          27.629206
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0647",
+        "stop_name": "647-3605 Waldron",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3031628,
+          27.6350987
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0648",
+        "stop_name": "648-Waldron @ N Bayberry",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3018858,
+          27.6372399
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0649",
+        "stop_name": "Waldron @ Caribbean",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3002652,
+          27.6396706
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0650",
+        "stop_name": "650-Waldron @ Kaipo",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2988485,
+          27.6420138
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0651",
+        "stop_name": "651-Waldron @ Glenoak",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2980089,
+          27.6433894
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0652",
+        "stop_name": "652-Waldron @ Glenoak",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2966183,
+          27.6455742
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0653",
+        "stop_name": "653-Waldron@Flour Bluff ISD",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2956388,
+          27.6472009
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0654",
+        "stop_name": "654-Waldron @ Flour Bluff ISD",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2942913,
+          27.6492495
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0655",
+        "stop_name": "655-Waldron @ Purdue",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.292997,
+          27.6513532
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0656",
+        "stop_name": "656-Waldron @ CastlePark",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2917351,
+          27.6532773
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0657",
+        "stop_name": "657-Waldron @ Las Palmas Apts.",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2903398,
+          27.6555492
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0658",
+        "stop_name": "658-Waldron @Don Patricio",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2888273,
+          27.658082
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0659",
+        "stop_name": "659-Waldron @ Blossom",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2858344,
+          27.6627984
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0660",
+        "stop_name": "660-Waldron  @  Graham",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2842274,
+          27.6652956
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0612",
+        "stop_name": "612-Waldron@Knickerbock",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.283363,
+          27.6691624
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0668",
+        "stop_name": "668-SPID @ Fawn",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2887284,
+          27.6717651
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0670",
+        "stop_name": "670-SPID @ Stone",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2905029,
+          27.6726008
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0671",
+        "stop_name": "671-SPID @ Talmadge",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2919853,
+          27.6733299
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0672",
+        "stop_name": "672-SPID @ McIver",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2945163,
+          27.6746213
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0673",
+        "stop_name": "673-SPID @ Weaver",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.30013,
+          27.6760099
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0674",
+        "stop_name": "674-SPID @ Bullfinch",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3049589,
+          27.6762413
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0697",
+        "stop_name": "697-SPID",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3014845,
+          27.6754989
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0698",
+        "stop_name": "698-SPID  @  Padre Motel",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2984864,
+          27.6750753
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0699",
+        "stop_name": "Flour Bluff Walmart",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2954451,
+          27.6742229
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0700",
+        "stop_name": "700-SPID  @  Flour Bluff",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2923629,
+          27.6727717
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0702",
+        "stop_name": "702-SPID  @  Barton",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.28987,
+          27.6715154
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0703",
+        "stop_name": "703-SPID  @  Oberste",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2878011,
+          27.6704387
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0704",
+        "stop_name": "704-SPID  @  Stone",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2814529,
+          27.6644269
+        ]
+      },
+      "properties": {
+        "stop_id": "0:8030",
+        "stop_name": "Flour Bluff HEB Plus",
+        "route_id": "4",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

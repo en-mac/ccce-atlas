@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2852241,
+          27.6660738
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2501",
+        "stop_name": "Compton @ Waldron",
+        "route_id": "90",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3728042,
+          27.7143668
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5013",
+        "stop_name": "Southside Station Bay E",
+        "route_id": "90",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0682259,
+          27.836225
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9991",
+        "stop_name": "Port Aransas City",
+        "route_id": "90",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

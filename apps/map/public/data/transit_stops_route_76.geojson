@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3973224,
+          27.809069
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1710",
+        "stop_name": "Chaparral @ Hirsch",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3956511,
+          27.8080818
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1857",
+        "stop_name": "1857-Chaparral @ Brewster",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.395181,
+          27.8061349
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1858",
+        "stop_name": "1858-1513 Chaparral",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3945756,
+          27.8032457
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1859",
+        "stop_name": "1859-Chaparral @ Power",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3927657,
+          27.7986261
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1311",
+        "stop_name": "1311-Water @ Taylor",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3927827,
+          27.7974079
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0340",
+        "stop_name": "340-Water @ Peoples",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3928035,
+          27.7962502
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0341",
+        "stop_name": "341-Water @ Schatzell",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3953585,
+          27.7965597
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0402",
+        "stop_name": "402-Schatzell @ Mesquite",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3989597,
+          27.7963894
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1355",
+        "stop_name": "1355-Leopard @ Tancahua",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4021507,
+          27.7956253
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5004",
+        "stop_name": "Staples Street Station Bay D",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4024005,
+          27.7954059
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9017",
+        "stop_name": "Staples St Station Lane M",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3997768,
+          27.7962976
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1504",
+        "stop_name": "1504-Leopard @ Carrizo",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3983473,
+          27.7962321
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1505",
+        "stop_name": "1505-Leopard @ Tancahua",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3942899,
+          27.7951789
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1507",
+        "stop_name": "1507-Lawrence @ Chaparral",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3927107,
+          27.7961859
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1508",
+        "stop_name": "1508-Water @ Schatzel",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3926536,
+          27.7977079
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1850",
+        "stop_name": "1850-Water @ Starr",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3926422,
+          27.7999977
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1851",
+        "stop_name": "1851-Water @ Twigg",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.393,
+          27.8017107
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1852",
+        "stop_name": "1852-Water @ IH-37",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3947186,
+          27.8044006
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1301",
+        "stop_name": "1301-Chaparral @ Palo Alto",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3952666,
+          27.8069381
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1302",
+        "stop_name": "1302-Chaparral @ Resaca",
+        "route_id": "76",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

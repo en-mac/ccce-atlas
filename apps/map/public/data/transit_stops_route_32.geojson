@@ -1,0 +1,1877 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.420388,
+          27.7447
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0063",
+        "stop_name": "63-Gollihar  @  Kilgore",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4179053,
+          27.7435062
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0064",
+        "stop_name": "64-Gollihar @ Florence",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4156516,
+          27.7423908
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0065",
+        "stop_name": "65-Gollihar  @  Evelyn",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.413896,
+          27.7415316
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0066",
+        "stop_name": "66-Gollihar @ Brookdale",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4121075,
+          27.7406665
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0067",
+        "stop_name": "67-Gollihar @ Townsend",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4103845,
+          27.7398263
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0068",
+        "stop_name": "68-Gollihar  @  Odem",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4072608,
+          27.7383117
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0069",
+        "stop_name": "Kostoryz@Golihar",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4067419,
+          27.7380606
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0962",
+        "stop_name": "Kostoryz@Golihar",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4037433,
+          27.7366049
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0963",
+        "stop_name": "963-Gollihar @ Laura",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3994347,
+          27.7345449
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0737",
+        "stop_name": "737-Gollihar@Carroll Lane",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3962869,
+          27.7329861
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0738",
+        "stop_name": "738-Gollihar @ Willow",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3928217,
+          27.7313167
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0740",
+        "stop_name": "740-Gollihar @Weber",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3816456,
+          27.7175712
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0846",
+        "stop_name": "846-McArdle  @  Wynona",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.380165,
+          27.7167682
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0847",
+        "stop_name": "847-McArdle  @  Waltham",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3787089,
+          27.7160455
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0848",
+        "stop_name": "848-McArdle  @  Lansdown",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3771433,
+          27.7152879
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0849",
+        "stop_name": "849-McArdle  @  Andover",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3747719,
+          27.7142293
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0850",
+        "stop_name": "850-McArdle@ Deaf Center",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3764519,
+          27.7151145
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0842",
+        "stop_name": "842-McArdle @ Andover",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3780438,
+          27.7158723
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0843",
+        "stop_name": "843-McArdle @ Lansdown",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3796118,
+          27.7166555
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0844",
+        "stop_name": "844-McArdle @ Waltham",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3810674,
+          27.7173886
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0845",
+        "stop_name": "845-McArdle @ Wynona",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3929436,
+          27.7314818
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0711",
+        "stop_name": "711-Gollihar @  Weber",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3961468,
+          27.733051
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0713",
+        "stop_name": "713-Gollihar @ Willow",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3996663,
+          27.7347927
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0714",
+        "stop_name": "714-Gollihar @ Mokry Dr",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4036628,
+          27.7366785
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0960",
+        "stop_name": "960-Gollihar @ Laura",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4058661,
+          27.7377534
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0961",
+        "stop_name": "Kostoryz@Golihar",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4086412,
+          27.7391257
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0075",
+        "stop_name": "75-Gollihar  @  Cottage",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4106634,
+          27.7401011
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0076",
+        "stop_name": "76-Gollihar @ Hollywood",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4121714,
+          27.7408661
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0077",
+        "stop_name": "77-Gollihar @ Townsend",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.41383,
+          27.7416494
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0078",
+        "stop_name": "78-Gollihar @ Devon",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4169937,
+          27.7431693
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0079",
+        "stop_name": "79-Gollihar @ Christie",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4191219,
+          27.7442431
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0080",
+        "stop_name": "80-Gollihar  @  Dinn",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4210226,
+          27.745143
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0089",
+        "stop_name": "89-Gollihar @ Ayers",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4197255,
+          27.748825
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5018",
+        "stop_name": "Port Ayers Station Bay A",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3937283,
+          27.7296244
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9043",
+        "stop_name": "9043-Weber @ Pyle",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3946091,
+          27.7281722
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9044",
+        "stop_name": "9044-Weber @ Lamont",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3957943,
+          27.7262742
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9045",
+        "stop_name": "9045-Weber @ Lincoln",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.397855,
+          27.7228841
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0936",
+        "stop_name": "936-Weber @ Delphine",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3996584,
+          27.7200953
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1650",
+        "stop_name": "1650-Weber @ Brushwood",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4012868,
+          27.7176017
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9003",
+        "stop_name": "Weber @ Tiger",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4030005,
+          27.7148757
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0966",
+        "stop_name": "966-Weber @ Capri",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4044524,
+          27.712543
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0967",
+        "stop_name": "967-Weber @ Holly",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4052118,
+          27.711319
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0968",
+        "stop_name": "968-Weber @ HEB",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4071996,
+          27.708134
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0970",
+        "stop_name": "970-Weber @Cork",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4083924,
+          27.7061083
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0971",
+        "stop_name": "971-Weber @ O'Day",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4092441,
+          27.7048262
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0972",
+        "stop_name": "972-Weber @ Devonshire",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4100191,
+          27.7036434
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0973",
+        "stop_name": "973-Weber @ Wickersham",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4116006,
+          27.7011135
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0974",
+        "stop_name": "974-Weber @ Saratoga",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.41304,
+          27.6988021
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0975",
+        "stop_name": "975-Weber @ Saratoga",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4148994,
+          27.6958949
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0976",
+        "stop_name": "976-Weber @ WOW",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4159851,
+          27.6941478
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0977",
+        "stop_name": "977-Weber @ Apollo",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4166385,
+          27.693092
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0978",
+        "stop_name": "978-Weber @ Bratton",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4182356,
+          27.6897812
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0979",
+        "stop_name": "Aaron @ Weber",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4166731,
+          27.6882786
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0980",
+        "stop_name": "980-Weber @ Apollo",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4170953,
+          27.6866876
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0981",
+        "stop_name": "981-SunValley @Snowmass",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4152518,
+          27.6842725
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0982",
+        "stop_name": "982-CedarPass @Junction",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4132031,
+          27.6832725
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0983",
+        "stop_name": "983-CedarPass @ Trappers",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4105237,
+          27.6819782
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0984",
+        "stop_name": "984-Cedar Pass @ Taos",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.406679,
+          27.680093
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0985",
+        "stop_name": "Cedar Pass @Everhart",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4032742,
+          27.6842519
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2580",
+        "stop_name": "2580-Everhart @Shadowbend",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4021616,
+          27.6860839
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0988",
+        "stop_name": "988-Everhart @ Snowgoose",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4011217,
+          27.6876702
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0989",
+        "stop_name": "989-Everhart @ Goldeneye",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3986325,
+          27.6916239
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0991",
+        "stop_name": "991-Everhart @ Saratoga",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3972273,
+          27.6939223
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0992",
+        "stop_name": "992-Everhart @ Saratoga",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3950037,
+          27.6974437
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0993",
+        "stop_name": "993-Everhart @Congress",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3939405,
+          27.6991337
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0994",
+        "stop_name": "994-Everhart @ Donegal",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.392873,
+          27.700816
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0995",
+        "stop_name": "995-Everhart@Wooldridge",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3921502,
+          27.7020092
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0996",
+        "stop_name": "996-Everhart @ Shea",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3908135,
+          27.7041695
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0997",
+        "stop_name": "997-Everhart @ Schannen",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3894326,
+          27.7063735
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0998",
+        "stop_name": "998-Everhert @ Cain",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3877854,
+          27.7089392
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1000",
+        "stop_name": "1000-Everhart @ Bonner",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.385561,
+          27.7125592
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1624",
+        "stop_name": "Williams @ Everhart",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3835602,
+          27.7157559
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1625",
+        "stop_name": "1625-Everhart @ SPID",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3728522,
+          27.7140483
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5015",
+        "stop_name": "Southside Station Bay G",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3732022,
+          27.7141721
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5010",
+        "stop_name": "Southside Station Bay B",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3825746,
+          27.7176079
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1619",
+        "stop_name": "1619-Everhart @ McArdle",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3836816,
+          27.7158063
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1620",
+        "stop_name": "1620-Everhart @ SPID",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3858685,
+          27.7123083
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1622",
+        "stop_name": "Everhart @ Corona",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3881807,
+          27.7086871
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1003",
+        "stop_name": "1003-Everhart @ Bonner",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3897365,
+          27.7061817
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1004",
+        "stop_name": "1004-Everhart @ Holly",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3912151,
+          27.7038047
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1005",
+        "stop_name": "1005-Everhart @ Schanen",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3919988,
+          27.7025929
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1006",
+        "stop_name": "1006-Everhart @ Shea",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3930093,
+          27.7009601
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1007",
+        "stop_name": "1007-Everhart@Wooldridge",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.394095,
+          27.6991991
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1008",
+        "stop_name": "1008-Everhart@Donegal",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3951806,
+          27.6974766
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1009",
+        "stop_name": "1009-Everhart @Congress",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3975551,
+          27.693695
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1010",
+        "stop_name": "1010-Everhart @ Saratoga",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3988693,
+          27.6916998
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1011",
+        "stop_name": "1011-Everhart @ Saratoga",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4001735,
+          27.6894323
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1012",
+        "stop_name": "1012-Everhart @ Eider",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4014525,
+          27.6875393
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1013",
+        "stop_name": "1013-Everhart @the Gardens",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.403362,
+          27.6844609
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1014",
+        "stop_name": "1014-Everhart @Shadowbend",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4044023,
+          27.6828437
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1015",
+        "stop_name": "1015-Everhart @ Willowick",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4065693,
+          27.6801957
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1016",
+        "stop_name": "Cedar Pass @Everhart",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4105389,
+          27.6821247
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1017",
+        "stop_name": "1017-Cedar Pass @ Taos",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4134803,
+          27.683551
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1018",
+        "stop_name": "1018-CedarPass @ Trappers",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.415266,
+          27.6844243
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1019",
+        "stop_name": "1019-CedarPass @Junction",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4173491,
+          27.6859559
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1020",
+        "stop_name": "1020-Sun Valley @Snowbird",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4162565,
+          27.6887457
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0907",
+        "stop_name": "907-Sun Valley @ Aaron",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4182692,
+          27.68998
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1021",
+        "stop_name": "Aaron @ Weber",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4164329,
+          27.6931447
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1022",
+        "stop_name": "1022-Weber @ Bratton",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4139578,
+          27.6969153
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1023",
+        "stop_name": "1023-Weber @ Oak Bay",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4133559,
+          27.6979488
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1024",
+        "stop_name": "1024-Weber @ Acushnet",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4114167,
+          27.7010292
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1025",
+        "stop_name": "1025-Weber @ Saratoga",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4103155,
+          27.7027486
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1026",
+        "stop_name": "1026-Weber @ Ogrady",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4094266,
+          27.7042374
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1027",
+        "stop_name": "1027-Weber @ Rooney",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4086148,
+          27.7055236
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1028",
+        "stop_name": "1028-Weber @ O'Day",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4073316,
+          27.7075352
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1029",
+        "stop_name": "1029-Weber @ Bray",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4061775,
+          27.7093596
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1031",
+        "stop_name": "1031-Weber @ Schanen",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4050869,
+          27.7110653
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1032",
+        "stop_name": "1032-Weber @ Holly",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4039216,
+          27.7129309
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1033",
+        "stop_name": "1033-Weber @ Montego",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4030381,
+          27.7143746
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1034",
+        "stop_name": "1034-Weber @ Capri",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4021213,
+          27.7158534
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1035",
+        "stop_name": "1035-Weber @ Panama",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4006479,
+          27.7182391
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1037",
+        "stop_name": "Weber @ Tiger",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3992709,
+          27.7204878
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1039",
+        "stop_name": "1039-Weber @ SPID",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3979046,
+          27.7226153
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1040",
+        "stop_name": "1040-Weber @ Delphine",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3960912,
+          27.7255302
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9046",
+        "stop_name": "9046-Weber@McArdle",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3954097,
+          27.7266775
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9047",
+        "stop_name": "9047-Weber @ Marion",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3938344,
+          27.729238
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9048",
+        "stop_name": "9048-Weber @Southside",
+        "route_id": "32",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

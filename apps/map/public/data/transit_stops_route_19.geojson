@@ -1,0 +1,2069 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4194121,
+          27.7524549
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0043",
+        "stop_name": "43-Horne @ Port",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3816456,
+          27.7175712
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0846",
+        "stop_name": "846-McArdle  @  Wynona",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.380165,
+          27.7167682
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0847",
+        "stop_name": "847-McArdle  @  Waltham",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3787089,
+          27.7160455
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0848",
+        "stop_name": "848-McArdle  @  Lansdown",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3771433,
+          27.7152879
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0849",
+        "stop_name": "849-McArdle  @  Andover",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3747719,
+          27.7142293
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0850",
+        "stop_name": "850-McArdle@ Deaf Center",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3764519,
+          27.7151145
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0842",
+        "stop_name": "842-McArdle @ Andover",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3780438,
+          27.7158723
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0843",
+        "stop_name": "843-McArdle @ Lansdown",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3796118,
+          27.7166555
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0844",
+        "stop_name": "844-McArdle @ Waltham",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3810674,
+          27.7173886
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0845",
+        "stop_name": "845-McArdle @ Wynona",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4198804,
+          27.750602
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0945",
+        "stop_name": "945-Port @ Post Office",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4016273,
+          27.7712572
+        ]
+      },
+      "properties": {
+        "stop_id": "0:8005",
+        "stop_name": "Staples @ Brownlee",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3997768,
+          27.7962976
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1504",
+        "stop_name": "1504-Leopard @ Carrizo",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.396625,
+          27.7759431
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0330",
+        "stop_name": "Santa Fe  @  Ayers",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3966439,
+          27.7765488
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0507",
+        "stop_name": "Santa Fe  @  Ayers",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4108721,
+          27.7622282
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0499",
+        "stop_name": "499-Ayers @ Edwards",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4096391,
+          27.7642495
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0500",
+        "stop_name": "500-Ayers @ Del Mar College",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.408257,
+          27.7664796
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0501",
+        "stop_name": "Ayers @ baldwin",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4374236,
+          27.7372208
+        ]
+      },
+      "properties": {
+        "stop_id": "0:2521",
+        "stop_name": "Wal Mart",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4424288,
+          27.7409519
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1604",
+        "stop_name": "1604-Greenwood @ SPID",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4403155,
+          27.7444403
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0578",
+        "stop_name": "578-4934 Greenwood",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4387254,
+          27.7452518
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0104",
+        "stop_name": "104-Trojan @ Greenwood",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4371631,
+          27.7445073
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0105",
+        "stop_name": "105-Trojan@Waterfall",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.433737,
+          27.7428683
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0106",
+        "stop_name": "Trojan @ Moody HS",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4329137,
+          27.7418243
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0107",
+        "stop_name": "107-Prescott @ Trojan",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.434001,
+          27.7400006
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0108",
+        "stop_name": "108-Prescott @ SPID",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4452606,
+          27.7367174
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1038",
+        "stop_name": "1038-Greenwood@St. John",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4477196,
+          27.7328338
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1042",
+        "stop_name": "1042-Greenwood @ Holly",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4492135,
+          27.7304938
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1116",
+        "stop_name": "1116-Greenwood @ Coahuila",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4509413,
+          27.7277731
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1043",
+        "stop_name": "1043-Greenwood @ Gavilan",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4525697,
+          27.7252119
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1117",
+        "stop_name": "1117-Greenwood @TripleCr.",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4536886,
+          27.7234563
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1044",
+        "stop_name": "1044-Greenwood @ Lands",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4546903,
+          27.7218028
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1054",
+        "stop_name": "1054-Greenwood @Sanderson",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4475986,
+          27.7164761
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1060",
+        "stop_name": "1060-1959 Saratoga",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4405561,
+          27.7142734
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1077",
+        "stop_name": "Ayers @ Saratoga",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4382631,
+          27.7180429
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1083",
+        "stop_name": "1083-Ayers @ Allencrest",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.436071,
+          27.7215139
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1119",
+        "stop_name": "1119-Ayers @ Bevecrest",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4337896,
+          27.7250763
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1085",
+        "stop_name": "1085-Ayers @ Misty Winds",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4326659,
+          27.7267975
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0513",
+        "stop_name": "513-Ayers  @ Holly",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4297295,
+          27.7314988
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1090",
+        "stop_name": "1090-Ayers @ Hygia",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4279259,
+          27.7342728
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0767",
+        "stop_name": "767-Ayers @ Johanna",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.425911,
+          27.7375651
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0768",
+        "stop_name": "768-Ayers @ Nemec",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4235476,
+          27.741339
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0770",
+        "stop_name": "770-Ayers  @ Sunnybrook",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.419542,
+          27.7487241
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5027",
+        "stop_name": "Port Ayers Station Bay K",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4171534,
+          27.7518393
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0494",
+        "stop_name": "494-Ayers @ Horne",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4149062,
+          27.7556017
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0495",
+        "stop_name": "495-Ayers @ Roosevelt",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4128255,
+          27.7590246
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0497",
+        "stop_name": "497-Ayers @ Clemmer",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4063328,
+          27.7696384
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0503",
+        "stop_name": "503-Ayers @ 18th",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4030815,
+          27.7721309
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0505",
+        "stop_name": "Ayers @ Brownlee",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3981344,
+          27.774757
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1906",
+        "stop_name": "1906-Ayers@LawnviewFars",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3963287,
+          27.7784051
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0331",
+        "stop_name": "331-3rd  @  Elizabeth",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3975655,
+          27.7816623
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0314",
+        "stop_name": "314-3rd  @  Buford",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3973989,
+          27.7867208
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0317",
+        "stop_name": "317-Carancahua  @  Park",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3974864,
+          27.7885735
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0318",
+        "stop_name": "318-Carancahua @ Agnes",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3975425,
+          27.79114
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0319",
+        "stop_name": "319-Carancahua  @ Kinney",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3979545,
+          27.7942435
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1513",
+        "stop_name": "1513-Lipan @ Tancahua",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4004887,
+          27.7943274
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1514",
+        "stop_name": "1514-Lipan @ Artesian",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4017422,
+          27.794327
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1515",
+        "stop_name": "1515-Lipan @ Waco",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4028378,
+          27.7956238
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5001",
+        "stop_name": "Staples Street Station Bay A",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3986842,
+          27.7955334
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0321",
+        "stop_name": "321-Tancahua  @  Leopard",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.39872,
+          27.7930541
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0322",
+        "stop_name": "322-Tancahua  @ Comanche",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3986066,
+          27.7908046
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0323",
+        "stop_name": "323-Tancahua  @  Kinney",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3986123,
+          27.7865982
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0325",
+        "stop_name": "325-Tancahua  @  Park",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3986884,
+          27.7826885
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0327",
+        "stop_name": "327-Santa Fe  @  Hancock",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3978723,
+          27.7791999
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0329",
+        "stop_name": "329-Santa Fe  @  Morgan",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3998847,
+          27.7739534
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0509",
+        "stop_name": "509-Ayers @ 7th",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.404332,
+          27.7715765
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0510",
+        "stop_name": "510-Ayers  @  15th",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4061184,
+          27.7701778
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0511",
+        "stop_name": "511-Ayers  @  17th",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4085147,
+          27.7663274
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0514",
+        "stop_name": "Ayers @ baldwin",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4097778,
+          27.7642635
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0516",
+        "stop_name": "516-Ayers  @  Del Mar College",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4109821,
+          27.7622598
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0517",
+        "stop_name": "517-Ayers @ Edwards",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4132051,
+          27.7586284
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0520",
+        "stop_name": "520-Ayers @ Arlington",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4146192,
+          27.7563071
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0556",
+        "stop_name": "556-Ayers @ Painter",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4197198,
+          27.7494332
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5021",
+        "stop_name": "Port Ayers Station Bay D",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4223162,
+          27.7437349
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0561",
+        "stop_name": "561-Ayers @ Viola",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4234193,
+          27.7418572
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0562",
+        "stop_name": "562-Ayers @ Sunnybrook",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.424411,
+          27.740216
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0563",
+        "stop_name": "563-Ayers @ Mansheim",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4244885,
+          27.7383968
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0921",
+        "stop_name": "921-McArdle @ Ayers",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4230325,
+          27.7377087
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0922",
+        "stop_name": "922-McArdle @ Cheryl",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4205771,
+          27.7365228
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0923",
+        "stop_name": "923-McArdle @ Easter",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4180675,
+          27.7352982
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0924",
+        "stop_name": "924-McArdle @ Hamlett",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4151162,
+          27.7338589
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0925",
+        "stop_name": "925-McArdle @ Nesbit",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4120203,
+          27.7323527
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0926",
+        "stop_name": "926-McArdle @ Rogerson",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4101511,
+          27.7314344
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0927",
+        "stop_name": "927-McArdle @  Kostoryz",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4070384,
+          27.7299664
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0929",
+        "stop_name": "929-McArdle @ Broughton",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4038674,
+          27.7284278
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0931",
+        "stop_name": "McArdle @CarrollLane",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4016762,
+          27.7273602
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0932",
+        "stop_name": "932-McArdle @ Kasper",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4004041,
+          27.7267402
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0933",
+        "stop_name": "933-McArdle @ Monitor",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3981202,
+          27.725631
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0934",
+        "stop_name": "934-McArdle @ JoAnn",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3953965,
+          27.7243109
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1088",
+        "stop_name": "1088-McArdle @ Nell",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3936187,
+          27.7234344
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1092",
+        "stop_name": "1092-McArdle @ Dody",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3912097,
+          27.7222661
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1094",
+        "stop_name": "1094-McArdle @ Mable",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3886888,
+          27.721058
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1096",
+        "stop_name": "1096-McArdle @ Trinity",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3864004,
+          27.7199381
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1098",
+        "stop_name": "1098-McArdle @ Arlene",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3831778,
+          27.7183574
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1099",
+        "stop_name": "1099-McArdle @ Everhart",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.373121,
+          27.7142861
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5011",
+        "stop_name": "Southside Station Bay C",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3842808,
+          27.7190267
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1050",
+        "stop_name": "1050-4722 McArdle",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3869794,
+          27.7203344
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1062",
+        "stop_name": "1062-McArdle @ Margo",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.388591,
+          27.7211102
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1055",
+        "stop_name": "1055-McArdle @ French",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3914555,
+          27.7224946
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1057",
+        "stop_name": "1057-McArdle @ Alice",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3947493,
+          27.7241059
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1058",
+        "stop_name": "1058-McArdle @ Jean",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3976891,
+          27.7255394
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0908",
+        "stop_name": "908-McArdle @ JoAnn",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3991674,
+          27.7262621
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0909",
+        "stop_name": "909-McArdle @ Karchmer",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4009582,
+          27.7271175
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0910",
+        "stop_name": "910-McArdle @ Concord",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4030638,
+          27.7281597
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0911",
+        "stop_name": "911-McArdle @ Anthony",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4038176,
+          27.7285125
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9009",
+        "stop_name": "McArdle @CarrollLane",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4070685,
+          27.7300834
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0913",
+        "stop_name": "913-McArdle @ Broughton",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4095505,
+          27.7313172
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0914",
+        "stop_name": "914-McArdle @ Kostoryz",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4122104,
+          27.732611
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0915",
+        "stop_name": "915-McArdle @ Rodgerson",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4142783,
+          27.7336015
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0916",
+        "stop_name": "916-McArdle @ Odem",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4170887,
+          27.7349723
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0917",
+        "stop_name": "917-McArdle @ Cunningham",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4194958,
+          27.7361387
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0918",
+        "stop_name": "918-McArdle @ Gabriel",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4218416,
+          27.7372569
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0919",
+        "stop_name": "919-McArdle @ Dodd",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4245093,
+          27.7385874
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0920",
+        "stop_name": "920-McArdle @ Archer",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4261835,
+          27.7374708
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0564",
+        "stop_name": "564-Ayers @ MissionShop",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4293514,
+          27.7324273
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0567",
+        "stop_name": "567-Ayers @ Sacky",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4301525,
+          27.7311349
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0568",
+        "stop_name": "568-Ayers @ Civitan",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4335048,
+          27.7257066
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0569",
+        "stop_name": "569-Ayers @ Joyce",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4351015,
+          27.7233106
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0522",
+        "stop_name": "522-Ayers @ Frederick",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.438051,
+          27.7184779
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0492",
+        "stop_name": "492-Ayers @ Allencrest",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4406561,
+          27.7143053
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0553",
+        "stop_name": "Ayers @ Saratoga",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4480675,
+          27.7169556
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0493",
+        "stop_name": "493-2006 Saratoga",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4549714,
+          27.7211443
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0565",
+        "stop_name": "565-Greenwood @Sanderson",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4535258,
+          27.723468
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0555",
+        "stop_name": "555-Greenwood @Lands Rd",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4524486,
+          27.725163
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0592",
+        "stop_name": "592-Greenwood @ 3Crown",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4507298,
+          27.7278205
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0554",
+        "stop_name": "554-Greenwood @ Frio",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4494651,
+          27.7298432
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0577",
+        "stop_name": "577-Greenwood @ Dorado",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4487133,
+          27.7310417
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1647",
+        "stop_name": "1647-Greenwood @ La Joya",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4450672,
+          27.7368112
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1602",
+        "stop_name": "1602-Greenwood",
+        "route_id": "19",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

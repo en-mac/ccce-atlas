@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sufi Kabob",
+        "description": "Authentic Mediterranean and Middle Eastern cuisine with amazing gyros and fresh ingredients",
+        "address": "7150 S Padre Island Dr, Ste 104, Corpus Christi, TX 78412",
+        "category": "eats",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.34135, 27.694107]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Umiya Sushi",
+        "description": "Fresh sushi and Japanese cuisine in a modern setting",
+        "address": "4101 S Padre Island Dr, Corpus Christi, TX 78411",
+        "category": "eats",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.3958333, 27.7194444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Palma Mexican Restaurant",
+        "description": "Island favorite for breakfast tacos and casual Mexican food, right by Whitecap Beach",
+        "address": "15326 S Padre Island Dr, Ste 102, Corpus Christi, TX 78418",
+        "category": "eats",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.22182, 27.601006]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Executive Surf Club",
+        "description": "Upscale coastal dining with craft cocktails and bay views",
+        "address": "306 N Chaparral St, Corpus Christi, TX 78401",
+        "category": "eats",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.39435, 27.79445]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brewster Street Icehouse",
+        "description": "Casual downtown spot with burgers, live music, and craft beer selection",
+        "address": "1724 N Tancahua St, Corpus Christi, TX 78401",
+        "category": "eats",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.3983534, 27.8075311]
+      }
+    }
+  ]
+}

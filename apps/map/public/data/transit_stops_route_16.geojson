@@ -1,0 +1,805 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4205296,
+          27.7815831
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0903",
+        "stop_name": "903-1005 Port",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4205217,
+          27.7794336
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0904",
+        "stop_name": "Port @ Morgan",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4023797,
+          27.789253
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0296",
+        "stop_name": "296-Staples @ Laredo",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.402817,
+          27.7915447
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0298",
+        "stop_name": "298-Staples @ Blucher",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4029847,
+          27.7914803
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0302",
+        "stop_name": "302-Staples @ Mussett",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4025106,
+          27.7890584
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0304",
+        "stop_name": "304-Staples @ Laredo",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4020813,
+          27.7954869
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5005",
+        "stop_name": "Staples Street Station Bay E",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4053654,
+          27.7885934
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0194",
+        "stop_name": "194-Laredo @ 10th",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.406521,
+          27.7884291
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1638",
+        "stop_name": "1638-Laredo @ 12th",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4134167,
+          27.7878884
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0198",
+        "stop_name": "198-Laredo  @  19th",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4188055,
+          27.787097
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0200",
+        "stop_name": "200-Agnes  @  Bluntzer",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4206213,
+          27.7851462
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0201",
+        "stop_name": "201-Port @ Mary",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4205498,
+          27.782884
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0202",
+        "stop_name": "202-Port @ Ruth",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4216128,
+          27.7780714
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1130",
+        "stop_name": "1130-Morgan @ Bright",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4253704,
+          27.7780158
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1131",
+        "stop_name": "1131-Morgan @ Espinosa",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4280845,
+          27.777732
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1340",
+        "stop_name": "Baldwin @ Morgan",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4313949,
+          27.7767713
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1132",
+        "stop_name": "1132-Morgan @ Virginia",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.43486,
+          27.7758199
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0206",
+        "stop_name": "206-Morgan @ Balboa",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4369286,
+          27.775056
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0207",
+        "stop_name": "207-Morgan @ Vera Cruz",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4400624,
+          27.7740598
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0004",
+        "stop_name": "Del Mar West Campus",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4467774,
+          27.7659623
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0005",
+        "stop_name": "5-Old Brownsville @Manana",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4533811,
+          27.764509
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0002",
+        "stop_name": "2-Bear Ln@ Green Point",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4573584,
+          27.7644503
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0001",
+        "stop_name": "1-Bear Ln@Green Gate",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4624638,
+          27.7643217
+        ]
+      },
+      "properties": {
+        "stop_id": "0:6",
+        "stop_name": "6-Bear Ln @Flato  CC Food Bank",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4717509,
+          27.7644855
+        ]
+      },
+      "properties": {
+        "stop_id": "0:8050",
+        "stop_name": "RTA Operations",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4644428,
+          27.7627327
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9025",
+        "stop_name": "9025-Enterprize @BearLane",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.462436,
+          27.7603993
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9026",
+        "stop_name": "9026-Opportunity@Investment",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4599336,
+          27.7594707
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0007",
+        "stop_name": "7-Opportunity@Enterprize",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4548979,
+          27.7503674
+        ]
+      },
+      "properties": {
+        "stop_id": "0:3000",
+        "stop_name": "3000-VA Clinic@SPID",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4579719,
+          27.7572395
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0008",
+        "stop_name": "VA Clinic Old Browns",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4548796,
+          27.7592435
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0009",
+        "stop_name": "9-Old Brownsville @Cliff Maus",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4526484,
+          27.7608334
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0010",
+        "stop_name": "10-Old Brownsville @Gol",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4368827,
+          27.7749344
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0208",
+        "stop_name": "208-Morgan @ Vera Cruz",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4339173,
+          27.7759432
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0209",
+        "stop_name": "209-Morgan @ Pueblo",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.431281,
+          27.7766635
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0210",
+        "stop_name": "210-Morgan @ Virginia",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4293073,
+          27.7772317
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0211",
+        "stop_name": "211-Morgan @ Cheyenne",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4279849,
+          27.7775831
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0212",
+        "stop_name": "Baldwin @ Morgan",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4268858,
+          27.777791
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0213",
+        "stop_name": "213-Morgan @ Rosewood",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4252664,
+          27.7778672
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0214",
+        "stop_name": "214-Morgan @ Espinosa",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4220266,
+          27.7779207
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0216",
+        "stop_name": "216-Morgan  @  Port",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4203118,
+          27.77833
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0181",
+        "stop_name": "Morgan @ Port",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4203362,
+          27.7803883
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0182",
+        "stop_name": "182-Port  @  Buford",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4203873,
+          27.7825479
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0183",
+        "stop_name": "183-Port @ Ruth",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.420377,
+          27.7851409
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0184",
+        "stop_name": "184-Port @ Mary",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4195795,
+          27.7869202
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0186",
+        "stop_name": "Agnes  @  Port",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4156081,
+          27.7868541
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0187",
+        "stop_name": "187-Agnes  @  21st",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4132562,
+          27.7868403
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0188",
+        "stop_name": "188-Agnes  @  19th",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4114096,
+          27.7868133
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0189",
+        "stop_name": "189-Agnes @ 17th",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4061515,
+          27.7873995
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0192",
+        "stop_name": "192-Agnes @ 12th",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4037277,
+          27.7877319
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0193",
+        "stop_name": "193-Agnes @ Sth Alameda",
+        "route_id": "16",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

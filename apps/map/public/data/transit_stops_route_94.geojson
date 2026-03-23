@@ -1,0 +1,533 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.069095,
+          27.8183805
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1406",
+        "stop_name": "11th @ Sandcastle",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0632407,
+          27.8249474
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1405",
+        "stop_name": "1405-11th @ Holiday Inn",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0652187,
+          27.8270561
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1410",
+        "stop_name": "1410-Ave G @ 10th Street",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0731076,
+          27.820055
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1104",
+        "stop_name": "1104-Hwy 361 @ Crosswalk",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0752857,
+          27.8164022
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1106",
+        "stop_name": "1106-Hwy 361 @ Snappy's",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.078222,
+          27.8112919
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1108",
+        "stop_name": "1108-Hwy 361 @ Palladium",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0805866,
+          27.8053901
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1830",
+        "stop_name": "1830-11th St. @ Acc Rd",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0768825,
+          27.8097108
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1407",
+        "stop_name": "1407-11th @ Oceanside Dr",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0746214,
+          27.8122523
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1403",
+        "stop_name": "1403-11th @ Royal Palm",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0729704,
+          27.8141067
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1404",
+        "stop_name": "1404-11th @Island Retreat",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1077471,
+          27.7747808
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1144",
+        "stop_name": "Cinnamon Shores",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0974325,
+          27.7870808
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1401",
+        "stop_name": "Pioneer RV Park",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0769708,
+          27.8028677
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1402",
+        "stop_name": "Access Rd 1A @ Beach",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0670736,
+          27.8283457
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1411",
+        "stop_name": "1411-Ave G @ Alister",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0778151,
+          27.8271034
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1413",
+        "stop_name": "Birding Facility",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0710355,
+          27.8309247
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1047",
+        "stop_name": "1047-6th Street @ Av G",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0708901,
+          27.8340197
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1867",
+        "stop_name": "1867-CutOff Rd@Tropic Isl",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0689588,
+          27.8368619
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1415",
+        "stop_name": "1415-Cut Off Rd @CityHall",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0638701,
+          27.840435
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1416",
+        "stop_name": "Marina",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0665077,
+          27.8376825
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1417",
+        "stop_name": "1417-Cotter @Chamber Com",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0635808,
+          27.8377506
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1418",
+        "stop_name": "1418-Cotter @Captains",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0619548,
+          27.8378293
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1422",
+        "stop_name": "1422-135 Cotter @ Port-A",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0598549,
+          27.8376933
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1419",
+        "stop_name": "1419-Cotter @Allister",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0515695,
+          27.8362186
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1420",
+        "stop_name": "UT Marine Scien",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0610461,
+          27.8375126
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1424",
+        "stop_name": "1424-Allister @ Cotter",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0614963,
+          27.8351258
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1425",
+        "stop_name": "1425-Allister @ Roberts",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0533527,
+          27.8282302
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1426",
+        "stop_name": "Horace Caldwell",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0595967,
+          27.8336699
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1427",
+        "stop_name": "1427-Beach@W Station",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0614165,
+          27.8339416
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1428",
+        "stop_name": "1428-Beach @Allister",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.063754,
+          27.8320209
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1523",
+        "stop_name": "1523-Alister @ Ave A",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0660062,
+          27.8295119
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1431",
+        "stop_name": "1431-Allister @ Ave E",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0696112,
+          27.8239339
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1142",
+        "stop_name": "US PO Port Aransas",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0841705,
+          27.8070254
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1429",
+        "stop_name": "Island Moorings",
+        "route_id": "94",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# Railway ignore file
+# Files and directories that should not be uploaded to Railway
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+.pytest_cache/
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local development
+.env.local
+*.local
+
+# Data files
+*.geojson
+*.csv
+*.shp
+data/
+
+# Logs
+*.log
+logs/

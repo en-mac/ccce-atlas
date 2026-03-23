@@ -1,0 +1,29 @@
+# FastAPI and server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+asyncpg==0.29.0
+sqlalchemy[asyncio]==2.0.25
+geoalchemy2==0.14.3
+
+# Redis caching
+redis==5.0.1
+hiredis==2.3.2
+
+# HTTP client
+httpx==0.26.0
+
+# Data validation and serialization
+python-multipart==0.0.6
+email-validator==2.1.0
+
+# Geospatial
+shapely==2.0.2
+pyproj==3.6.1
+
+# Utilities
+python-dotenv==1.0.0
+python-json-logger==2.0.7

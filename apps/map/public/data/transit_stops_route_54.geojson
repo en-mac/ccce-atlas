@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4024005,
+          27.7954059
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9017",
+        "stop_name": "Staples St Station Lane M",
+        "route_id": "54",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2955963,
+          27.9148044
+        ]
+      },
+      "properties": {
+        "stop_id": "0:9051",
+        "stop_name": "Gregory Park & Ride",
+        "route_id": "54",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

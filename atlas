@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# CCCE Atlas - Simple control script
+# Usage: ./atlas [status|up|down]
+
+cd "$(dirname "$0")/infra"
+
+case "$1" in
+  status)
+    echo "=== CCCE Atlas Status ==="
+    docker ps --filter "name=ccce-atlas" --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}" 2>/dev/null
+
+    if [ $? -ne 0 ] || [ -z "$(docker ps --filter 'name=ccce-atlas' -q)" ]; then
+      echo ""
+      echo "❌ Application is DOWN"
+      echo "Run: ./atlas up"
+    else
+      echo ""
+      echo "✅ Application is RUNNING"
+      echo "🌐 Access: http://localhost:8080"
+      echo ""
+      echo "To stop: ./atlas down"
+    fi
+    ;;
+
+  up)
+    echo "🚀 Starting CCCE Atlas..."
+    docker compose up -d
+    echo ""
+    echo "✅ Application started!"
+    echo "🌐 Access: http://localhost:8080"
+    echo "📡 API Docs: http://localhost:8000/docs"
+    ;;
+
+  down)
+    echo "🛑 Stopping CCCE Atlas..."
+    docker compose down
+    echo ""
+    echo "✅ Application stopped"
+    echo "💾 Data preserved (run './atlas up' to restart)"
+    ;;
+
+  *)
+    echo "CCCE Atlas - Simple Commands"
+    echo ""
+    echo "Usage:"
+    echo "  ./atlas status    Check if running"
+    echo "  ./atlas up        Start application"
+    echo "  ./atlas down      Stop application"
+    echo ""
+    echo "Access: http://localhost:8080"
+    ;;
+esac

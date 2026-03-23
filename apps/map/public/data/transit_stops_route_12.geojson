@@ -1,0 +1,853 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.423223,
+          27.7750499
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0347",
+        "stop_name": "347-Baldwin @ Elgin",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4252194,
+          27.7761071
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0352",
+        "stop_name": "352-Baldwin @ Blake",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4239882,
+          27.775303
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0148",
+        "stop_name": "148-Baldwin  @  Sabinas",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4214774,
+          27.7740837
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0149",
+        "stop_name": "149-Baldwin  @  Lamar",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4203716,
+          27.7708774
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0162",
+        "stop_name": "162-Port  @  San Jacinto",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3997768,
+          27.7962976
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1504",
+        "stop_name": "1504-Leopard @ Carrizo",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3983473,
+          27.7962321
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1505",
+        "stop_name": "1505-Leopard @ Tancahua",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4020813,
+          27.7954869
+        ]
+      },
+      "properties": {
+        "stop_id": "0:5005",
+        "stop_name": "Staples Street Station Bay E",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.403864,
+          27.7994032
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1800",
+        "stop_name": "1800-Winnebago @ Alameda",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4106238,
+          27.8004536
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1153",
+        "stop_name": "1153-Winnebago @ Tuskegee",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4136682,
+          27.802076
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1155",
+        "stop_name": "1155-Winnebago @ Kennedy",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4167313,
+          27.804099
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1184",
+        "stop_name": "1184-Nueces @ Van Loan",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4193167,
+          27.8032931
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1164",
+        "stop_name": "1164-Palm @ Minton",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4204221,
+          27.8016439
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1166",
+        "stop_name": "Palm @ Hulbirt",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4215512,
+          27.7999602
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1167",
+        "stop_name": "1167-Palm @ MLK",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4254439,
+          27.7997004
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1168",
+        "stop_name": "1168-Nueces Bay @ Magnolia",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4271014,
+          27.7976266
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1169",
+        "stop_name": "Leopard @ NuecesBay",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.429051,
+          27.7954892
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1170",
+        "stop_name": "Up River @ Nueces Bay",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4310949,
+          27.7948214
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1272",
+        "stop_name": "1272-Old Robstown @Colonial",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4341701,
+          27.790875
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1274",
+        "stop_name": "1274-Old Robstown @Saxet",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4364541,
+          27.7880759
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1275",
+        "stop_name": "1275-Old Robstown@Liberty",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.436945,
+          27.7819816
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1143",
+        "stop_name": "1143-Baldwin @ Verac",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4348096,
+          27.7808092
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1200",
+        "stop_name": "1200-Baldwin @ Balboa",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4316474,
+          27.7789818
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1300",
+        "stop_name": "1300-Baldwin @ Hiawa",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4288335,
+          27.777612
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1124",
+        "stop_name": "Baldwin @ Morgan",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4261149,
+          27.7763162
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1303",
+        "stop_name": "1303-Baldwin @ Rosewood",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4203577,
+          27.7692266
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0163",
+        "stop_name": "163-Port  @  Nimitz",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4203148,
+          27.7659428
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0164",
+        "stop_name": "Port @ Tarlton",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4134601,
+          27.762069
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1133",
+        "stop_name": "1133-Tarlton @ Robb Place",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4108721,
+          27.7622282
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0499",
+        "stop_name": "499-Ayers @ Edwards",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4096391,
+          27.7642495
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0500",
+        "stop_name": "500-Ayers @ Del Mar College",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.408257,
+          27.7664796
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0501",
+        "stop_name": "Ayers @ baldwin",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4102139,
+          27.7687651
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1134",
+        "stop_name": "1134-Baldwin @ Terrace",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4128501,
+          27.7700069
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1135",
+        "stop_name": "1135-Baldwin @ Elizabeth",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4183739,
+          27.7727379
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1136",
+        "stop_name": "1136-Baldwin @ Cleo",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4280821,
+          27.7774321
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1125",
+        "stop_name": "Baldwin @ Morgan",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4303934,
+          27.7785544
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1137",
+        "stop_name": "1137-Baldwin @ Cheye",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4343868,
+          27.7807614
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1138",
+        "stop_name": "1138-Baldwin @ Balbo",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.437478,
+          27.7825145
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1139",
+        "stop_name": "1139-Baldwin @ Verac",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4360901,
+          27.7884839
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1140",
+        "stop_name": "1140-Old Robstown Rd",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.433684,
+          27.791428
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1141",
+        "stop_name": "1141-Old Robstown @ Saxet",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4306728,
+          27.7950469
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1501",
+        "stop_name": "Old Robstown@ Up River Road",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.428214,
+          27.7959336
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1178",
+        "stop_name": "1178-NuecesBay @Barthalom",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4268474,
+          27.7977343
+        ]
+      },
+      "properties": {
+        "stop_id": "0:0312",
+        "stop_name": "Nueces Bay",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4254873,
+          27.7994613
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1180",
+        "stop_name": "1180-NuecesBay @ Magnolia",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.418724,
+          27.8005931
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1183",
+        "stop_name": "1183-Hulbirt@ Van Loan",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.41738,
+          27.7998941
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1185",
+        "stop_name": "1185-Hulbirt @ Peabody",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4156411,
+          27.800084
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1187",
+        "stop_name": "1187-Kennedy @ Koepke",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4142217,
+          27.8022012
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1188",
+        "stop_name": "1188-Kennedy @ Winnebago",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.411968,
+          27.801046
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1190",
+        "stop_name": "1190-Winnebago @ Port",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4055643,
+          27.7992308
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1194",
+        "stop_name": "1194-Winnebago @ Sam Rankin",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4038211,
+          27.7993543
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1801",
+        "stop_name": "1801-Winnebago @ Alameda",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4007649,
+          27.7993599
+        ]
+      },
+      "properties": {
+        "stop_id": "0:1149",
+        "stop_name": "1149-Winnebago @ Cole",
+        "route_id": "12",
+        "type": "bus_stop"
+      }
+    }
+  ]
+}

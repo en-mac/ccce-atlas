@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oso Bay Wetland Preserve",
+        "description": "1.5 mile boardwalk trail through beautiful wetlands, bird watching paradise",
+        "address": "2446 N Oso Pkwy, Corpus Christi, TX 78414",
+        "category": "trails",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3314457,
+          27.6686626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ennis Joslin Bay Trail",
+        "description": "Scenic waterfront trail along Corpus Christi Bay with beach access",
+        "address": "Ennis Joslin Rd, Corpus Christi, TX 78412",
+        "category": "trails",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3338107,
+          27.699908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hans & Pat Suter Wildlife Refuge",
+        "description": "Nature trails through coastal habitat with bird watching opportunities",
+        "address": "795 Ennis Joslin Rd, Corpus Christi, TX 78412",
+        "category": "trails",
+        "tags": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3338107,
+          27.699908
+        ]
+      }
+    }
+  ]
+}
