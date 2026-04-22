@@ -305,20 +305,24 @@ async function initViewer() {
 
     // Add FAA VFR Sectional Charts as overlay
     // Official FAA tile service - updated on 56-day AIRAC cycle
-    try {
-        const sectionalProvider = new Cesium.UrlTemplateImageryProvider({
-            url: 'https://tiles.arcgis.com/tiles/REDACTED_ARCGIS_SERVICE_ID/arcgis/rest/services/VFR_Sectional/MapServer/tile/{z}/{y}/{x}',
-            minimumLevel: 5,  // Don't request tiles at world-view zoom levels
-            maximumLevel: 13,
-            credit: 'VFR Sectional Charts: Federal Aviation Administration (FAA)'
-        });
+    if (typeof FAA_VFR_SECTIONAL_SERVICE_ID !== 'undefined' && FAA_VFR_SECTIONAL_SERVICE_ID) {
+        try {
+            const sectionalProvider = new Cesium.UrlTemplateImageryProvider({
+                url: `https://tiles.arcgis.com/tiles/${FAA_VFR_SECTIONAL_SERVICE_ID}/arcgis/rest/services/VFR_Sectional/MapServer/tile/{z}/{y}/{x}`,
+                minimumLevel: 5,  // Don't request tiles at world-view zoom levels
+                maximumLevel: 13,
+                credit: 'VFR Sectional Charts: Federal Aviation Administration (FAA)'
+            });
 
-        appState.sectionalLayer = appState.viewer.imageryLayers.addImageryProvider(sectionalProvider);
-        appState.sectionalLayer.alpha = 0.6; // Navigation overlays: 60% (allows base layer to show through)
-        appState.sectionalLayer.show = false; // Start with sectional hidden
-        console.log('✅ Aviation sectional chart layer added successfully');
-    } catch (error) {
-        console.warn('Could not load sectional chart layer:', error);
+            appState.sectionalLayer = appState.viewer.imageryLayers.addImageryProvider(sectionalProvider);
+            appState.sectionalLayer.alpha = 0.6; // Navigation overlays: 60% (allows base layer to show through)
+            appState.sectionalLayer.show = false; // Start with sectional hidden
+            console.log('✅ Aviation sectional chart layer added successfully');
+        } catch (error) {
+            console.warn('Could not load sectional chart layer:', error);
+        }
+    } else {
+        console.log('ℹ️  Aviation sectional disabled (FAA_VFR_SECTIONAL_SERVICE_ID not configured)');
     }
 
     // Add OpenSeaMap as nautical chart overlay
@@ -376,39 +380,43 @@ async function initViewer() {
     // Add AI Depth Map overlay (Depth Anything V2)
     // Shows AI-generated depth estimation for Nueces County
     // Dark pixels = closer/higher (buildings), Light pixels = farther/lower (ground, water)
-    try {
-        const depthMapProvider = new Cesium.UrlTemplateImageryProvider({
-            url: 'http://REDACTED_DEPTH_TILES_HOST/tiles/depth/15/{x}/{y}.png',
-            minimumLevel: 15, // Fixed zoom level - tiles only exist at level 15
-            maximumLevel: 15, // Fixed zoom level - tiles only exist at level 15
-            credit: 'AI Depth Map: Depth Anything V2',
+    if (typeof DEPTH_TILES_BASE_URL !== 'undefined' && DEPTH_TILES_BASE_URL) {
+        try {
+            const depthMapProvider = new Cesium.UrlTemplateImageryProvider({
+                url: `${DEPTH_TILES_BASE_URL.replace(/\/$/, '')}/tiles/depth/15/{x}/{y}.png`,
+                minimumLevel: 15, // Fixed zoom level - tiles only exist at level 15
+                maximumLevel: 15, // Fixed zoom level - tiles only exist at level 15
+                credit: 'AI Depth Map: Depth Anything V2',
 
-            // Limit tile requests to Nueces County (prevents excessive 404s)
-            // Coverage: Nueces County, TX (~2,100 km²)
-            rectangle: Cesium.Rectangle.fromDegrees(
-                -97.9, // west
-                27.5,  // south
-                -97.0, // east
-                28.0   // north
-            ),
+                // Limit tile requests to Nueces County (prevents excessive 404s)
+                // Coverage: Nueces County, TX (~2,100 km²)
+                rectangle: Cesium.Rectangle.fromDegrees(
+                    -97.9, // west
+                    27.5,  // south
+                    -97.0, // east
+                    28.0   // north
+                ),
 
-            // Handle transparency and missing tiles gracefully
-            hasAlphaChannel: true,
-            errorEvent: new Cesium.Event()
-        });
+                // Handle transparency and missing tiles gracefully
+                hasAlphaChannel: true,
+                errorEvent: new Cesium.Event()
+            });
 
-        // Handle tile load errors gracefully (404s expected at boundaries)
-        depthMapProvider.errorEvent.addEventListener((error) => {
-            console.debug('Depth tile not found (expected at boundaries):', error);
-        });
+            // Handle tile load errors gracefully (404s expected at boundaries)
+            depthMapProvider.errorEvent.addEventListener((error) => {
+                console.debug('Depth tile not found (expected at boundaries):', error);
+            });
 
-        appState.depthMapLayer = appState.viewer.imageryLayers.addImageryProvider(depthMapProvider);
-        appState.depthMapLayer.alpha = 0.6; // 60% opacity default
-        appState.depthMapLayer.show = false; // Start hidden
-        console.log('✅ AI Depth Map layer added successfully (Nueces County)');
-    } catch (error) {
-        console.warn('Could not load AI Depth Map layer:', error);
-        showNotification('AI Depth Map layer unavailable - make sure ai-tiles tile server is running on port 8002', 'warning');
+            appState.depthMapLayer = appState.viewer.imageryLayers.addImageryProvider(depthMapProvider);
+            appState.depthMapLayer.alpha = 0.6; // 60% opacity default
+            appState.depthMapLayer.show = false; // Start hidden
+            console.log('✅ AI Depth Map layer added successfully (Nueces County)');
+        } catch (error) {
+            console.warn('Could not load AI Depth Map layer:', error);
+            showNotification('AI Depth Map layer unavailable - make sure ai-tiles tile server is running on port 8002', 'warning');
+        }
+    } else {
+        console.log('ℹ️  AI Depth Map disabled (DEPTH_TILES_BASE_URL not configured)');
     }
 
     // NASA GIBS True Color imagery is now a selectable BASE LAYER (use radio button in UI)
@@ -417,9 +425,10 @@ async function initViewer() {
     // Add OpenWeatherMap precipitation layer
     // NOTE: Free API keys may have limitations or expire
     // Shows rain, snow, and precipitation intensity from weather models
+    if (typeof OWM_API_KEY !== 'undefined' && OWM_API_KEY) {
     try {
         const owmProvider = new Cesium.UrlTemplateImageryProvider({
-            url: 'https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=REDACTED_OWM_KEY',
+            url: `https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=${OWM_API_KEY}`,
             maximumLevel: 15,
             credit: 'Weather Data: © OpenWeatherMap',
             errorEvent: new Cesium.Event()
@@ -443,6 +452,9 @@ async function initViewer() {
     } catch (error) {
         console.warn('Could not load OpenWeatherMap layer:', error);
         showNotification('Weather Model layer unavailable', 'warning');
+    }
+    } else {
+        console.log('ℹ️  Weather Model disabled (OWM_API_KEY not configured)');
     }
 
     // Add RainViewer real-time radar layer

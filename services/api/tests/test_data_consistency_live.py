@@ -6,11 +6,13 @@ These tests run against the production API to verify data consistency.
 Run with: pytest tests/test_data_consistency_live.py -v
 """
 
+import os
+
 import pytest
 import httpx
 
-# Production API
-BASE_URL = "http://REDACTED_API_HOST:8000"
+# API under test. Override via ATLAS_API_URL env var (e.g. the production endpoint).
+BASE_URL = os.environ.get("ATLAS_API_URL", "http://localhost:8000")
 
 # Test coordinates: Downtown Corpus Christi
 TEST_LAT = 27.8006
