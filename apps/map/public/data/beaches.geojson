@@ -18,8 +18,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "JP Luby Surf Park",
-        "description": "Surf Park with waves, boardwalk, and great sunset views",
+        "name": "JP Luby Surf Park (North Packery Beach)",
+        "description": "Mustang Island beach park north of Packery Channel with surf, boardwalk, easy parking, and jetty fishing",
         "address": "149 Zahn Rd, Corpus Christi, TX 78418",
         "category": "beaches",
         "tags": []
@@ -47,7 +47,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bob Hall Pier",
-        "description": "Iconic 1,240' fishing pier with beach access and great seafood",
+        "description": "Newly rebuilt Gulf fishing pier (reopened Feb 2026 after Hurricane Hanna) — wider walkways, ADA-accessible, engineered for 100-year storms; restaurant opening later in 2026",
         "address": "15820 Park Rd 22, Corpus Christi, TX 78418",
         "category": "beaches",
         "tags": []
@@ -71,19 +71,5 @@
         "coordinates": [-97.299184, 27.424156]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "North Packery Beach",
-        "description": "Less crowded beach with easy parking and jetty fishing",
-        "address": "149 Zahn Rd, Corpus Christi, TX 78418",
-        "category": "beaches",
-        "tags": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-97.2028266, 27.6158639]
-      }
-    }
   ]
 }

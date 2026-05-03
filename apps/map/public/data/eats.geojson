@@ -47,14 +47,14 @@
       "type": "Feature",
       "properties": {
         "name": "Executive Surf Club",
-        "description": "Upscale coastal dining with craft cocktails and bay views",
+        "description": "Downtown bar and casual eatery since 1990 — burgers, sandwiches, the most beer on tap in the city, and live local music",
         "address": "306 N Chaparral St, Corpus Christi, TX 78401",
         "category": "eats",
         "tags": []
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.39435, 27.79445]
+        "coordinates": [-97.39435, 27.79650]
       }
     },
     {
