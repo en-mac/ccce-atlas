@@ -1882,22 +1882,22 @@ function setupEventListeners() {
             return;
         }
 
-        // On enable, fly to a regional altitude so the user can see actual
-        // weather patterns (storm systems, fronts, Gulf coverage). Street-level
-        // zoom shows almost nothing useful for radar.
+        // On enable, fly to a continental altitude so the user can see the
+        // whole CONUS — weather systems span thousands of km, so anything
+        // closer is too zoomed in to be useful as context.
         if (isEnabled && hasAnyLayer) {
             appState.viewer.camera.flyTo({
                 destination: Cesium.Cartesian3.fromDegrees(
-                    CORPUS_CHRISTI.longitude,
-                    CORPUS_CHRISTI.latitude,
-                    200000 // ~200km altitude — frames CC metro + Gulf coast
+                    -98.5,  // CONUS geographic center longitude (Kansas)
+                    39.5,   // CONUS geographic center latitude
+                    5000000 // ~5000km altitude — frames the entire continental US
                 ),
                 orientation: {
                     heading: Cesium.Math.toRadians(0),
                     pitch: Cesium.Math.toRadians(-90),
                     roll: 0.0
                 },
-                duration: 1.5
+                duration: 2.0
             });
         }
     });
