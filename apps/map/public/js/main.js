@@ -943,11 +943,13 @@ async function initializeParcelTiles() {
         // Initialize (download and index data)
         await appState.parcelTileLoader.initialize();
 
-        // Enable automatic loading
-        appState.parcelTileLoader.enable();
-
         checkbox.disabled = false;
         checkbox.checked = true;
+
+        // Reconcile: enables rendering iff zoom is currently sufficient,
+        // otherwise leaves the checkbox checked and applies the "pending zoom"
+        // visual cue (and shows the toast).
+        appState.parcelTileLoader.reconcile();
 
         console.log('✅ Parcel tiles ready - zoom in to see parcels');
     } catch (error) {
@@ -1711,32 +1713,20 @@ function setupEventListeners() {
     // Reset camera button
     document.getElementById('reset-camera').addEventListener('click', resetCamera);
 
-    // Property controls - toggle tile loading on/off
+    // Property controls - reconcile render state from user intent + zoom.
+    // The reconciler keeps the checkbox as the single source of truth for
+    // intent, and decides whether to render based on intent + current zoom.
     document.getElementById('parcels-toggle').addEventListener('change', async (e) => {
         const checkbox = e.target;
 
-        // Initialize tile loader if needed
         if (!appState.parcelTileLoader) {
             console.log('Initializing parcel tile loader...');
-            checkbox.disabled = true; // Prevent rapid clicking during init
+            checkbox.disabled = true;
             await initializeParcelTiles();
             checkbox.disabled = false;
-            // Checkbox state is already set by user, just enable if checked
-            if (checkbox.checked && appState.parcelTileLoader) {
-                appState.parcelTileLoader.enable();
-                console.log('Parcel tiles enabled after initialization');
-            }
-            return;
         }
 
-        // Enable/disable tile loader
-        if (checkbox.checked) {
-            appState.parcelTileLoader.enable();
-            console.log('Parcel tiles enabled');
-        } else {
-            appState.parcelTileLoader.disable();
-            console.log('Parcel tiles disabled');
-        }
+        appState.parcelTileLoader?.reconcile();
     });
 
     // School Districts controls

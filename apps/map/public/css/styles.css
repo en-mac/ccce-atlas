@@ -211,6 +211,20 @@ body {
     color: var(--color-gray-700);
 }
 
+/* "Armed but waiting": user wants parcels but is currently zoomed too far
+   out to render them. Indicates the checkbox is held in user intent without
+   the rendering side being active. */
+.parcels-toggle-label.parcels-pending-zoom .parcels-toggle-text {
+    opacity: 0.6;
+    font-style: italic;
+}
+.parcels-toggle-label.parcels-pending-zoom .parcels-toggle-text::after {
+    content: ' (zoom in)';
+    font-size: 0.85em;
+    color: var(--color-gray-500);
+    font-style: normal;
+}
+
 /* Focus mode: while a guided tour is running, dim and collapse all sidebar
    sections except the active tour section so its controls stand out. */
 body.tour-focus-active .sidebar-section:not(#run-club-section) {

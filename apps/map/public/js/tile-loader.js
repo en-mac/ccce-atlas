@@ -68,8 +68,8 @@ class ParcelTileLoader {
          */
         this.heightOffset = 10;
 
-        /** @type {number} Minimum zoom level required to show parcels */
-        this.minZoom = 13;
+        /** @type {number} Minimum zoom level required to show parcels (must match updateTiles threshold) */
+        this.minZoom = 14;
 
         /** @type {boolean} Track if user was notified about zoom requirement */
         this.hasNotifiedZoom = false;
@@ -124,6 +124,15 @@ class ParcelTileLoader {
             console.log('📊 Using GeoJSON tiles with Cesium Primitives for scalable rendering');
 
             this.isInitialized = true;
+
+            // Attach the camera listener for the lifetime of the loader.
+            // We need this even when rendering is paused (e.g. zoomed out),
+            // so we can re-enable rendering when the user zooms back in.
+            if (!this.cameraListener) {
+                this.cameraListener = this.onCameraChanged.bind(this);
+                this.viewer.camera.changed.addEventListener(this.cameraListener);
+            }
+
             return true;
         } catch (error) {
             console.error('❌ Failed to connect to API server:', error);
@@ -148,39 +157,22 @@ class ParcelTileLoader {
         }
 
         this.isEnabled = true;
-
-        // Show the primitive collection
         this.primitiveCollection.show = true;
 
         console.log('✅ Parcel tiling enabled (Primitives mode)');
 
-        // Load initial tiles
         this.updateTiles();
-
-        // Listen to camera changes
-        if (!this.cameraListener) {
-            this.cameraListener = this.onCameraChanged.bind(this);
-            this.viewer.camera.changed.addEventListener(this.cameraListener);
-        }
     }
 
     /**
-     * Disable tile loading and clear all parcels
+     * Disable tile rendering and clear all parcels.
+     * Note: the camera listener stays attached (it was bound at init) so the
+     * reconciler can re-enable rendering when zoom returns to a usable range.
      */
     disable() {
         this.isEnabled = false;
-
-        // Remove camera listener to prevent tiles from reloading
-        if (this.cameraListener) {
-            this.viewer.camera.changed.removeEventListener(this.cameraListener);
-            this.cameraListener = null;
-        }
-
         this.clearAllTiles();
-
-        // Hide the primitive collection
         this.primitiveCollection.show = false;
-
         console.log('Parcel tiling disabled');
     }
 
@@ -253,6 +245,11 @@ class ParcelTileLoader {
      * Handle camera movement - update visible tiles
      */
     onCameraChanged() {
+        // Always reconcile render state with user intent + current zoom,
+        // even when rendering is currently disabled — that's how we detect
+        // "user zoomed back in, time to start rendering again."
+        this.reconcile();
+
         if (!this.isEnabled) return;
 
         // Debounce updates
@@ -275,15 +272,12 @@ class ParcelTileLoader {
         const cameraHeight = this.viewer.camera.positionCartographic.height;
         const zoom = this.heightToZoomLevel(cameraHeight);
 
-        // Only show parcels when zoomed in enough
+        // Only show parcels when zoomed in enough. Reconciler handles the
+        // checkbox UI and toast; we just bail out of rendering work.
         if (zoom < 14) {
             this.clearAllTiles();
-            this.notifyZoomRequired();
             return;
         }
-
-        // Reset notification flag when zoomed back in
-        this.hasNotifiedZoom = false;
 
         // Cap at zoom 15 for optimal performance
         const clampedZoom = Math.min(zoom, 15);
@@ -1013,28 +1007,43 @@ class ParcelTileLoader {
     }
 
     /**
-     * Notify user that they need to zoom in to see parcels
-     * Auto-unchecks the parcels checkbox and shows a toast notification
+     * Reconcile render state with user intent (checkbox) and current zoom.
+     *
+     * Single source of truth for *whether parcels should be rendering right now*.
+     * Idempotent — safe to call as often as wanted. Never writes to the
+     * checkbox; user intent is read-only here.
+     *
+     * Rule: render iff (user intent AND zoom is sufficient).
      */
-    notifyZoomRequired() {
-        // Only notify once per zoom-out session
-        if (this.hasNotifiedZoom) return;
-        this.hasNotifiedZoom = true;
+    reconcile() {
+        if (!this.isInitialized) return;
 
-        // Auto-uncheck the parcels toggle
         const checkbox = document.getElementById('parcels-toggle');
-        if (checkbox && checkbox.checked) {
-            // Uncheck visually
-            checkbox.checked = false;
+        const intent = !!(checkbox && checkbox.checked);
+        const zoomOk = this.isZoomSufficient();
+        const shouldRender = intent && zoomOk;
 
-            // CRITICAL FIX: Actually disable the tile loader
-            // Setting checkbox.checked doesn't trigger 'change' event, so we must disable manually
+        if (shouldRender && !this.isEnabled) {
+            this.enable();
+        } else if (!shouldRender && this.isEnabled) {
             this.disable();
+        }
 
-            // Show toast notification
+        // Visual cue on the label: "armed but waiting for zoom"
+        const label = checkbox && checkbox.closest('label');
+        if (label) {
+            label.classList.toggle('parcels-pending-zoom', intent && !zoomOk);
+        }
+
+        // Toast: fire once per zoom-out crossing while intent is held
+        if (intent && !zoomOk && !this.hasNotifiedZoom) {
+            this.hasNotifiedZoom = true;
             if (typeof showNotification === 'function') {
                 showNotification('Zoom in closer to see property parcels', 'warning');
             }
+        } else if (zoomOk) {
+            // Re-arm the toast for the next zoom-out crossing
+            this.hasNotifiedZoom = false;
         }
     }
 
