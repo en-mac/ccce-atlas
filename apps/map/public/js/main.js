@@ -1879,6 +1879,26 @@ function setupEventListeners() {
         if (isEnabled && !hasAnyLayer) {
             showNotification('Weather data temporarily unavailable', 'warning', 4000);
             e.target.checked = false;
+            return;
+        }
+
+        // On enable, fly to a regional altitude so the user can see actual
+        // weather patterns (storm systems, fronts, Gulf coverage). Street-level
+        // zoom shows almost nothing useful for radar.
+        if (isEnabled && hasAnyLayer) {
+            appState.viewer.camera.flyTo({
+                destination: Cesium.Cartesian3.fromDegrees(
+                    CORPUS_CHRISTI.longitude,
+                    CORPUS_CHRISTI.latitude,
+                    200000 // ~200km altitude — frames CC metro + Gulf coast
+                ),
+                orientation: {
+                    heading: Cesium.Math.toRadians(0),
+                    pitch: Cesium.Math.toRadians(-90),
+                    roll: 0.0
+                },
+                duration: 1.5
+            });
         }
     });
 
