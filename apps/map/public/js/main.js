@@ -471,11 +471,16 @@ async function initViewer() {
             const data = await response.json();
 
             if (data && data.radar && data.radar.past && data.radar.past.length > 0) {
-                // Get most recent radar timestamp
+                // Get most recent radar frame
                 const latestRadar = data.radar.past[data.radar.past.length - 1];
                 const timestamp = latestRadar.time;
+                // RainViewer requires the opaque `path` token in the URL.
+                // The numeric-timestamp URL format (/v2/radar/{time}/...) now
+                // returns HTTP 410 Gone — only the `path` field works.
+                const radarPath = latestRadar.path;
+                const tileHost = data.host || 'https://tilecache.rainviewer.com';
 
-                // Only update if timestamp changed
+                // Only rebuild the layer if the frame changed
                 if (timestamp !== appState.rainViewerTimestamp) {
                     appState.rainViewerTimestamp = timestamp;
 
@@ -484,10 +489,10 @@ async function initViewer() {
                         appState.viewer.imageryLayers.remove(appState.rainViewerLayer);
                     }
 
-                    // Create new layer with latest timestamp
-                    // NOTE: Tile loading may fail on localhost due to CORS
+                    // Create new layer with latest frame.
+                    // NOTE: Tile loading may fail on localhost due to CORS.
                     const rainViewerProvider = new Cesium.UrlTemplateImageryProvider({
-                        url: `https://tilecache.rainviewer.com/v2/radar/${timestamp}/256/{z}/{x}/{y}/2/1_1.png`,
+                        url: `${tileHost}${radarPath}/256/{z}/{x}/{y}/2/1_1.png`,
                         maximumLevel: 15,
                         credit: 'Radar Data: © RainViewer',
                         errorEvent: new Cesium.Event() // Suppress Cesium error popups
