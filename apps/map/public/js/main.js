@@ -1710,8 +1710,8 @@ function updateOverlayVisibility(baseLayerValue) {
         );
     } else {
         // Bing Maps Aerial, Google Satellite, or OpenTopoMap: Show everything
+        // (recreation stays hidden — see HTML comment on overlay-recreation)
         if (navigation) navigation.style.display = 'block';
-        if (recreation) recreation.style.display = 'block';
         if (weather) weather.style.display = 'block';
         if (science) science.style.display = 'block';
     }
