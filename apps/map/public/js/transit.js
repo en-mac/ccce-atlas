@@ -71,7 +71,7 @@ function populateTransitRoutesUI() {
 
         const routeLabel = document.createElement('label');
         routeLabel.htmlFor = routeCheckbox.id;
-        routeLabel.style.cssText = 'cursor: pointer; font-size: 12px; color: #ddd;';
+        routeLabel.style.cssText = 'cursor: pointer; font-size: 12px; color: var(--color-gray-800);';
         routeLabel.textContent = `Route ${route.short_name} - ${route.long_name}`;
 
         routeCell.appendChild(routeCheckbox);
@@ -95,7 +95,7 @@ function populateTransitRoutesUI() {
 
         const stopsLabel = document.createElement('label');
         stopsLabel.htmlFor = stopsCheckbox.id;
-        stopsLabel.style.cssText = 'cursor: pointer; font-size: 11px; color: #999;';
+        stopsLabel.style.cssText = 'cursor: pointer; font-size: 11px; color: var(--color-gray-600);';
         stopsLabel.textContent = `Stops (${route.stop_count})`;
 
         stopsCell.appendChild(stopsCheckbox);

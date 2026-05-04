@@ -157,7 +157,7 @@ function showOwnerDetails(ownerData) {
             </div>
         </div>
 
-        <p style="font-size: 11px; color: #888; margin-top: 15px; font-style: italic;">
+        <p style="font-size: 11px; color: var(--color-gray-600); margin-top: 15px; font-style: italic;">
             💡 This represents aggregate statistics across all properties owned by this entity.
         </p>
     `;
