@@ -128,6 +128,11 @@ class RunClubTour {
         document.getElementById('run-club-controls').style.display = 'block';
         document.getElementById('run-club-quick').disabled = true;
 
+        // Enter focus mode: collapse other sidebar sections so tour controls
+        // are obviously visible and not buried below the fold.
+        document.body.classList.add('tour-focus-active');
+        document.getElementById('run-club-section')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
         console.log('🏃 Starting Run Club Route Tour (~102s: 60s movement + 42s pauses)');
 
         // Start animation
@@ -296,6 +301,9 @@ class RunClubTour {
         document.getElementById('run-club-pause').textContent = '⏸️ Pause';
         document.getElementById('run-club-progress').style.width = '0%';
         document.getElementById('run-club-status').textContent = 'Ready';
+
+        // Exit focus mode: restore all sidebar sections.
+        document.body.classList.remove('tour-focus-active');
 
         console.log('⏹️ Tour stopped');
     }

@@ -211,6 +211,24 @@ body {
     color: var(--color-gray-700);
 }
 
+/* Focus mode: while a guided tour is running, dim and collapse all sidebar
+   sections except the active tour section so its controls stand out. */
+body.tour-focus-active .sidebar-section:not(#run-club-section) {
+    opacity: 0.4;
+    pointer-events: none;
+    transition: opacity var(--transition-base) ease;
+}
+body.tour-focus-active .sidebar-section:not(#run-club-section) > *:not(h2) {
+    display: none;
+}
+body.tour-focus-active .sidebar-section:not(#run-club-section) h2 {
+    margin-bottom: 0;
+}
+body.tour-focus-active #run-club-section {
+    background: var(--color-gray-50);
+    border-left: 3px solid var(--color-primary);
+}
+
 /* Collapsible sections */
 .sidebar-section.collapsible {
     padding: 0;
