@@ -9,6 +9,7 @@
 - **Frontend:** https://atlas.ccce.dev
 - **API:** https://api.atlas.ccce.dev/docs
 
+
 ## What's Available
 
 Production deployment on AWS:
@@ -176,63 +177,6 @@ sequenceDiagram
     Note over TileLoader,S3: Typical tile: 20-50ms (S3 + CloudFront CDN)<br/>10,392 pre-generated tiles (z14-16)
 ```
 
-### Database Schema
-
-```mermaid
-erDiagram
-    PARCELS {
-        serial id PK
-        varchar parcel_id UK
-        varchar owner
-        varchar prop_addr
-        numeric appraised_value
-        numeric market_value
-        numeric land_acres
-        varchar zoning
-        geometry geom "MultiPolygon"
-        geometry geom_z8 "Simplified"
-        geometry geom_z11 "Simplified"
-        geometry geom_z14 "Simplified"
-    }
-
-    TRANSIT_ROUTES {
-        serial id PK
-        varchar route_id UK
-        varchar route_name
-        varchar route_color
-        geometry geom "MultiLineString"
-    }
-
-    TRANSIT_STOPS {
-        serial id PK
-        varchar stop_id UK
-        varchar route_id FK
-        varchar stop_name
-        geometry geom "Point"
-    }
-
-    POIS {
-        serial id PK
-        varchar poi_id UK
-        varchar name
-        varchar category
-        varchar address
-        geometry geom "Point"
-    }
-
-    SCHOOL_DISTRICTS {
-        serial id PK
-        varchar district_id UK
-        varchar district_name
-        varchar district_type
-        geometry geom "MultiPolygon"
-    }
-
-    TRANSIT_ROUTES ||--o{ TRANSIT_STOPS : "has many"
-    PARCELS ||--o| SCHOOL_DISTRICTS : "within (spatial)"
-    PARCELS ||--o| POIS : "contains (spatial)"
-```
-
 **Key Performance Features:**
 - Pre-generated MVT tiles (10,392 tiles, 106MB total) served from AWS S3
 - CloudFront CDN delivers tiles in 20-50ms globally
@@ -338,8 +282,6 @@ This project demonstrates 7 advanced Cesium.js features:
 6. **Intuitive UI** - Sidebar with layer controls, info panels, filters
 7. **Custom Providers** - Multiple base layers, overlays, terrain toggle, 3D buildings
 
-Built for [Cesium Certified Developer](https://cesium.com/learn/certification/) certification.
-
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
@@ -347,4 +289,17 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ---
 
 **Built for Corpus Christi** 🌊
-**Cesium Certified Developer Application** - March 2026
+
+## Changelog
+
+Round of UX improvements based on Cesium Certified Developer review feedback, plus a mobile redesign:
+
+| # | Item | Change |
+|---|---|---|
+| 1 | Transit route text contrast | Switched JS-generated route/stop labels from light gray (`#ddd`/`#999`) to design-token grays — now passes WCAG AAA on the white sidebar. |
+| 2 | Run Club Tour controls visibility | Added "focus mode": when the tour starts, other sidebar sections dim and collapse to header-only so the playback controls stand out. Auto-restores on Stop or natural finish. |
+| 3 | Property Parcels checkbox behavior | Decoupled user intent from render state. The checkbox stays checked across zoom changes; rendering auto-disables when zoomed out and auto-resumes when zoomed back in. Italicized "(zoom in)" cue when intent is held but zoom is too far. |
+| 4 | Google Satellite base layer | Upgraded Cesium 1.115 → 1.134 and switched to the dedicated `Google2DImageryProvider` with the correct options-object signature. |
+| 5 | Weather overlay viewport | Enabling weather flies the camera to a continental-scale view (~5,000 km altitude over the geographic center of CONUS) so storm systems and incoming fronts are visible. |
+| 6 | Hiking/Cycling Trails overlay | Hidden pending deprecation. |
+| 7 | Mobile UX redesign | At ≤768 px: slim header, single-mode flow (Maps tab hidden, Explore only), Top 40 + Run Club hidden, Public Transit collapsible (default-collapsed on mobile), Material/HIG-style drag-handle pill replacing the desktop collapse arrow, sidebar 35vh / map 65vh split. |
