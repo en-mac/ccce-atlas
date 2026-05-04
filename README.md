@@ -6,9 +6,7 @@
 
 ## Live Deployment
 
-- **Frontend:** https://atlas.ccce.dev
-- **API:** https://api.atlas.ccce.dev/docs
-
+- https://atlas.ccce.dev
 
 ## What's Available
 
