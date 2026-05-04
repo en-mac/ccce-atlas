@@ -42,21 +42,6 @@ Production deployment on AWS:
 - **Property Information** - Click parcels for detailed owner, value, zoning data
 - **MCP Integration** - Query from AI chat applications
 
-## API Endpoints
-
-**Spatial Queries:**
-- `GET /api/v1/spatial/pois/near` - Find POIs near a point (optional `category` filter)
-
-**Points of Interest:**
-- `GET /api/v1/pois/` - List POIs
-- `GET /api/v1/pois/categories` - Available categories
-
-**Transit:**
-- `GET /api/v1/transit/routes` - All bus routes
-- `GET /api/v1/transit/stops` - All bus stops
-
-Full interactive documentation: https://api.atlas.ccce.dev/docs
-
 ## Data Sources
 
 - **POIs** - Curated civic amenities (31 locations)
@@ -261,14 +246,6 @@ open http://localhost:8080
 | Redis | 6379 | Cache |
 | AWS S3 + CloudFront | N/A | Pre-generated MVT tiles (10,392 tiles) |
 
-## Documentation
-
-- [Architecture Diagrams](internal-docs/ARCHITECTURE_DIAGRAM.md) - Comprehensive system diagrams
-- [Architecture Overview](internal-docs/ARCHITECTURE_SIMPLIFIED.md) - Text-based architecture guide
-- [Features](internal-docs/FEATURES.md) - Detailed feature documentation
-- [Narrative](internal-docs/NARRATIVE.md) - Project story and technical decisions
-- [API Documentation](internal-docs/API_IMPLEMENTATION.md) - REST API reference
-- [Deployment Guide](internal-docs/DEPLOY.md) - Production deployment instructions
 
 ## Advanced Cesium Features
 
