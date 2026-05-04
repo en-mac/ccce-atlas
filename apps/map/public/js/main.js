@@ -702,7 +702,7 @@ async function switchBaseLayer(layerId) {
 
             case 'google-satellite':
                 // Google Maps 2D Satellite (15cm resolution).
-                // Requires Cesium >= 1.124 (Google2DImageryProvider was added Oct 2025).
+                // Requires Cesium >= 1.134 (Google2DImageryProvider shipped in 1.134, Oct 2025).
                 // The generic IonImageryProvider does not handle externalType GOOGLE_2D_MAPS.
                 const googleProvider = await Cesium.Google2DImageryProvider.fromIonAssetId(3830183);
                 appState.baseLayerProvider = appState.viewer.imageryLayers.addImageryProvider(googleProvider, 0);
