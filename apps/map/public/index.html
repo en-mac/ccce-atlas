@@ -224,8 +224,10 @@
                 </div>
 
                 <!-- Public Transit -->
-                <div id="overlay-transit" class="sidebar-section" style="margin-top: 15px;">
-                    <h2>Public Transit</h2>
+                <details id="overlay-transit" class="sidebar-section collapsible" style="margin-top: 15px;" open>
+                    <summary>
+                        <h2>Public Transit</h2>
+                    </summary>
                     <!-- Transit Presets -->
                     <div class="transit-presets">
                         <button class="preset-btn" id="preset-all-routes">All Routes</button>
@@ -236,7 +238,7 @@
                     <div id="transit-routes-list" style="max-height: 400px; overflow-y: auto;">
                         <!-- Routes will be dynamically loaded here -->
                     </div>
-                </div>
+                </details>
 
                 <!-- Top Property Owners -->
                 <div id="top-owners-section" class="sidebar-section" style="margin-top: 15px;">
@@ -347,5 +349,12 @@
     <script src="js/tile-loader.js"></script>
     <script src="js/run-club-tour.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        // Mobile-only: default-collapse the Public Transit list since the
+        // 84-route checkbox list inside a 30vh sidebar would otherwise dominate.
+        if (window.matchMedia('(max-width: 768px)').matches) {
+            document.getElementById('overlay-transit')?.removeAttribute('open');
+        }
+    </script>
 </body>
 </html>

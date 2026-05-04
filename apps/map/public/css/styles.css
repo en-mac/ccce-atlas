@@ -753,6 +753,18 @@ button {
         display: none;
     }
 
+    /* Slim sidebar header: just "CCCE Atlas", no subtitle, minimal padding. */
+    .sidebar-header {
+        padding: var(--spacing-sm) var(--spacing-lg);
+    }
+    .sidebar-header h1 {
+        font-size: var(--font-size-md);
+        margin-bottom: 0;
+    }
+    .sidebar-header .subtitle {
+        display: none;
+    }
+
     #app {
         flex-direction: column;
     }
@@ -760,19 +772,47 @@ button {
     .sidebar {
         width: 100%;
         height: auto;
-        max-height: 40vh;
+        max-height: 35vh;
         border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 12px; /* space for the drag handle below */
+        position: relative;
     }
 
     .sidebar.collapsed {
         transform: translateY(-100%);
     }
 
+    /* Material Design / iOS-style drag handle pill at the bottom of the
+       mobile sidebar. Replaces the desktop rotated-arrow button. */
     .sidebar-collapse-btn {
-        right: 20px;
+        right: 50%;
         top: auto;
-        bottom: -40px;
-        transform: rotate(90deg);
+        bottom: -16px;
+        transform: translateX(50%);
+        width: 56px;
+        height: 24px;
+        background: var(--color-white);
+        border: 1px solid var(--color-gray-300);
+        border-radius: 12px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+    }
+    .sidebar-collapse-btn:hover {
+        background: var(--color-gray-50);
+    }
+    /* Replace the chevron icon with a horizontal grabber pill */
+    .sidebar-collapse-btn .collapse-icon {
+        width: 32px;
+        height: 4px;
+        background: var(--color-gray-400);
+        border-radius: 2px;
+        font-size: 0;
+        display: block;
+        transform: none !important;
+        transition: none;
     }
 
     #mode-toggle {
@@ -781,7 +821,7 @@ button {
     }
 
     #cesiumContainer {
-        height: 60vh;
+        height: 65vh;
     }
 }
 
