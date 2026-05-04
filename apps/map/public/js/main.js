@@ -704,7 +704,11 @@ async function switchBaseLayer(layerId) {
                 // Google Maps 2D Satellite (15cm resolution).
                 // Requires Cesium >= 1.134 (Google2DImageryProvider shipped in 1.134, Oct 2025).
                 // The generic IonImageryProvider does not handle externalType GOOGLE_2D_MAPS.
-                const googleProvider = await Cesium.Google2DImageryProvider.fromIonAssetId(3830183);
+                // Note: fromIonAssetId takes an options object, not a positional assetId.
+                const googleProvider = await Cesium.Google2DImageryProvider.fromIonAssetId({
+                    assetId: '3830183',
+                    mapType: 'satellite',
+                });
                 appState.baseLayerProvider = appState.viewer.imageryLayers.addImageryProvider(googleProvider, 0);
                 appState.baseLayerType = 'imagery';
                 console.log('✅ Switched to Google Satellite');
