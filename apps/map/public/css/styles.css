@@ -736,6 +736,23 @@ button {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
+    /* Mobile: collapse the app to Explore-only. The Maps tab and the
+       Run Club + Top 40 sections within Explore are hidden because they
+       don't translate well to a small touch viewport. */
+    .tab-switcher {
+        display: none;
+    }
+    #maps-tab-content {
+        display: none !important;
+    }
+    #explore-tab-content {
+        display: block !important;
+    }
+    #top-owners-section,
+    #run-club-section {
+        display: none;
+    }
+
     #app {
         flex-direction: column;
     }
