@@ -28,6 +28,7 @@
             <div class="tab-switcher">
                 <button class="tab-btn" id="maps-tab-btn" data-tab="maps">Maps</button>
                 <button class="tab-btn active" id="explore-tab-btn" data-tab="explore">Explore</button>
+                <button class="tab-btn healthcare-tab-btn" id="healthcare-tab-btn" data-tab="healthcare">Healthcare</button>
             </div>
 
             <!-- Maps Tab Content -->
@@ -287,6 +288,66 @@
                 </div>
             </div>
             <!-- End Explore Tab Content -->
+
+            <!-- Healthcare Tab Content (desktop only) -->
+            <div id="healthcare-tab-content" class="tab-content healthcare-tab-content" style="display: none;">
+                <div class="sidebar-header">
+                    <h1>Healthcare</h1>
+                    <p class="subtitle">Medicare provider anomalies (CompIntel)</p>
+                </div>
+
+                <!-- Nueces Providers (Phase 1) -->
+                <div class="sidebar-section" style="margin-top: 15px;">
+                    <div class="property-controls">
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                            <input type="checkbox" id="healthcare-nueces-toggle">
+                            <span>Show Nueces Providers</span>
+                        </label>
+                        <p class="parcel-hint" style="font-size: 11px; margin: 4px 0 0 24px; color: #888;">
+                            <span id="healthcare-nueces-count">~800</span> NPIs · colored by anomaly score
+                        </p>
+                    </div>
+
+                    <!-- Year selector -->
+                    <div id="healthcare-year-controls" style="margin-top: 12px; display: none;">
+                        <label for="healthcare-year" style="font-size: 12px; color: #999;">Year</label>
+                        <select id="healthcare-year" style="width: 100%; padding: 4px; margin-top: 4px; background: #1a1a1a; border: 1px solid #333; color: #fff; border-radius: 4px;">
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023" selected>2023</option>
+                        </select>
+                    </div>
+
+                    <!-- Color legend (shown when layer enabled) -->
+                    <div id="healthcare-legend" style="margin-top: 12px; display: none; font-size: 11px; color: #ccc;">
+                        <div style="margin-bottom: 4px; color: #999;">Ensemble anomaly score</div>
+                        <div style="display: flex; align-items: center; gap: 6px; margin: 2px 0;"><span style="width:12px;height:12px;border-radius:50%;background:#dc2626;display:inline-block;"></span> ≥ 5 — strong outlier</div>
+                        <div style="display: flex; align-items: center; gap: 6px; margin: 2px 0;"><span style="width:12px;height:12px;border-radius:50%;background:#f59e0b;display:inline-block;"></span> 3 – 5 — flagged</div>
+                        <div style="display: flex; align-items: center; gap: 6px; margin: 2px 0;"><span style="width:12px;height:12px;border-radius:50%;background:#fbbf24;display:inline-block;"></span> 2 – 3 — elevated</div>
+                        <div style="display: flex; align-items: center; gap: 6px; margin: 2px 0;"><span style="width:12px;height:12px;border-radius:50%;background:#9ca3af;display:inline-block;"></span> 1 – 2 — typical</div>
+                        <div style="display: flex; align-items: center; gap: 6px; margin: 2px 0;"><span style="width:12px;height:12px;border-radius:50%;background:#4b5563;display:inline-block;"></span> &lt; 1 — below median</div>
+                    </div>
+                </div>
+
+                <!-- Texas Shortage Heatmap (Phase 2 — coming soon) -->
+                <div class="sidebar-section" style="margin-top: 15px; opacity: 0.5;">
+                    <div class="property-controls">
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: not-allowed;">
+                            <input type="checkbox" id="healthcare-hpsa-toggle" disabled>
+                            <span>TX Shortage Heatmap</span>
+                        </label>
+                        <p class="parcel-hint" style="font-size: 11px; margin: 4px 0 0 24px; color: #888;">HRSA HPSA polygons — coming in Phase 2</p>
+                    </div>
+                </div>
+
+                <div class="sidebar-section" style="margin-top: 15px;">
+                    <p style="font-size: 11px; color: #888; line-height: 1.5;">
+                        Anomaly scores from <a href="https://compintel.ccce.dev" target="_blank" rel="noopener" style="color: #60a5fa;">CompIntel</a> — a three-layer ensemble (per-specialty IQR + Isolation Forest + LightGBM quantile-residual) over public CMS Medicare data. Click a provider to see year-by-year detail and ask CompIntel for the explanation.
+                    </p>
+                </div>
+            </div>
+            <!-- End Healthcare Tab Content -->
         </div>
 
         <!-- Cesium Viewer Container -->
@@ -348,6 +409,7 @@
     <script src="js/ui.js"></script>
     <script src="js/tile-loader.js"></script>
     <script src="js/run-club-tour.js"></script>
+    <script src="js/healthcare.js"></script>
     <script src="js/main.js"></script>
     <script>
         // Mobile-only: default-collapse the Public Transit list since the

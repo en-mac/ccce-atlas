@@ -883,6 +883,16 @@ async function initDataSources() {
 
         if (Cesium.defined(pickedObject) && pickedObject.primitive) {
             console.log('[CLICK] picked id:', pickedObject.id, 'primitive type:', pickedObject.primitive?.constructor?.name);
+
+            // Healthcare provider point? (Phase-1 Nueces layer)
+            if (appState.healthcareLayer) {
+                const props = appState.healthcareLayer.pickPoint(pickedObject);
+                if (props && typeof showHealthcareCard === 'function') {
+                    showHealthcareCard(props);
+                    return;
+                }
+            }
+
             // Check if this is a well point first
             if (appState.wellLoader) {
                 const wellData = appState.wellLoader.getWellAtPosition(click.position);
@@ -1567,6 +1577,12 @@ async function init() {
         initColorControls();
         initializeTopOwnersControls();
         console.log('✅ Top owners controls initialized');
+
+        // Healthcare tab (Phase-1 Nueces provider layer, desktop only)
+        if (typeof initHealthcareTab === 'function') {
+            initHealthcareTab(appState.viewer);
+            console.log('✅ Healthcare layer initialized');
+        }
 
         // Set up event listeners
         setupEventListeners();

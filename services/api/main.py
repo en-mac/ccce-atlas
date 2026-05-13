@@ -226,9 +226,10 @@ async def internal_error_handler(request, exc):
 # Routers
 # ============================================================================
 
-from app.routers import parcels, pois, transit, spatial
+from app.routers import healthcare, parcels, pois, transit, spatial
 
 app.include_router(parcels.router, prefix="/api/v1/parcels", tags=["parcels"])
 app.include_router(pois.router, prefix="/api/v1/pois", tags=["pois"])
 app.include_router(transit.router, prefix="/api/v1/transit", tags=["transit"])
 app.include_router(spatial.router, prefix="/api/v1/spatial", tags=["spatial"])
+app.include_router(healthcare.router, prefix="/api/v1/healthcare", tags=["healthcare"])

@@ -161,6 +161,41 @@ CREATE INDEX IF NOT EXISTS pois_category_idx ON pois(category);
 CREATE INDEX IF NOT EXISTS pois_name_idx ON pois(name);
 
 -- ============================================================================
+-- HEALTHCARE PROVIDERS TABLE
+-- Source: CompIntel handoff (compintel/scripts/build_atlas_handoff.py)
+-- Long form: one row per (npi, year). Powers the Healthcare tab's Nueces
+-- providers layer and the per-NPI right-panel card.
+-- ============================================================================
+
+CREATE TABLE IF NOT EXISTS healthcare_providers (
+    id              SERIAL PRIMARY KEY,
+    npi             BIGINT NOT NULL,
+    year            INTEGER NOT NULL,
+    specialty       VARCHAR(255),
+    tier            VARCHAR(50),     -- em_dominant | mixed | procedural_heavy
+    ensemble_score  DOUBLE PRECISION,
+    iqr_score       DOUBLE PRECISION,
+    iforest_score   DOUBLE PRECISION,
+    lgbm_residual   DOUBLE PRECISION,
+    med_mdcr_stdzd_amt NUMERIC(14, 2),
+    tot_benes       NUMERIC(10, 0),
+
+    geom GEOMETRY(Point, 4326) NOT NULL,
+
+    created_at TIMESTAMP DEFAULT NOW(),
+    UNIQUE(npi, year)
+);
+
+CREATE INDEX IF NOT EXISTS healthcare_providers_geom_idx
+    ON healthcare_providers USING GIST(geom);
+CREATE INDEX IF NOT EXISTS healthcare_providers_year_idx
+    ON healthcare_providers(year);
+CREATE INDEX IF NOT EXISTS healthcare_providers_npi_idx
+    ON healthcare_providers(npi);
+CREATE INDEX IF NOT EXISTS healthcare_providers_ensemble_score_idx
+    ON healthcare_providers(year, ensemble_score DESC NULLS LAST);
+
+-- ============================================================================
 -- FUNCTION: Generate simplified geometries for parcels
 -- Called ONCE after bulk insert, or on manual UPDATE only
 -- DO NOT trigger on INSERT (would fire 156K times during migration)

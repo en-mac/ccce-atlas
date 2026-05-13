@@ -71,6 +71,25 @@ CREATE TABLE IF NOT EXISTS transit_stops (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Healthcare providers table — CompIntel Medicare anomaly data
+-- Long form: one row per (npi, year). Source: compintel/scripts/build_atlas_handoff.py
+CREATE TABLE IF NOT EXISTS healthcare_providers (
+    id              SERIAL PRIMARY KEY,
+    npi             BIGINT NOT NULL,
+    year            INTEGER NOT NULL,
+    specialty       TEXT,
+    tier            TEXT,
+    ensemble_score  DOUBLE PRECISION,
+    iqr_score       DOUBLE PRECISION,
+    iforest_score   DOUBLE PRECISION,
+    lgbm_residual   DOUBLE PRECISION,
+    med_mdcr_stdzd_amt NUMERIC,
+    tot_benes       NUMERIC,
+    geom GEOMETRY(Point, 4326) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE(npi, year)
+);
+
 -- ============================================================================
 -- Indexes
 -- ============================================================================
@@ -88,6 +107,12 @@ CREATE INDEX IF NOT EXISTS parcels_appraised_value_idx ON parcels(appraised_valu
 CREATE INDEX IF NOT EXISTS pois_category_idx ON pois(category);
 CREATE INDEX IF NOT EXISTS pois_poi_id_idx ON pois(poi_id);
 CREATE INDEX IF NOT EXISTS transit_routes_route_id_idx ON transit_routes(route_id);
+
+CREATE INDEX IF NOT EXISTS healthcare_providers_geom_idx ON healthcare_providers USING GIST(geom);
+CREATE INDEX IF NOT EXISTS healthcare_providers_year_idx ON healthcare_providers(year);
+CREATE INDEX IF NOT EXISTS healthcare_providers_npi_idx ON healthcare_providers(npi);
+CREATE INDEX IF NOT EXISTS healthcare_providers_ensemble_score_idx
+    ON healthcare_providers(year, ensemble_score DESC NULLS LAST);
 
 -- ============================================================================
 -- Performance Tuning

@@ -16,7 +16,8 @@ function initTabSwitcher() {
     const tabButtons = document.querySelectorAll('.tab-btn');
     const tabContents = {
         maps: document.getElementById('maps-tab-content'),
-        explore: document.getElementById('explore-tab-content')
+        explore: document.getElementById('explore-tab-content'),
+        healthcare: document.getElementById('healthcare-tab-content')
     };
 
     tabButtons.forEach(button => {

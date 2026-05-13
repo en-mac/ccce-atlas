@@ -165,6 +165,15 @@ body {
     color: var(--color-gray-800);
 }
 
+.healthcare-table th,
+.healthcare-table td {
+    padding: 4px 6px;
+    border-bottom: 1px solid #2a2a2a;
+}
+.healthcare-table tbody tr:hover {
+    background: #1f2937;
+}
+
 .tab-btn.active {
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
     color: var(--color-white);
@@ -738,15 +747,21 @@ button {
 @media (max-width: 768px) {
     /* Mobile: collapse the app to Explore-only. The Maps tab and the
        Run Club + Top 40 sections within Explore are hidden because they
-       don't translate well to a small touch viewport. */
+       don't translate well to a small touch viewport. Healthcare tab is
+       also desktop-only — the right-side card + chat handoff doesn't
+       work well on a 35vh sidebar. */
     .tab-switcher {
         display: none;
     }
-    #maps-tab-content {
+    #maps-tab-content,
+    #healthcare-tab-content {
         display: none !important;
     }
     #explore-tab-content {
         display: block !important;
+    }
+    .healthcare-tab-btn {
+        display: none !important;
     }
     #top-owners-section,
     #run-club-section {
