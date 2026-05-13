@@ -20,6 +20,20 @@ GET_NUECES_FOR_YEAR = """
     ORDER BY ensemble_score DESC NULLS LAST
 """
 
+# All designated TX Primary Care HPSAs as GeoJSON polygons. Used by the
+# Healthcare tab's TX shortage heatmap toggle.
+GET_HPSA_TEXAS = """
+    SELECT
+        hpsa_source_id,
+        hpsa_name,
+        hpsa_score,
+        degree_of_shortage,
+        designation_pop,
+        ST_AsGeoJSON(geom)::json AS geometry
+    FROM hrsa_hpsa_tx
+    ORDER BY hpsa_score DESC NULLS LAST
+"""
+
 # Every year on record for a single NPI — drives the right-panel card.
 GET_PROVIDER_BY_NPI = """
     SELECT

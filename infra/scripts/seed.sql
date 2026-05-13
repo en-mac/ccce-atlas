@@ -196,6 +196,27 @@ CREATE INDEX IF NOT EXISTS healthcare_providers_ensemble_score_idx
     ON healthcare_providers(year, ensemble_score DESC NULLS LAST);
 
 -- ============================================================================
+-- HRSA HPSA TEXAS TABLE
+-- Source: HRSA HealthCareShortage MapServer layer 11 (Primary Care perimeter
+-- polygons). Powers the Healthcare tab's TX shortage heatmap toggle.
+-- ============================================================================
+
+CREATE TABLE IF NOT EXISTS hrsa_hpsa_tx (
+    id              SERIAL PRIMARY KEY,
+    hpsa_source_id  VARCHAR(64) UNIQUE,
+    hpsa_name       TEXT,
+    hpsa_score      INTEGER,
+    degree_of_shortage VARCHAR(50),
+    designation_pop NUMERIC,
+    res_civ_pop     NUMERIC,
+    geom GEOMETRY(MultiPolygon, 4326) NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS hrsa_hpsa_tx_geom_idx  ON hrsa_hpsa_tx USING GIST(geom);
+CREATE INDEX IF NOT EXISTS hrsa_hpsa_tx_score_idx ON hrsa_hpsa_tx(hpsa_score DESC NULLS LAST);
+
+-- ============================================================================
 -- FUNCTION: Generate simplified geometries for parcels
 -- Called ONCE after bulk insert, or on manual UPDATE only
 -- DO NOT trigger on INSERT (would fire 156K times during migration)

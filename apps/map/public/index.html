@@ -330,14 +330,24 @@
                     </div>
                 </div>
 
-                <!-- Texas Shortage Heatmap (Phase 2 — coming soon) -->
-                <div class="sidebar-section" style="margin-top: 15px; opacity: 0.5;">
+                <!-- Texas Shortage Heatmap (Phase 2) -->
+                <div class="sidebar-section" style="margin-top: 15px;">
                     <div class="property-controls">
-                        <label style="display: flex; align-items: center; gap: 8px; cursor: not-allowed;">
-                            <input type="checkbox" id="healthcare-hpsa-toggle" disabled>
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                            <input type="checkbox" id="healthcare-hpsa-toggle">
                             <span>TX Shortage Heatmap</span>
                         </label>
-                        <p class="parcel-hint" style="font-size: 11px; margin: 4px 0 0 24px; color: #888;">HRSA HPSA polygons — coming in Phase 2</p>
+                        <p class="parcel-hint" style="font-size: 11px; margin: 4px 0 0 24px; color: #888;">HRSA Primary Care HPSAs · darker = more shortage</p>
+                    </div>
+
+                    <!-- HPSA legend (shown when layer enabled) -->
+                    <div id="healthcare-hpsa-legend" style="margin-top: 12px; display: none; font-size: 11px; color: #ccc;">
+                        <div style="margin-bottom: 4px; color: #999;">HPSA score (0–25)</div>
+                        <div style="display: flex; align-items: center; gap: 6px; margin: 2px 0;"><span style="width:14px;height:10px;background:#7f1d1d;display:inline-block;"></span> 18 – 25 — severe</div>
+                        <div style="display: flex; align-items: center; gap: 6px; margin: 2px 0;"><span style="width:14px;height:10px;background:#dc2626;display:inline-block;"></span> 14 – 17 — high</div>
+                        <div style="display: flex; align-items: center; gap: 6px; margin: 2px 0;"><span style="width:14px;height:10px;background:#f59e0b;display:inline-block;"></span> 10 – 13 — moderate</div>
+                        <div style="display: flex; align-items: center; gap: 6px; margin: 2px 0;"><span style="width:14px;height:10px;background:#fbbf24;display:inline-block;"></span> 6 – 9 — low</div>
+                        <div style="display: flex; align-items: center; gap: 6px; margin: 2px 0;"><span style="width:14px;height:10px;background:#a3e635;display:inline-block;"></span> 0 – 5 — minimal</div>
                     </div>
                 </div>
 

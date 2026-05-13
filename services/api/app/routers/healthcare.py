@@ -74,6 +74,44 @@ async def get_nueces_providers(
     return result
 
 
+@router.get("/hpsa/texas")
+async def get_hpsa_texas():
+    """All designated TX Primary Care HPSAs as a GeoJSON FeatureCollection."""
+    cache_key = redis_cache.generate_key("healthcare:hpsa", "texas")
+    cached = await redis_cache.get(cache_key)
+    if cached:
+        return cached
+
+    pool = database_pool.get_pool()
+    async with pool.acquire() as conn:
+        rows = await conn.fetch(queries.GET_HPSA_TEXAS)
+
+    features = []
+    for r in rows:
+        geom = r["geometry"]
+        # asyncpg with ::json should already decode; guard for stringification.
+        if isinstance(geom, str):
+            import json as _json
+            geom = _json.loads(geom)
+        features.append(
+            {
+                "type": "Feature",
+                "geometry": geom,
+                "properties": {
+                    "hpsa_source_id": r["hpsa_source_id"],
+                    "hpsa_name": r["hpsa_name"],
+                    "hpsa_score": int(r["hpsa_score"]) if r["hpsa_score"] is not None else None,
+                    "degree_of_shortage": r["degree_of_shortage"],
+                    "designation_pop": float(r["designation_pop"]) if r["designation_pop"] is not None else None,
+                },
+            }
+        )
+    result = {"type": "FeatureCollection", "features": features}
+    # HPSA data refreshes monthly; daily cache is plenty.
+    await redis_cache.set(cache_key, result, ttl=86400)
+    return result
+
+
 @router.get("/providers/{npi}", response_model=ProviderCard)
 async def get_provider(npi: int):
     """All-years trajectory for one NPI."""

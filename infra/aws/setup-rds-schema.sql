@@ -71,6 +71,22 @@ CREATE TABLE IF NOT EXISTS transit_stops (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+-- HRSA Primary Care HPSAs (Texas only) — perimeter polygons.
+-- Source: HRSA gisportal HealthCareShortage MapServer layer 11.
+-- Powers the Healthcare tab's "TX Shortage Heatmap" toggle.
+CREATE TABLE IF NOT EXISTS hrsa_hpsa_tx (
+    id              SERIAL PRIMARY KEY,
+    hpsa_source_id  TEXT,
+    hpsa_name       TEXT,
+    hpsa_score      INTEGER,
+    degree_of_shortage TEXT,
+    designation_pop NUMERIC,
+    res_civ_pop     NUMERIC,
+    geom GEOMETRY(MultiPolygon, 4326) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE(hpsa_source_id)
+);
+
 -- Healthcare providers table — CompIntel Medicare anomaly data
 -- Long form: one row per (npi, year). Source: compintel/scripts/build_atlas_handoff.py
 CREATE TABLE IF NOT EXISTS healthcare_providers (
@@ -113,6 +129,9 @@ CREATE INDEX IF NOT EXISTS healthcare_providers_year_idx ON healthcare_providers
 CREATE INDEX IF NOT EXISTS healthcare_providers_npi_idx ON healthcare_providers(npi);
 CREATE INDEX IF NOT EXISTS healthcare_providers_ensemble_score_idx
     ON healthcare_providers(year, ensemble_score DESC NULLS LAST);
+
+CREATE INDEX IF NOT EXISTS hrsa_hpsa_tx_geom_idx ON hrsa_hpsa_tx USING GIST(geom);
+CREATE INDEX IF NOT EXISTS hrsa_hpsa_tx_score_idx ON hrsa_hpsa_tx(hpsa_score DESC NULLS LAST);
 
 -- ============================================================================
 -- Performance Tuning

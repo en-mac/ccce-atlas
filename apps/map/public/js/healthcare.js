@@ -115,6 +115,81 @@ class HealthcareLayer {
     }
 }
 
+// ---------- TX HPSA shortage heatmap ----------
+
+const TEXAS_EXTENT = Cesium.Rectangle.fromDegrees(-106.65, 25.84, -93.51, 36.50);
+
+function hpsaColorForScore(score) {
+    if (score == null) return Cesium.Color.fromCssColorString('#6b7280').withAlpha(0.35);
+    if (score >= 18) return Cesium.Color.fromCssColorString('#7f1d1d').withAlpha(0.55); // severe
+    if (score >= 14) return Cesium.Color.fromCssColorString('#dc2626').withAlpha(0.50); // high
+    if (score >= 10) return Cesium.Color.fromCssColorString('#f59e0b').withAlpha(0.45); // moderate
+    if (score >= 6)  return Cesium.Color.fromCssColorString('#fbbf24').withAlpha(0.40); // low
+    return Cesium.Color.fromCssColorString('#a3e635').withAlpha(0.35);                  // minimal
+}
+
+class HpsaLayer {
+    constructor(viewer) {
+        this.viewer = viewer;
+        this.dataSource = null;
+        this.enabled = false;
+    }
+
+    async enable() {
+        if (this.enabled) return;
+        this.enabled = true;
+        await this.fetchAndRender();
+    }
+
+    disable() {
+        this.enabled = false;
+        if (this.dataSource) {
+            this.viewer.dataSources.remove(this.dataSource, true);
+            this.dataSource = null;
+        }
+    }
+
+    async fetchAndRender() {
+        if (this.dataSource) {
+            this.viewer.dataSources.remove(this.dataSource, true);
+            this.dataSource = null;
+        }
+
+        const url = `${API_BASE_URL}/api/v1/healthcare/hpsa/texas`;
+        let geojson;
+        try {
+            const res = await fetch(url);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            geojson = await res.json();
+        } catch (err) {
+            console.error('HPSA layer fetch failed', err);
+            if (typeof showNotification === 'function') {
+                showNotification('Could not load HPSA data', 'error');
+            }
+            return;
+        }
+
+        // Use Cesium's GeoJsonDataSource for ergonomic polygon loading; restyle per-feature.
+        const ds = await Cesium.GeoJsonDataSource.load(geojson, {
+            clampToGround: true,
+            stroke: Cesium.Color.WHITE.withAlpha(0.4),
+            strokeWidth: 1,
+            fill: Cesium.Color.GRAY.withAlpha(0.35),
+        });
+        for (const entity of ds.entities.values) {
+            const score = entity.properties?.hpsa_score?.getValue();
+            if (entity.polygon) {
+                entity.polygon.material = hpsaColorForScore(score);
+                entity.polygon.outline = true;
+                entity.polygon.outlineColor = Cesium.Color.WHITE.withAlpha(0.5);
+            }
+        }
+        this.viewer.dataSources.add(ds);
+        this.dataSource = ds;
+        console.log(`HPSA: rendered ${geojson.features.length} TX polygons`);
+    }
+}
+
 // ---------- right-panel card ----------
 
 async function showHealthcareCard(featureProps) {
@@ -207,12 +282,16 @@ function escapeHtml(s) {
 
 function initHealthcareTab(viewer) {
     const layer = new HealthcareLayer(viewer);
+    const hpsaLayer = new HpsaLayer(viewer);
     appState.healthcareLayer = layer;
+    appState.hpsaLayer = hpsaLayer;
 
     const toggle = document.getElementById('healthcare-nueces-toggle');
     const yearSelect = document.getElementById('healthcare-year');
     const yearControls = document.getElementById('healthcare-year-controls');
     const legend = document.getElementById('healthcare-legend');
+    const hpsaToggle = document.getElementById('healthcare-hpsa-toggle');
+    const hpsaLegend = document.getElementById('healthcare-hpsa-legend');
 
     if (toggle) {
         toggle.addEventListener('change', async (e) => {
@@ -220,11 +299,15 @@ function initHealthcareTab(viewer) {
                 if (yearControls) yearControls.style.display = 'block';
                 if (legend) legend.style.display = 'block';
                 await layer.enable();
-                // Fly to Nueces extent on first enable for context.
-                viewer.camera.flyTo({
-                    destination: Cesium.Rectangle.fromDegrees(-97.55, 27.55, -97.20, 27.90),
-                    duration: 1.5,
-                });
+                // Fly to Nueces extent on first enable for context — unless
+                // the TX heatmap is already on, in which case keep the wider
+                // view so both layers stay visible at once.
+                if (!hpsaLayer.enabled) {
+                    viewer.camera.flyTo({
+                        destination: Cesium.Rectangle.fromDegrees(-97.55, 27.55, -97.20, 27.90),
+                        duration: 1.5,
+                    });
+                }
             } else {
                 if (yearControls) yearControls.style.display = 'none';
                 if (legend) legend.style.display = 'none';
@@ -236,6 +319,22 @@ function initHealthcareTab(viewer) {
     if (yearSelect) {
         yearSelect.addEventListener('change', async (e) => {
             await layer.setYear(parseInt(e.target.value, 10));
+        });
+    }
+
+    if (hpsaToggle) {
+        hpsaToggle.addEventListener('change', async (e) => {
+            if (e.target.checked) {
+                if (hpsaLegend) hpsaLegend.style.display = 'block';
+                await hpsaLayer.enable();
+                viewer.camera.flyTo({
+                    destination: TEXAS_EXTENT,
+                    duration: 1.8,
+                });
+            } else {
+                if (hpsaLegend) hpsaLegend.style.display = 'none';
+                hpsaLayer.disable();
+            }
         });
     }
 
