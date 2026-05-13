@@ -14,7 +14,9 @@ GET_NUECES_FOR_YEAR = """
         tier,
         ensemble_score,
         med_mdcr_stdzd_amt,
-        tot_benes
+        tot_benes,
+        med_wrvu_visible,
+        dollars_per_wrvu
     FROM healthcare_providers
     WHERE year = $1
     ORDER BY ensemble_score DESC NULLS LAST
@@ -48,7 +50,9 @@ GET_PROVIDER_BY_NPI = """
         iforest_score,
         lgbm_residual,
         med_mdcr_stdzd_amt,
-        tot_benes
+        tot_benes,
+        med_wrvu_visible,
+        dollars_per_wrvu
     FROM healthcare_providers
     WHERE npi = $1
     ORDER BY year

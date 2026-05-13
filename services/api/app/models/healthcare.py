@@ -37,6 +37,8 @@ class ProviderYearRow(BaseModel):
     lgbm_residual: Optional[float] = None
     med_mdcr_stdzd_amt: Optional[float] = None
     tot_benes: Optional[float] = None
+    med_wrvu_visible: Optional[float] = None
+    dollars_per_wrvu: Optional[float] = None
 
 
 class ProviderCard(BaseModel):

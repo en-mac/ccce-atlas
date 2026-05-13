@@ -64,6 +64,8 @@ async def get_nueces_providers(
                     "ensemble_score": float(r["ensemble_score"]) if r["ensemble_score"] is not None else None,
                     "med_mdcr_stdzd_amt": float(r["med_mdcr_stdzd_amt"]) if r["med_mdcr_stdzd_amt"] is not None else None,
                     "tot_benes": float(r["tot_benes"]) if r["tot_benes"] is not None else None,
+                    "med_wrvu_visible": float(r["med_wrvu_visible"]) if r["med_wrvu_visible"] is not None else None,
+                    "dollars_per_wrvu": float(r["dollars_per_wrvu"]) if r["dollars_per_wrvu"] is not None else None,
                 },
             }
         )
@@ -139,6 +141,8 @@ async def get_provider(npi: int):
             lgbm_residual=float(r["lgbm_residual"]) if r["lgbm_residual"] is not None else None,
             med_mdcr_stdzd_amt=float(r["med_mdcr_stdzd_amt"]) if r["med_mdcr_stdzd_amt"] is not None else None,
             tot_benes=float(r["tot_benes"]) if r["tot_benes"] is not None else None,
+            med_wrvu_visible=float(r["med_wrvu_visible"]) if r["med_wrvu_visible"] is not None else None,
+            dollars_per_wrvu=float(r["dollars_per_wrvu"]) if r["dollars_per_wrvu"] is not None else None,
         )
         for r in rows
     ]

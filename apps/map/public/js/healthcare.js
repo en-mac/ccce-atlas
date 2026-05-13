@@ -218,6 +218,8 @@ async function showHealthcareCard(featureProps) {
             <td>${y.year}</td>
             <td>${formatScore(y.ensemble_score)}</td>
             <td>${formatDollars(y.med_mdcr_stdzd_amt)}</td>
+            <td>${formatNumber(y.med_wrvu_visible)}</td>
+            <td>${formatDollars(y.dollars_per_wrvu)}</td>
             <td>${formatNumber(y.tot_benes)}</td>
         </tr>
     `).join('');
@@ -230,6 +232,7 @@ async function showHealthcareCard(featureProps) {
         <div class="parcel-details" style="margin-top: 12px;">
             <p><strong>NPI:</strong> ${card.npi}</p>
             <p><strong>Latest ensemble score:</strong> ${formatScore(latest.ensemble_score)}</p>
+            <p><strong>Latest $/wRVU:</strong> ${formatDollars(latest.dollars_per_wrvu)} <span style="color:#888;">(Medicare baseline ≈ $34)</span></p>
         </div>
         <table class="healthcare-table" style="width:100%; margin-top:12px; font-size:12px; border-collapse:collapse;">
             <thead>
@@ -237,6 +240,8 @@ async function showHealthcareCard(featureProps) {
                     <th style="padding:4px;">Year</th>
                     <th style="padding:4px;">Score</th>
                     <th style="padding:4px;">Medicare $</th>
+                    <th style="padding:4px;">wRVU</th>
+                    <th style="padding:4px;">$/wRVU</th>
                     <th style="padding:4px;">Benes</th>
                 </tr>
             </thead>

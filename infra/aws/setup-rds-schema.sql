@@ -101,10 +101,16 @@ CREATE TABLE IF NOT EXISTS healthcare_providers (
     lgbm_residual   DOUBLE PRECISION,
     med_mdcr_stdzd_amt NUMERIC,
     tot_benes       NUMERIC,
+    med_wrvu_visible NUMERIC,
+    dollars_per_wrvu DOUBLE PRECISION,
     geom GEOMETRY(Point, 4326) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     UNIQUE(npi, year)
 );
+
+-- Idempotent add for tables created before wRVU columns existed (May 2026).
+ALTER TABLE healthcare_providers ADD COLUMN IF NOT EXISTS med_wrvu_visible NUMERIC;
+ALTER TABLE healthcare_providers ADD COLUMN IF NOT EXISTS dollars_per_wrvu DOUBLE PRECISION;
 
 -- ============================================================================
 -- Indexes

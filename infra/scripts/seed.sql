@@ -179,6 +179,8 @@ CREATE TABLE IF NOT EXISTS healthcare_providers (
     lgbm_residual   DOUBLE PRECISION,
     med_mdcr_stdzd_amt NUMERIC(14, 2),
     tot_benes       NUMERIC(10, 0),
+    med_wrvu_visible NUMERIC(14, 2),
+    dollars_per_wrvu DOUBLE PRECISION,
 
     geom GEOMETRY(Point, 4326) NOT NULL,
 

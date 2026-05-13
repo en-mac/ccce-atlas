@@ -47,12 +47,15 @@ async def load() -> None:
             INSERT INTO healthcare_providers (
                 npi, year, specialty, tier,
                 ensemble_score, iqr_score, iforest_score, lgbm_residual,
-                med_mdcr_stdzd_amt, tot_benes, geom
+                med_mdcr_stdzd_amt, tot_benes,
+                med_wrvu_visible, dollars_per_wrvu,
+                geom
             ) VALUES (
                 $1, $2, $3, $4,
                 $5, $6, $7, $8,
                 $9, $10,
-                ST_SetSRID(ST_MakePoint($11, $12), 4326)
+                $11, $12,
+                ST_SetSRID(ST_MakePoint($13, $14), 4326)
             )
             ON CONFLICT (npi, year) DO UPDATE SET
                 specialty           = EXCLUDED.specialty,
@@ -63,6 +66,8 @@ async def load() -> None:
                 lgbm_residual       = EXCLUDED.lgbm_residual,
                 med_mdcr_stdzd_amt  = EXCLUDED.med_mdcr_stdzd_amt,
                 tot_benes           = EXCLUDED.tot_benes,
+                med_wrvu_visible    = EXCLUDED.med_wrvu_visible,
+                dollars_per_wrvu    = EXCLUDED.dollars_per_wrvu,
                 geom                = EXCLUDED.geom
         """
 
@@ -88,6 +93,8 @@ async def load() -> None:
                     p.get("lgbm_residual"),
                     float(p["med_mdcr_stdzd_amt"]) if p.get("med_mdcr_stdzd_amt") is not None else None,
                     float(p["tot_benes"]) if p.get("tot_benes") is not None else None,
+                    float(p["med_wrvu_visible"]) if p.get("med_wrvu_visible") is not None else None,
+                    float(p["dollars_per_wrvu"]) if p.get("dollars_per_wrvu") is not None else None,
                     float(lon),
                     float(lat),
                 )
