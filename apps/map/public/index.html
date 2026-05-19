@@ -143,6 +143,39 @@
                 </div>
                 </div>
 
+                <div id="overlay-mobile-coverage">
+                    <h3 style="font-size: 14px; margin: 15px 0 8px 0; color: #999;">Mobile Coverage</h3>
+                    <p class="parcel-hint" style="font-size: 11px; margin: 0 0 8px 0; color: #888;">
+                        4G LTE only · FCC Form 477 (c. 2021) · outdoor stationary model
+                    </p>
+                    <div class="property-controls">
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                            <input type="checkbox" id="mobile-att-toggle">
+                            <span><span style="display:inline-block;width:10px;height:10px;background:#3399ff;border-radius:2px;vertical-align:middle;margin-right:4px;"></span>AT&amp;T 4G LTE</span>
+                        </label>
+                    </div>
+                    <div class="property-controls" style="margin-top: 6px;">
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                            <input type="checkbox" id="mobile-tmo-toggle">
+                            <span><span style="display:inline-block;width:10px;height:10px;background:#ec008c;border-radius:2px;vertical-align:middle;margin-right:4px;"></span>T-Mobile 4G LTE</span>
+                        </label>
+                    </div>
+                    <div class="property-controls" style="margin-top: 6px;">
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                            <input type="checkbox" id="mobile-vz-toggle">
+                            <span><span style="display:inline-block;width:10px;height:10px;background:#cd040b;border-radius:2px;vertical-align:middle;margin-right:4px;"></span>Verizon 4G LTE</span>
+                        </label>
+                    </div>
+                    <div class="property-settings" style="margin-top: 10px;">
+                        <label for="mobile-coverage-opacity" style="font-size: 12px; color: #999;">Opacity</label>
+                        <input type="range" id="mobile-coverage-opacity" min="0" max="100" value="55" style="width: 100%; margin-top: 4px;">
+                        <span id="mobile-coverage-opacity-value" style="font-size: 12px; color: #999;">55%</span>
+                    </div>
+                    <div id="mobile-coverage-legend" style="margin-top: 10px; display: none; font-size: 11px; color: #ccc; line-height: 1.5;">
+                        Overlapping carriers blend visually — areas covered by two carriers appear more saturated, single-carrier zones keep their carrier color, dead zones show base layer only.
+                    </div>
+                </div>
+
                 <div id="overlay-weather">
                     <h3 style="font-size: 14px; margin: 15px 0 8px 0; color: #999;">Weather</h3>
                 <div class="property-controls">
@@ -417,6 +450,7 @@
     <script src="js/tile-loader.js"></script>
     <script src="js/run-club-tour.js"></script>
     <script src="js/healthcare.js"></script>
+    <script src="js/mobile-coverage.js"></script>
     <script src="js/main.js"></script>
     <script>
         // Mobile-only: default-collapse the Public Transit list since the

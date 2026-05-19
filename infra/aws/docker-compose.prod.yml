@@ -5,8 +5,10 @@ services:
     image: redis:7-alpine
     container_name: ccce-atlas-redis
     restart: unless-stopped
-    ports:
-      - "6379:6379"
+    # Intentionally no `ports:` — the API container reaches Redis via the
+    # internal Docker network (REDIS_URL=redis://redis:6379). Exposing the
+    # port to the host with no auth would risk an open Redis if the EC2
+    # security group ever allows 6379 inbound.
     command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]

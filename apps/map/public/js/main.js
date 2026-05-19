@@ -24,6 +24,7 @@ const appState = {
     rainViewerLayer: null,
     rainViewerTimestamp: null,
     rainViewerRefreshInterval: null,
+    mobileCoverageLayers: null, // { att, tmo, vz } Cesium ImageryLayer refs
 
     // Terrain
     flatTerrain: null,
@@ -377,6 +378,14 @@ async function initViewer() {
         console.warn('Could not load Waymarked Trails layer:', error);
     }
 
+    if (typeof initMobileCoverageLayers === 'function') {
+        try {
+            initMobileCoverageLayers(appState.viewer);
+        } catch (error) {
+            console.warn('Could not init mobile coverage layers:', error);
+        }
+    }
+
     // Add AI Depth Map overlay (Depth Anything V2)
     // Shows AI-generated depth estimation for Nueces County
     // Dark pixels = closer/higher (buildings), Light pixels = farther/lower (ground, water)
@@ -560,6 +569,11 @@ function enterGIBSMode() {
     if (appState.depthMapLayer) appState.depthMapLayer.show = false;
     if (appState.owmLayer) appState.owmLayer.show = false;
     if (appState.rainViewerLayer) appState.rainViewerLayer.show = false;
+    if (appState.mobileCoverageLayers) {
+        for (const layer of Object.values(appState.mobileCoverageLayers)) {
+            if (layer) layer.show = false;
+        }
+    }
     // Keep GIBS Science overlay available (SST, fires, snow, etc. - complementary science data)
 
     // Hide parcels
@@ -618,6 +632,12 @@ function exitGIBSMode() {
     const trailsToggle = document.getElementById('trails-toggle');
     if (trailsToggle && trailsToggle.checked && appState.trailsLayer) {
         appState.trailsLayer.show = true;
+    }
+
+    for (const carrier of ['att', 'tmo', 'vz']) {
+        const t = document.getElementById(`mobile-${carrier}-toggle`);
+        const layer = appState.mobileCoverageLayers?.[carrier];
+        if (t && t.checked && layer) layer.show = true;
     }
 
     // Weather & Radar (consolidated toggle)
@@ -1867,6 +1887,9 @@ function setupEventListeners() {
         }
     });
 
+    if (typeof setupMobileCoverageUI === 'function') {
+        setupMobileCoverageUI();
+    }
 
     // Transit routes are now managed by transit.js
     // Individual route and stop toggles are dynamically created
